@@ -1,0 +1,20 @@
+Microservices - Modern data platforms -- Data science
+
+Microservices 4.45 Credits
+Digital Foundation 1.35 Credits
+Data Science 1.1 Credits (python)
+Cloud Computing 0.9 Credits
+DevOps 0.85 Credits
+Modern Data Platforms 1.25  Credits -- mongo db perpetues - need to bring this more than 1.1 Data science
+Digital Marketing 0.5 Credits
+User Experience 0.4 Credits
+Modern Web Development 0.25 Credits
+Internet of Things 0.2 Credits
+Digital Security 0.15 Credits
+
+5.5--7.53
+
+ 0.5- Mongo db perpetues current T-factor- 1.99+5.5%    ---> 
+ 0.5 -Kafka Internals
+ 
+ 
