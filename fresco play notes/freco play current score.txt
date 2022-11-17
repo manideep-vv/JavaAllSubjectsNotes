@@ -2,10 +2,10 @@ Microservices - Modern data platforms -- Data science
 
 Microservices 4.45 Credits
 Digital Foundation 1.35 Credits
+Modern Data Platforms 1.25  Credits -- mongo db perpetues 
 Data Science 1.1 Credits (python)
 Cloud Computing 0.9 Credits
 DevOps 0.85 Credits
-Modern Data Platforms 1.25  Credits -- mongo db perpetues - need to bring this more than 1.1 Data science
 Digital Marketing 0.5 Credits
 User Experience 0.4 Credits
 Modern Web Development 0.25 Credits
@@ -17,4 +17,22 @@ Digital Security 0.15 Credits
  0.5- Mongo db perpetues current T-factor- 1.99+5.5%    ---> 
  0.5 -Kafka Internals
  
+ now  -->current course name 			-->its credits --> 	resultant t-factor --> started on -completed on
+ 2.13 -->mini proj mongo db -866		--> 0.3 		-->2.17    --> 9th nov  ->11th nov
+ 2.17 -->mini proj eureka server-924	--> 0.3 		-->2.22    --> 9th nov  ->14th nov
+ 2.22 -->#Mini-Project for MongoDB-1117	--> 0.5 		-->2.    --> 9th nov  ->14th nov
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ easiest ones
+ 0.3--> mongo miniproject  https://play.fresco.me/course/866  just create files accordingly u will pass
  

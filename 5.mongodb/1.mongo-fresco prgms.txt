@@ -1,0 +1,84 @@
+always untill u type mongo in command server will not be ready , 
+only when u type mongo and press enter then only u can run commands
+
+once mongo server is started then only u can import properly
+import only in seperate terminal -- once u type "mongo" and clicked enter u can not run "mongoimport" command
+because this is a seprate tool. so run this command on seperate terminal
+
+
+this worked for 1 time after trying  for 10 times
+============================================
+mongoimport -d mongo -c applications  --type csv --file googleplaystore.csv --headerline
+mongoimport -d sports -c olympic  --type csv --file olympix_data.csv --headerline
+
+//mongoimport -d mongo -c applications  --type csv --file googleplaystore.csv –headerline 
+//mongoimport -d applications -c google_play_store  --type csv --file googleplaystore.csv –headerline 
+
+
+mongo commands
+======================
+db.applications.find({Size:"100M"});
+
+db.applications.aggregate([
+    {"$group" : {_id:"$Type", count:{$sum:1}}},
+	{$sort:{count:-1}}
+])
+db.applications.find({App:'Tik Tok - including musical.ly'});
+db.applications.find({App:'UPS Mobile'});
+
+db.applications.find( {"Reviews":{ $gte:100000, $lt:150000 },"Type":"Paid"})
+db.olympic.count({"Age":{$gte:40}});
+db.applications.find({Price:"1"});
+db.applications.count({"Content Rating":"Teen"});
+Teen
+
+.pretty();
+
+
+challenge -2
+==================
+db.olympic.count({Age:{$gte:40}});
+db.olympic.aggregate([
+	{$match:{ Sport:{$in:[“Swimming”]}}},
+    {$group : {_id:"$Country", count:{$sum:1}}},
+	{$sort:{count:-1}}
+])
+
+db.olympic.aggregate([
+	{$match:{ Sport:{$in:“Swimming”}}},
+    {$group : {_id:"$Country", count:{$sum:1}}},
+	{$sort:{count:-1}}
+])
+
+db.olympic.aggregate([
+{ $match : { Sport : "Swimming" } }	,
+{$group : {_id:"$Country", count:{$sum:1}}},
+	{$sort:{count:-1}}
+])
+
+3)
+db.olympic.find( {"Age":{ $gte:15, $lt:20 },"Sport":"Cycling"})
+
+5) db.olympic.count( {"Age":{  $lt:20 }})
+6)
+db.olympic.find( {"Athlete":"Jess Schipper","Age":"21"})
+7)Query the popular country to win the highest number of medals in all the olympics
+
+db.olympic.aggregate([
+{$group : {_id:"$Country", count:{$sum:1}}},
+	{$sort:{count:-1}}
+])
+8. Query those athletes who won medals in 2012 olympics and belongs to Germany and age is greater than 50
+
+
+9. Query top 10 countries to won th highest number of medals
+
+db.olympic.aggregate([
+{$group : {_id:"$Country", count:{$sum:1}}},
+	{$sort:{count:-1}}
+])
+10. Query the top five sports to win the highest number of medals in olympics
+db.olympic.aggregate([
+{$group : {_id:"$Sport", count:{$sum:1}}},
+	{$sort:{count:-1}}
+])
