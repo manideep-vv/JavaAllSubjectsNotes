@@ -1,0 +1,147 @@
+kAFKA IMPORTANT POINTS
+======================
+-- means it is the key and next to it is the value 
+
+
+
+kafka CLi notes
+===================
+
+2) start kafka server
+# add bat localtions to path env variables
+kafka-server-start F:\sotfwares\kafka_2.13-3.1.0\config
+Kafka topics
+==========================
+1) TO see list of topics avialable
+kafka-topics --bootstrap-server localhost:9092 --list
+
+2) To create a topic with details
+kafka-topics --bootstrap-server localhost:9092 --create --topic sakshiTopic --partitions 3 --replication-factor 1
+
+##in above sakshiTopic is topic name
+
+3) to decrie a topic ,to know how many partitions it has
+3a) to describe all topics
+kafka-topics --bootstrap-server localhost:9092 --describe
+
+3b) to describe only a paticular topic
+kafka-topics --bootstrap-server localhost:9092 --describe --topic sakshiTopic
+
+kafka console producer
+======================================
+1) produce without keys -so that data will be evenly distributed among all the partitions of a topic
+kafka-console-producer --bootstrap-server localhost:9092 --topic sakshiTopic 
+#now put whatever messages u want it will goto that topic, if u enter a topic above which doesnt eists it will create that topic with default no of partitions
+
+2)produce with keys
+## if you produce with keys then hash will be calculated on that key sand it will decide the partition num
+kafka-console-producer --bootstrap-server localhost:9092 --topic sakshiTopic --property parse.key=true --property key.seperator=:
+
+kafka console consumer
+======================================
+1) create a consumer with group
+kafka-console-consumer --bootstrap-server localhost:9092 --topic marriageTopic --group RamaGrp
+
+kafka consumer groups
+======================================
+1) to list all consumers groups
+kafka-consumer-groups --bootstrap-server localhost:9092 --list
+
+2) to see all details in each grp , to know which consumer has read upto which partition
+we should describe that gp-then it will tell howfar each consumers have read upto how many offses in each partition
+kafka-consumer-groups --bootstrap-server localhost:9092 --describe --group RamaGrp
+
+
+
+command from fresco play
+1) start zookeeper
+======================
+bin/zookeeper-server-start.sh config/zookeeper.properties
+means this script file needs properties file as inputs
+
+
+2) start kafka server
+=========================
+bin/kafka-server-start.sh config/server.properties this script file needs server.properties
+
+3. Create a topic
+================================
+means that kafka-topics.sh script file with the inputs where as --bootstrap.server and followed by inputs
+command:
+bin/kafka-topics.sh --bootstrap-server localhost:9092 --topic FirstTopic --create --partitions 3 --replication-factor 1
+------------------------------------------or-------------------
+The below command will create a topic with name Multibrokerapplication with a replication factor of 3
+
+bin/kafka-topics.sh --create –-bootstrap-server localhost:9092 --replication-factor 3 --partitions 1 --topic Multibrokerapplication
+							
+
+
+3a)Checking Topic and Partition Summary
+===================================================
+Using the following command, you can check the summary of partitions, topic name, replication factor and the in sync replicas.
+
+bin/kafka-topics.sh --describe –-bootstrap-server localhost:9092 
+--topic Multibrokerapplication
+
+4. Create a producer Use command:
+================================================
+Command:-
+bin/kafka-console-producer.sh --bootstrap-server localhost:9092 --topic Multibrokerapplication
+in the above Multibrokerapplication is the topic name
+First Topic Now, you can start sending messages using this
+
+producer.
+
+Eg: >Hello
+
+>Welcome to kafka
+
+5. Create a consumer
+==============================================
+Open a new terminal in kafka folder and use
+command:
+
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic Multibrokerapplication --from-beginning
+
+where Multibrokerapplication is the topic name 
+
+
+create 1 node and multiple brokers
+======================================
+or broker_1:
+
+broker.id=1
+port=9093
+log.dir=/tmp/kafka-logs-1
+and for broker_2:
+
+broker.id=2
+port=9094
+log.dir=/tmp/kafka-logs-2
+
+Brokers and Parameters Configuration
+i]. Make copies of config/server.properties file into two new config files config/server-one.properties and config/server-two.properties, for broker 1 and broker 2 respectively.
+
+ii]. Edit the following parameters of config/server-one.properties.
+
+The id of the broker must be set to a unique integer.
+
+broker.id=1
+
+The port to which the socket server listens on.
+
+ listeners=PLAINTEXT://:9093
+A comma-separated list of directories in which the log files are stored.
+
+ log.dirs=/tmp/kafka-logs-1
+Repeat the same configurations for config/server-two.propertieswith appropriate parameters set.
+Run 3 brokers in three different terminals
+=============================================
+After changing parameters for the two copies of server.properties file, open three separate terminals, one for each broker and start Kafka server one by one.
+
+Broker1
+bin/kafka-server-start.sh config/server.properties
+Broker2
+bin/kafka-server-start.sh config/server-one.properties
+Broker3
+bin/kafka-server-start.sh config/server-two.properties

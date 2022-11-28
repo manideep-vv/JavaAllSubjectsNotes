@@ -10,6 +10,8 @@ this worked for 1 time after trying  for 10 times
 ============================================
 mongoimport -d mongo -c applications  --type csv --file googleplaystore.csv --headerline
 mongoimport -d sports -c olympic  --type csv --file olympix_data.csv --headerline
+mongoimport -d hadoop -c hdfstomongo  --type csv --file dataset.csv --headerline
+
 
 //mongoimport -d mongo -c applications  --type csv --file googleplaystore.csv –headerline 
 //mongoimport -d applications -c google_play_store  --type csv --file googleplaystore.csv –headerline 
@@ -82,3 +84,88 @@ db.olympic.aggregate([
 {$group : {_id:"$Sport", count:{$sum:1}}},
 	{$sort:{count:-1}}
 ])
+==challenge 3=======
+* Query the top 5 job titles with highest application
+db.hdfstomongo.aggregate([
+    {"$group" : {_id:"$JOB_TITLE", count:{$sum:1}}},
+	{$sort:{count:-1}}
+])
+
+* Query top 10 employers who files more number of cases along with the count of number of cases
+
+db.hdfstomongo.aggregate([
+    {"$group" : {_id:"$EMPLOYER_NAME", count:{$sum:1}}},
+	{$sort:{count:-1}}
+])
+{ "_id" : "ERNST & YOUNG U.S. LLP", "count" : 20 }
+{ "_id" : "ACCENTURE LLP", "count" : 19 }
+{ "_id" : "DELOITTE CONSULTING LLP", "count" : 18 }
+{ "_id" : "HCL AMERICA, INC.", "count" : 16 }
+{ "_id" : "INFOSYS LIMITED", "count" : 16 }
+{ "_id" : "TATA CONSULTANCY SERVICES LIMITED", "count" : 16 }
+{ "_id" : "MICROSOFT CORPORATION", "count" : 13 }
+{ "_id" : "TECHTOMIX LLC", "count" : 13 }
+Note : Store the above command results in top_employers.txt 
+
+* Query the top 5 Job titles that has the highest average salary
+db.hdfstomongo.aggregate([
+    {"$group" : {_id:"$JOB_TITLE", count:{$sum:"$WAGE_RATE_OF_PAY_FROM"}}},
+	{$sort:{count:-1}}
+])
+
+Note : Store the above command results in highest_avg_salary.txt 
+
+* Query the top 5 employers that has the highest total_salary
+
+Note : Store the above command results in highest_total_salary.txt 
+
+db.hdfstomongo.aggregate([
+    {"$group" : {_id:"$EMPLOYER_NAME", count:{$sum:"$PREVAILING_WAGE"}}},
+	{$sort:{count:-1}}
+])
+
+* Query the top 5 worksite countries that has the most software developer jobs
+
+db.hdfstomongo.aggregate([
+	{$match:{ JOB_TITLE:{$in:["SOFTWARE DEVELOPER"]}}},
+    {"$group" : {_id:"$WORKSITE_COUNTY", count:{$sum:1}}},
+	{$sort:{count:-1}}
+])
+
+Note : Store the above command results in worksite.txt 
+
+* Which Employer has the maximum number of PROGRAMMER ANALYST job roles
+PROGRAMMER ANALYST
+db.hdfstomongo.aggregate([
+	{$match:{ JOB_TITLE:{$in:["PROGRAMMER ANALYST"]}}},
+    {"$group" : {_id:"$EMPLOYER_NAME", count:{$sum:1}}},
+	{$sort:{count:-1}}
+])
+{ "_id" : "CITADEL INFORMATION SERVICES INC.", "count" : 7 }
+{ "_id" : "MYTHRI CONSULTING LLC", "count" : 6 }
+{ "_id" : "SYNTEL CONSULTING INC.", "count" : 5 }
+{ "_id" : "NEO PRISM SOLUTIONS LLC", "count" : 3 }
+{ "_id" : "HALLMARK GLOBAL TECHNOLOGIES INC", "count" : 2 }
+{ "_id" : "APTIVA CORP", "count" : 2 }
+{ "_id" : "THINK DEVELOPMENT SYSTEMS", "count" : 2 }
+{ "_id" : "V-SOFT CONSULTING GROUP, INC", "count" : 2 }
+{ "_id" : "APEX TECHNOLOGY GROUP, INC.", "count" : 2 }
+{ "_id" : "MKIT SOLUTIONS INC", "count" : 2 }
+{ "_id" : "GOKATECH INC", "count" : 2 }
+
+Note : Store the above command results in pragrammer_analyst.txt 
+
+* Query those employers that has PW_WAGE_LEVEL as Level I and salary between 80000 and 90000
+
+Note : Store the above command results in pw_wage_level.txt 
+
+db.hdfstomongo.find(
+{
+PW_WAGE_LEVEL :'Level I',
+"PREVAILING_WAGE":{ $gte:80000, $lt:90000 }
+}
+);
+
+
+
+

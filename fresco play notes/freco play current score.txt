@@ -1,11 +1,11 @@
 Microservices - Modern data platforms -- Data science
 
-Microservices 4.45 Credits
+Microservices 4.75 Credits
+Modern Data Platforms 2.3  Credits -- mongo db perpetues,kafka
 Digital Foundation 1.35 Credits
-Modern Data Platforms 1.25  Credits -- mongo db perpetues 
 Data Science 1.1 Credits (python)
 Cloud Computing 0.9 Credits
-DevOps 0.85 Credits
+DevOps 1.05 Credits
 Digital Marketing 0.5 Credits
 User Experience 0.4 Credits
 Modern Web Development 0.25 Credits
@@ -17,12 +17,24 @@ Digital Security 0.15 Credits
  0.5- Mongo db perpetues current T-factor- 1.99+5.5%    ---> 
  0.5 -Kafka Internals
  
- now  -->current course name 			-->its credits --> 	resultant t-factor --> started on -completed on
- 2.13 -->mini proj mongo db -866		--> 0.3 		-->2.17    --> 9th nov  ->11th nov
- 2.17 -->mini proj eureka server-924	--> 0.3 		-->2.22    --> 9th nov  ->14th nov
- 2.22 -->#Mini-Project for MongoDB-1117	--> 0.5 		-->2.    --> 9th nov  ->14th nov
+ current course name 			now  -->its credits --> 	resultant t-factor --> started on -completed on
+ mini proj mongo db-easy -866	2.13 --> 0.3 		-->2.17    --> 9th nov  ->11th nov
+ mini proj eureka server-924	2.17 --> 0.3 		-->2.22    --> 9th nov  ->14th nov
+ #Mini-Project for MongoDB-1117	2.22 --> 0.5 		-->2.28    --> 14th nov  ->18th nov
+ #Kafka - Premiera Ola 268		2.28 --> 0.25 		-->2.30    --> 18th nov  ->23th nov
+ #Bitbucket 695					2.30 --> 0.2 		-->2.34    --> 24th nov  ->24th nov
+ #MinProj - boot HikariCP-1269	2.34 --> 0.5		-->2.44	   -->	24-27
+ Kafka Remanere					2. --> 0.25		-->
+ Kafka Internals				2. --> 0.5		-->
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ Vaadin SpringBoot Dominion		2.39 --> 1.5		-->	
  
  
  

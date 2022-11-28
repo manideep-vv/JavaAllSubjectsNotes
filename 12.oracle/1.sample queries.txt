@@ -1,0 +1,10 @@
+CREATE TABLE customers    
+( id number(10) NOT NULL AUTO_INCREMENT,
+  name varchar2(50) NOT NULL,    
+  email varchar2(50), 
+  created_date DATE
+
+);    
+
+INSERT INTO customers (name,email,created_date) VALUES
+					('fresco','fresco@tcs.com',TO_DATE('2020-06-11','YYYY-MM-DD'));
