@@ -1,0 +1,29 @@
+Warning - Java 9+ is not supported by Spark 2. You can optionally use Spark 3.
+Spark 3 was released in June 2020, and the only real difference (it's a big one!) between that and Spark 2 is that Spark 3 supports Java 9+.
+
+On the course, you can choose:
+
+If you have Java 8 and are happy to use it:
+
+Great! Just use the course files as provided. Everything should work just fine.
+
+If you don't have Java 8 but you're happy to work with Spark 2:
+
+No problem - you can easily download a Java, use the instructions at the bottom of this page. You won't be missing out using Spark 2, the new features in 3 are very advanced and don't affect anything.
+
+If you need to use Java 9+:
+
+Just download the updated pom.xml file (attached to this lecture) and use it instead. This simply has the spark dependencies bumped up to 3.x. Make sure you run eclipse:eclipse as described in the video, and you'll now be working with Spark 3.
+
+If you are working with Spark 3 and a modern Java, you'll get the following warning:
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/C:/Users/Richard/.m2/repository/org/apache/spark/spark-unsafe_2.12/3.1.0/spark-unsafe_2.12-3.1.0.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+You can safely ignore this (assuming that the rest of your code is running!). This is really a warning to the Spark devs for the future.
+
+
+ceate a normal java project
+it will have the POM and add dependencies in that pom and run as maven build and edit  the goal as eclipse:eclipse

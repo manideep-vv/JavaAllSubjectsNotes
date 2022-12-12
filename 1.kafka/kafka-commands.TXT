@@ -13,7 +13,8 @@ kafka-server-start F:\sotfwares\kafka_2.13-3.1.0\config
 Kafka topics
 ==========================
 1) TO see list of topics avialable
-kafka-topics --bootstrap-server localhost:9092 --list
+kafka-topics.sh --bootstrap-server localhost:9092 --list
+bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
 
 2) To create a topic with details
 kafka-topics --bootstrap-server localhost:9092 --create --topic sakshiTopic --partitions 3 --replication-factor 1
@@ -40,7 +41,8 @@ kafka-console-producer --bootstrap-server localhost:9092 --topic sakshiTopic --p
 kafka console consumer
 ======================================
 1) create a consumer with group
-kafka-console-consumer --bootstrap-server localhost:9092 --topic marriageTopic --group RamaGrp
+bin/kafka-console-consumer --bootstrap-server localhost:9092 --topic marriageTopic --group RamaGrp
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic MyTopic --group RamaGrp
 
 kafka consumer groups
 ======================================
@@ -88,10 +90,9 @@ bin/kafka-topics.sh --describe –-bootstrap-server localhost:9092
 Command:-
 bin/kafka-console-producer.sh --bootstrap-server localhost:9092 --topic Multibrokerapplication
 in the above Multibrokerapplication is the topic name
-First Topic Now, you can start sending messages using this
-
-producer.
-
+First Topic Now, you can start sending messages using this producer.
+ex:-2
+bin/kafka-console-producer.sh --bootstrap-server localhost:9092 --topic MyTopic
 Eg: >Hello
 
 >Welcome to kafka
@@ -145,3 +146,73 @@ Broker2
 bin/kafka-server-start.sh config/server-one.properties
 Broker3
 bin/kafka-server-start.sh config/server-two.properties
+
+
+
+sample kafka consumer
+=========================
+  Properties props = new Properties();
+  props.put("bootstrap.servers", "localhost:9092");
+  props.put("group.id", "MyGroup");
+  props.put("enable.auto.commit", "false");
+  props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
+  props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
+  
+  KafkaConsumer<String, String> consumer = new KafkaConsumer<>(props);
+  consumer.subscribe(Arrays.asList("MyTopic"));
+  
+  final int minBatchSize = 200;
+  List<ConsumerRecord<String, String>> buffer = new ArrayList<>();
+  while (true) {
+      ConsumerRecords<String, String> records = consumer.poll(100);
+      for (ConsumerRecord<String, String> record : records) {
+          buffer.add(record);
+      }
+      if (buffer.size() >= minBatchSize) {
+        
+          consumer.commitSync();
+          buffer.clear();
+      }
+  }
+  
+  sample kafka producer
+  ============================
+  
+package tcs.fresco.play;
+
+import java.util.Properties;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.Producer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+
+public class TheProducer {
+    public static void main(String args[]) {
+        produceMessages();
+    }
+    public static void produceMessages(){
+        String topic = "MyTopic"; //Use this topic.
+        
+        Properties kafkaProps = new Properties();
+kafkaProps.put("bootstrap.servers","localhost:9092");
+
+kafkaProps.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+kafkaProps.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+ kafkaProps.put("acks","all");
+      
+      //If the request fails, the producer can automatically retry,
+      kafkaProps.put("retries", 0);
+      
+            
+KafkaProducer<String, String> producer = new KafkaProducer<String, String>(kafkaProps);
+ProducerRecord<String, String> record = new ProducerRecord<>(topic,"Hello");
+producer.send(record);
+producer.close();
+
+        
+    }
+} 
+
+in this u should both compile and  run  using below commands
+
+javac -cp "/projects/challenge/kafka/libs/*" tcs/fresco/play/TheProducer.java
+java -cp .:/projects/challenge/kafka/libs/* tcs/fresco/play/TheProducer > /dev/null 0>&1 &

@@ -1,0 +1,38 @@
+Metadata Requests
+Metadata Requests are sent both by the Producer and Consumer to any broker and contain a list of topics it is interested in.
+
+The broker will respond to metadata request with the partitions of the topic, replicas for the partition, and the leader replica.
+
+It could be sent to any broker since all brokers have a copy of metadata cache with this information.
+
+It needs to be refreshed intermittently by sending new ones, to know if the topic metadata changed or if the client received Not a Leader for Partition error.
+
+package tcs.fresco.play;
+
+import java.util.Properties;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.Producer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+
+public class TheProducer {
+    public static void main(String args[]) {
+        produceMessages();
+    }
+    public static void produceMessages(){
+        String topic = "MyTopic"; //Use this topic.
+        //Run install once before executing your code
+        //Write your code here...
+        Properties kafkaProps = new Properties();
+kafkaProps.put("bootstrap.servers","localhost:9092");
+
+kafkaProps.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+kafkaProps.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+
+KafkaProducer<String, String> producer = new KafkaProducer<String, String>(kafkaProps);
+ProducerRecord<String, String> record = 
+new ProducerRecord<>(topic, "key-1","Hello");
+
+
+        
+    }
+} 

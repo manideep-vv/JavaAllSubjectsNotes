@@ -1,0 +1,52 @@
+package com.fresco.hikari.service;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.sql.DataSource;
+import javax.annotation.PostConstruct;
+
+import com.fresco.hikari.model.Customer;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Component;
+
+@Component
+public class CustomerService {
+
+  @Autowired
+  JdbcTemplate jdbcTemplate;
+
+  @Autowired
+    private DataSource dataSource;
+
+  public void addCustomer(String name, String email) {
+jdbcTemplate.execute("insert into customer ( name,email,created_date) values ('"+name+"', '"+email+"','2020-06-11')");
+  }
+
+  @PostConstruct
+  public void init() throws SQLException {
+    dataSource.setLoginTimeout(10);
+              // dataSource.setLoginTimeout(30);
+
+       jdbcTemplate.execute("CREATE TABLE customer    \n" +
+                "( id number(10) NOT NULL AUTO_INCREMENT,\n" +
+                "  name varchar2(50) NOT NULL,    \n" +
+                "  email varchar2(50), \n" +
+                "  created_date DATE\n" +
+                "\n" +
+                ");    ");
+        jdbcTemplate.execute("insert into customer ( name,email,created_date) values ('fresco', 'fresco@tcs.com','2020-06-11')");
+        jdbcTemplate.execute("insert into customer ( name,email,created_date) values ('play', 'play@tcs.com','2020-06-11')");
+        
+        
+    }
+    public List<Customer> getAllCustomers(){
+      List<Customer> customers = jdbcTemplate.query("SELECT id, name, email, created_date FROM customer",
+                (rs, rowNum) -> new Customer(rs.getInt("id"),
+                        rs.getString("name"), rs.getString("email"), rs.getDate("created_date"))
+        );
+        return customers;
+    }
+}
