@@ -55,7 +55,9 @@ kafka-consumer-groups --bootstrap-server localhost:9092 --describe --group RamaG
 
 
 
-command from fresco play
+command from fresco play -linux hacker rank since it is a linux you will see .sh files
+whereas in windows we run .bat files instead of .sh file
+if u see .sh means it it a script file
 1) start zookeeper
 ======================
 bin/zookeeper-server-start.sh config/zookeeper.properties

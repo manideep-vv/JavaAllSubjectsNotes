@@ -3,8 +3,19 @@ find all properties here
 https://docs.jboss.org/hibernate/orm/3.3/reference/en/html/session-configuration.html
 
 in all below properties the word hibernate is optional in hibernate.cfg.xml
+
 hibernate.dialect	The classname of a Hibernate org.hibernate.dialect.Dialect which allows Hibernate to generate SQL optimized for a particular relational database.
 e.g. full.classname.of.Dialect
+
+connection.
+connection.username
+  <property name="connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
+          <property name="connection.username">system</property>
+          <property name="connection.password">manager</property>
+          
+          <!-- hibernate properties -->
+           <property name="show_sql">true</property>
+           <property name="format_sql">true</property>
 
 In most cases Hibernate will actually be able to choose the correct org.hibernate.dialect.Dialect implementation based on the JDBC metadata returned by the JDBC driver.
 
