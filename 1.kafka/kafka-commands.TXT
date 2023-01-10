@@ -64,6 +64,8 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 means this script file needs properties file as inputs
 
 
+C:\kafka_2.13-3.3.1\bin\windows\zookeeper-server-start.bat C:\kafka_2.13-3.3.1\config\zookeeper.properties
+
 2) start kafka server
 =========================
 bin/kafka-server-start.sh config/server.properties this script file needs server.properties
@@ -218,3 +220,83 @@ in this u should both compile and  run  using below commands
 
 javac -cp "/projects/challenge/kafka/libs/*" tcs/fresco/play/TheProducer.java
 java -cp .:/projects/challenge/kafka/libs/* tcs/fresco/play/TheProducer > /dev/null 0>&1 &
+
+
+
+
+_configuration parameter is used to specify the time between each heartbeats to the group coordinator.
+session.timeout.ms
+
+The response obtained from broker on a metadata request is cached and the cached information is refreshed in _ 
+interval.
+metadata.max.age.ms
+
+The _ is used to maintain a mapping from offsets to segment files and positions within the file.
+index
+
+The _ request is used by producer and consumer application to find the leader of each partition replica.
+metadata
+
+
+The _ tool provided by AdminClient API helps in operations like topic creation, modification, deletion and listing.
+kafka-topics.sh
+
+_ is the minimum amount of data needed in a topic partition for a consumer to request data from the broker
+fetch.min.bytes
+
+The _ configuration parameter specifies the maximum amount of time a replication can be delayed in replicating a new message by a replica in ISR.
+
+replica.lag.timemax.ms
+
+The value for ack parameter that specifies that the leader will acknowledge producer as soon as the record is written to its partition log before receiving acknowledgement from all followers.
+acks=0
+
+The _ configuration parameter specifies the maximum amount of time a replication can be delayed in replicating a new message by a replica in ISR.
+replica.lag.max.time.ms
+
+_is the configuration parameter that is used to specify the number of bytes the broker will return from each partition.
+max.partition.fetch.bytes
+
+_ is the minimum amount of data needed in a topic partition for a consumer to request data from the broker
+fetch.minimum.bytes
+
+Synchronous send() method uses Future.get() method which will wait to get a reply from Broker. If record is sent successfully get() method will get _ object which is used to get offset of the message written to broker.
+callback
+
+
+The _ is the replica that was the leader when that topic was originally created
+leader
+
+_ is the first broker that starts in a cluster and responsible for electing leader for a partition .
+controller
+
+When a consumer in a consumer group fails, the partitions it was assigned with will be transferred to another consumer in the consumer group which is called a _ ?
+partition rebalance
+
+The _ threads are responsible for picking up and processing requests placed in a request queue by processor thread.
+From the Request Queue, the I/O thread picks up the request, processes them and places them in a Response Queue.
+
+The value to be set to ack to specify the leader should wait till it receive acknowledgement from the full set of In Sync replicas.
+acks=all
+
+The follower replicas are used only for replication purpose and do not serve client requests
+
+true
+In order to delete a message completely from the segment, the producer produces the same message again with its key having NULL value.
+false
+
+The heartbeats are send to the group coordinator when it retrieves record from Kafka broker using _ method
+poll
+
+The configuration parameter to specify the log clean up policy in Kafka Brokers.
+log.cleanup.policy=delete
+
+_ is the minimum amount of data needed in a topic partition for a consumer to request data from the broker
+fetch.min.bytes
+
+
+
+
+
+
+

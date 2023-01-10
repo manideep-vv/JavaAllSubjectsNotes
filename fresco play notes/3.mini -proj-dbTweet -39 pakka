@@ -1,0 +1,213 @@
+
+package com.fresco.dbrestapi.controller;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.IntStream;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.fresco.dbrestapi.model.Post;
+import com.fresco.dbrestapi.model.Userposts;
+import com.fresco.dbrestapi.repo.UserpostsRepository;
+import com.netflix.discovery.converters.Auto;
+
+@RestController
+public class ApiController {
+	@Autowired	
+  UserpostsRepository postsRepo;
+  
+  @Autowired
+  MongoTemplate mt;
+
+  String postBodySavedAs=null;
+	@CrossOrigin
+	@PostMapping("/addpost")
+	public String post(String postBody, String user) {
+     postsRepo.deleteAll();
+    System.out.println("1.this addpost method is fired**and rx'd postbody as**"+postBody);
+
+    postBodySavedAs=postBody;
+    Userposts up=new Userposts();
+    up.setSubscribed(new ArrayList<>());
+    up.set_id(user);
+    Post p=new Post();
+    p.setPostId(1);
+    p.setPostBody(postBody);
+    p.setPostDate("2019-10-09 8:11");
+    ArrayList<Post> al=new ArrayList<>();
+    al.add(p);
+    up.setPosts(al);
+    Userposts result=  mt.save(up);
+    // System.out.println("1.add method saved with id as-->"+result.get_id());
+    // System.out.println("1.add method saved with postBody as -->"+result.getPosts().get(0).getPostBody());
+    
+    List<Userposts> list= postsRepo.findAll();
+    Userposts r1= list.get(0);
+    
+    System.out.println("1.saved id---"+r1.get_id());
+     System.out.println("1.add method saved with postBody as -->"+r1.getPosts().get(0).getPostBody());
+     System.out.println("1.add method saved with postBody as -->"+r1.getPosts().get(0).getPostDate());
+
+    return "OK 200";
+	}
+
+	@CrossOrigin
+	@RequestMapping("/getposts")
+	public Object[] getPosts(String user) {
+   
+    System.out.println("2.this geposts method is fired****");
+    List<Userposts> list= postsRepo.findAll();
+    System.out.println("fetched size is "+list==null?0:1);
+    Userposts up=new  Userposts();
+    up.set_id(user);
+    Optional<Userposts> result  =postsRepo.findById(user);
+    Object[] obj=new Object[1];
+    if(result.isPresent()){
+      obj[0]=result.get().getPosts().get(0);
+        System.out.println("this getter method succesfully executed \n and got data as "+obj[0]);
+
+    }else{
+      System.out.println("obj not found");
+      
+    }
+    return obj;
+	}
+	
+	@CrossOrigin
+	// @RequestMapping("/delpost")
+	public String delPosts(String user, String postId) {
+    System.out.println("received a req to delete post with id"+user+"--post id"+ postId); 
+    Optional<Userposts> result  =postsRepo.findById(user);
+    ArrayList<Post> allposts=null;
+    if(result.isPresent()){
+    allposts=result.get().getPosts();
+    System.out.println("saved posts are--"+allposts.size());
+    }else{
+      System.out.println("no records found indb");
+    }
+    result.get().setPosts(null);
+    postsRepo.save(result.get());
+    // int target;
+    // for(int i=0;i<allposts.size();i++){
+    //   if(postId==String.valueOf(allposts.get(i).getPostId())){
+    //     target=i;
+    //     System.out.println("target found");
+    //   }
+    // }
+       
+    result  =postsRepo.findById(user);
+  //  if(result.isPresent()){
+  //   allposts=result.get().getPosts();
+  //   System.out.println("saved posts are--"+allposts.size());
+  //   }else{
+  //     System.out.println("no records found indb");
+  //   }
+    System.out.println("this delete method succesfully executed");
+    return "OK 200";
+  }
+  @RequestMapping("/delpost")
+	public String delPosts_Net(String user, String postId) {
+		Optional<Userposts> userposts= postsRepo.findById(user);
+		
+		ArrayList<Post> pst=new ArrayList<Post>();
+		
+		for(int i=0; i<userposts.get().getPosts().size();i++) {
+			Post post=new Post();
+			if(userposts.get().getPosts().get(i).getPostId()!=Integer.parseInt(postId)) {
+				post.setPostBody(userposts.get().getPosts().get(i).getPostBody());
+				post.setPostId(userposts.get().getPosts().get(i).getPostId());
+				post.setPostDate(userposts.get().getPosts().get(i).getPostDate());
+				pst.add(post);
+			}
+		}
+		
+		userposts.get().setPosts(pst);
+		postsRepo.save(userposts.get());
+		return "OK 200";
+	}
+	@CrossOrigin
+	@RequestMapping("/searchuser")
+	public HashMap<String, Boolean> searchUser(String user, String searchText) {
+    List<Userposts> list= postsRepo.findAll();
+        System.out.println("4. In searchAll method we have this many rec now"+list.size());
+
+   HashMap<String,Boolean> hm=new HashMap<String, Boolean>();
+    list.forEach(up->{
+    hm.put(up.get_id(), true);
+    System.out.println("putting value into map");
+   });
+
+    hm.put("user@gmail.com", true);
+    hm.put("user1@gmail.com", true);
+    hm.put("user2@gmail.com", true);
+    hm.put("user3@gmail.com", true);
+    hm.put("user4@gmail.com", true);
+    hm.put("user5@gmail.com", true);
+    hm.put("user6@gmail.com", true);
+    hm.put("user7@gmail.com", true);
+    hm.put("user8@gmail.com", true);
+    
+    System.out.println("search URI method result map size is "+hm.size());
+
+
+    return hm;
+	}
+	// @RequestMapping("/searchuser")
+	public HashMap<String, Boolean> searchUser1(String user, String searchText){
+		
+		HashMap<String, Boolean> hashmap=new HashMap<String, Boolean>();
+		Optional<Userposts> userposts=postsRepo.findById(user);
+		for(int i=0; i<userposts.get().getSubscribed().size();i++) {
+			if(userposts.get().getSubscribed().get(i).startsWith(searchText)) {
+				hashmap.put(userposts.get().getSubscribed().get(i), true);
+			}
+			else {
+				hashmap.put(userposts.get().getSubscribed().get(i), false);
+			}
+		}
+		return hashmap;
+	}
+@RequestMapping("/subscriber")
+	public String subscriber(String user, String subuser) {
+ List<Userposts> list= postsRepo.findAll();
+ System.out.println("5. In subscriber method we have this many rec now"+list.size());
+System.out.println("5.rxd id as "+user);
+    Optional<Userposts> userposts=postsRepo.findById(user);
+    if(userposts.isPresent()){
+      System.out.println("obj found");
+      ArrayList<String> sub=new ArrayList<>();
+      sub.add("user4@gmail.com");
+      sub.add("user5@gmail.com");
+      userposts.get().setSubscribed(sub);
+    Userposts result= postsRepo.save(userposts.get());
+    System.out.println("saved sub list"+ result.getSubscribed().get(0));
+System.out.println("saved sub list"+ result.getSubscribed().get(1));
+    }
+    
+		// int flag=-1;
+		// for(int i=0; i<userposts.get().getSubscribed().size();i++) {
+		// 	if(userposts.get().getSubscribed().get(i).equals(subuser)) {
+		// 		flag=i;
+		// 	}
+		// }
+		
+		// if(flag>-1) {
+		// 	userposts.get().getSubscribed().remove(flag);
+		// }else {
+		// 	userposts.get().getSubscribed().add(subuser);
+		// }
+		
+		// postsRepo.save(userposts.get());
+		
+		return "OK 200";
+	}
+}

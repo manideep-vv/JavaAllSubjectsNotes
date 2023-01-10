@@ -1,3 +1,27 @@
+fr eureka- 10 points =got 10
+
+1) Add post (20 points) --whatever we do  for this we are getting  only 5 points , but expected 20 points
+if u comment this method then that getMethod() also will fail bec there is no data
+even if u copy poaste the code also for this method only 20 points are coming for 5
+
+id=5 points
+postbody =10
+date =5 points
+
+2) get posts= 20points ==> for this we are getting 20 points full /35
+
+3) delPosts_Net for this method 0 points = because findAll() method was internally user i guess /35
+
+4) searchuser 4% came for me atleast 4 % came -for copied coed onl 0% came
+
+where ever this line is there  "data = json.loads(dumps(mycol.find({})))" in the tester.py locked test file code seems to be breaking and we are not getting any points 
+
+
+
+save-25
+addPosts-45
+deletemethod -
+
 package com.fresco.dbrestapi.controller;
 
 import java.util.ArrayList;

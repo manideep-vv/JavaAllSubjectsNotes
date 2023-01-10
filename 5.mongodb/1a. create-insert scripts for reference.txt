@@ -1,0 +1,115 @@
+1) create collection script with constraints
+===============================================
+
+db.createCollection('user',{
+	validator:{
+		$jsonSchema: {
+			bsonType:'object',
+			required:['userName','sex'],
+			properties:{
+				userName:{
+					bsonType:'string',
+					description: 'mandatorieee'
+				},
+				sex:{
+					bsonType: 'string',
+					description: 'sex is pakka mandatorieee'
+				}
+				
+			}
+	}
+	}
+});
+ 
+2) Insert query with all fields not missing anything and correct datatype
+================================================================
+db.user.insertOne({
+	_id:'u849670',
+	userName:'Manideep',
+	sex: 'Male'
+});
+Corresponding insert Scripts for reference
+==========================================
+in the above collection notice userName and sex fields are mandatory , if u didnt provide any one and if u wrongly used any other datatype then it will throw error
+
+2a) error scenario - i will miss 1 filed named "sex"
+===================================================
+db.user.insertOne({
+	_id:'u849670',
+	userName:'Manideep'
+});
+
+Got the expected error as below 
+'missingProperties: [ 'sex' ]"
+=======================
+Uncaught:
+MongoServerError: Document failed validation
+Additional information: {
+  failingDocumentId: 'u849670',
+  details: {
+    operatorName: '$jsonSchema',
+    schemaRulesNotSatisfied: [
+      {
+        operatorName: 'required',
+        specifiedAs: { required: [ 'userName', 'sex' ] },
+        missingProperties: [ 'sex' ]
+      }
+    ]
+  }
+}
+
+2b)Error scenario:- Insert with wrong datatype Int instead of string
+=============================================================
+db.user.insertOne({
+	_id:'u849670',
+	userName:'Manideep',
+	sex: 123
+});
+Uncaught:
+MongoServerError: Document failed validation
+Additional information: {
+  failingDocumentId: 'u849670',
+  details: {
+    operatorName: '$jsonSchema',
+    schemaRulesNotSatisfied: [
+      {
+        operatorName: 'properties',
+        propertiesNotSatisfied: [
+          {
+            propertyName: 'sex',
+            description: 'sex is pakka mandatorieee',
+            details: [ [Object] ]
+          }
+        ]
+      }
+    ]
+  }
+}
+1) create collection with constraints
+=======================================
+db.createCollection('post',{
+	validator:{
+		$jsonSchema: {
+			bsonType:'object',
+			required:['postType'],
+			properties:{
+				postType:{
+					bsonType:'string',
+					description: 'mandatorieee'
+				}
+			}
+	}
+	}
+});
+
+2) insert Query 
+=========================
+db.post.insertOne({
+	_id:'post1',
+	postType:'politics',
+});
+in the above query i wantedly missed to add the field called user
+so that one we will use updateOne() method to update the record  
+3) update Query
+=======================
+db.post.updateOne({_id:'post1'},  { $set: {userId:'u849670'}});
