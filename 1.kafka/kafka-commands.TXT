@@ -1,7 +1,7 @@
 kAFKA IMPORTANT POINTS
 ======================
--- means it is the key and next to it is the value 
-
+-- means it in windows we have batch files (.BAT) and in lunx we have .sh (shell script files) to run the commands
+so in hacker rank since it will run on linux there we should use .sh files
 
 
 kafka CLi notes
