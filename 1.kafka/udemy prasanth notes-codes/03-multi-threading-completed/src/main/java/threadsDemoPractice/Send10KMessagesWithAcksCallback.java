@@ -31,7 +31,7 @@ public class Send10KMessagesWithAcksCallback {
         p.put(ProducerConfig.CLIENT_ID_CONFIG,"1dstr");
         //every producer instance in a cluster should have unique transaction id
         p.put(ProducerConfig.TRANSACTIONAL_ID_CONFIG, UUID.randomUUID().toString());
-        p.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"localhost:9092,localhost:9093,localhost:9094");
+        p.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"localhost:9092");
         //we should serialize both key and value while sending
         p.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
         p.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,StringSerializer.class.getName());
@@ -39,9 +39,10 @@ public class Send10KMessagesWithAcksCallback {
     }
     public static void sendAllMessagesToSamePartition(Properties p){
         KafkaProducer<String,String> producer=new KafkaProducer<String, String>(p);
+
+        System.out.println("txn began started writing all messages");
         producer.initTransactions();
         producer.beginTransaction();
-        System.out.println("txn began started writing all messages");
         AtomicInteger counter=new AtomicInteger(0);
         Callback callback=(recMetadata,exception)->{
             if (exception == null) {
@@ -55,7 +56,7 @@ public class Send10KMessagesWithAcksCallback {
             // and key is unique for every message
             // and as we are already giving partition num,so it will not decide the partition based on the key
             ProducerRecord<String,String> record=
-                new ProducerRecord<>("EmployeesInfo","orey naina--"+num);
+                new ProducerRecord<>("stockso","vammov naina--"+num);
             // this callback method will be executed each and every time for each and every message
             producer.send(record,callback);
         });
@@ -67,6 +68,6 @@ public class Send10KMessagesWithAcksCallback {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println("sent all 6000 messages and committed too and got acks for "+counter.get());
+        System.out.println("sent all-->"+counter+"  messages and committed too and got acks for "+counter.get());
     }
 }

@@ -1,3 +1,8 @@
+reference:--
+https://www.mongodb.com/docs/manual/reference/method/db.createCollection/
+
+for validation
+https://www.mongodb.com/docs/manual/core/schema-validation/specify-validation-level/#std-label-schema-specify-validation-level
 1) create collection script with constraints
 ===============================================
 
@@ -18,8 +23,32 @@ db.createCollection('user',{
 				
 			}
 	}
-	}
+	},
+	validationLevel: 'strict',
 });
+
+db.createCollection('paymentOrder',{
+validator:{
+$jsonSchema:{
+	bsonType:'object',
+	required:['customerId','accountId'],
+	properties:{
+	customerId:{
+		bsonType:'string',
+		description:'customerId is mandatory to know who made the payment'
+		},
+	accountId:{
+		bsonType:'string',
+		description:'accountId is mandatory to know who made the payment for an account'
+		},
+	
+		}
+	}
+},
+	validationLevel: 'strict',
+
+});
+
  
 2) Insert query with all fields not missing anything and correct datatype
 ================================================================

@@ -1,0 +1,110 @@
+############## official learning links #######################
+# most liked 
+https://spring.io/projects/spring-batch // it has all video links and books links
+
+
+#########################spring official git links##############################
+https://github.com/spring-projects/
+https://github.com/spring-guides
+
+
+
+To learn spring batch
+==================================
+https://spring.io/projects/spring-batch
+
+read pro spring batch book
+https://github.com/mminella/LearningSpringBatch
+michel t minella is the lead of spring batch
+https://github.com/mminella/Batch-In-2019 --ppt 
+https://github.com/benas/spring-batch-sandbox/tree/master/batch2442
+https://github.com/benas/spring-batch-sandbox/tree/master/batch2462
+https://github.com/fmbenhassine/spring-batch-lab/tree/main/
+https://benas.github.io
+
+
+https://github.com/spring-projects/spring-batch
+https://docs.spring.io/spring-batch/docs/3.0.x/reference/html/index.html
+https://github.com/javabyraghu/SpringBoot2BatchCsvToMySQL
+https://github.com/spring-projects/spring-retry
+
+
+
+
+
+
+
+
+
+=========spring related git links==============================
+
+#in28minutes Git links for reference
+https://github.com/in28minutes/getting-started-for-beginners-v2
+
+#all in 28minutes microservices related microservices and rest services
+https://github.com/in28minutes/spring-microservices
+https://github.com/in28minutes/spring-microservices-v2
+https://github.com/in28minutes/spring-microservices-v2/blob/main/03.microservices/01-step-by-step-changes/microservices-v2-1.md#step-01	
+
+feing client and ribbon
+download 2 propjects here -currency converison service and exchange service
+https://github.com/in28minutes/spring-microservices-v2/tree/3d78a109505eab1c756bc3843bad74d3f844e4a9/98.microservices-starting-point-for-v1-learners
+https://github.com/in28minutes/in28minutes-initiatives/tree/master/The-in28Minutes-TroubleshootingGuide-And-FAQ#debugging-problems-with-feign-and-ribbon
+
+eureka codes git hub
+https://github.com/in28minutes/in28minutes-initiatives/tree/master/The-in28Minutes-TroubleshootingGuide-And-FAQ#debugging-problems-with-naming-server-eureka-and-ribbon
+
+
+all prpjects avaiable in 
+Here is the link to bookmark:
+
+https://github.com/in28minutes/spring-microservices-v2/tree/main/04.docker
+
+
+
+===================junit and mockito--hamcrest===============
+https://github.com/kousen/mockito-hamcrest
+19
+
+
+
+
+
+
+kafka source code is available in 
+https://spring.io/projects/spring-kafka 
+https://github.com/spring-projects/spring-kafka/tree/main/samples
+read kafka at https://docs.spring.io/spring-kafka/docs/current/reference/html/
+https://github.com/confluentinc/examples
+
+https://github.com/apache/kafka
+https://github.com/spring-projects/spring-kafka/blob/main/spring-kafka/src/main/java/org/springframework/kafka/core/KafkaTemplate.java
+
+sample kafka codes available in this time kafka talks guy
+https://github.com/j-tim/spring-io-barcelona-2022-spring-kafka-beyond-the-basics
+all his kafka codes at
+https://github.com/j-tim?tab=repositories&q=kafka&type=&language=&sort=
+
+https://kafka.apache.org/documentation/#security_sasl
+https://kafka.apache.org/videos
+
+
+general git repositories
+=================================
+https://github.com/github4codedebugger?tab=repositories
+kafka ,async  projects
+
+
+java8
+============
+https://github.com/manideep-vv/Forked-OnJava8-Examples
+
+
+Misc git repositories
+===============================
+1) java faker 
+It's useful when you're developing a new project and need some pretty data for showcase.
+https://github.com/DIUS/Java-faker
+
+2) to create java objects from pojo
+https://github.com/joelittlejohn/jsonschema2pojo
