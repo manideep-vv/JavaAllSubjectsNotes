@@ -1,0 +1,19 @@
+still didnt understand what is use of setting true
+================
+1) auto.offset.reset=true what does it means?
+i think  this will work only for un comitted offsets 
+if u have already committed offsets till 500 , even if u start 10 times al
+if u want to re consume the messages ha only way is dont commit the offsets
+
+Try without comitting the offsets and if u start and stop u will consume all messages once again
+
+2) add shut down hook for graceful shutdown
+=============================================
+means add some task to that. so that jvm while its going to shutdown it will execute that task
+consumer graceful shut down - while shutting down u have to interrupt that consumer thread and we have to wait for that main 
+3) practice consumer.poll
+3) practice consumer group rebalance with graceful shut down- make 3 consumers working in same group to read from 3 partitions and let 1 consumer die with graceful shutdown and only because of graceful shutdown groups will rebalance -try without graceful shutdown will groups rebalance properly ??
+check if existing 2 consumers reading from 3 partitions or not
+
+i think even if it is graceful shutdown or not anyways consumer will join the group and shares the partition based on the rebalance partition assignment strategy it will join 
+5) only for static group members will that session timeout work??? for non static group members will that work???
