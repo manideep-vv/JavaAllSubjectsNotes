@@ -17,3 +17,19 @@ check if existing 2 consumers reading from 3 partitions or not
 
 i think even if it is graceful shutdown or not anyways consumer will join the group and shares the partition based on the rebalance partition assignment strategy it will join 
 5) only for static group members will that session timeout work??? for non static group members will that work???
+6) what is auto.offset.reset=earliest vs latest
+FIX THE CONSUMER GROUP  and make it as earliest & down  the consumer and send and come back and see if those earlier messages are coming or not
+follow the above procedure and make as latest and see thoe messages
+
+new consumer group with latest 
+new consumer group with earliest
+
+sent 700 messages to the topic
+1) configure consumergroup id as "tcs-group"  and auto.offset.reset=earliest  -- this is a new consumer group
+since this is a new consumer group it consumed all messages in the topic
+
+2) configure consumergroup id as "2.tcs-group" and auto.offset.reset=earliest -- this is a new consumer group
+since this is a new consumer group it consumed all 700 messages in the topic
+
+3)configure consumergroup id as "1.infosys-group" and auto.offset.reset=latest --this is also a new consumer group 
+but it is reset to latest

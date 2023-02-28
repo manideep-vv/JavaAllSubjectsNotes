@@ -51,12 +51,12 @@ public class Send10KMessagesWithAcksCallback {
                     callbackExecutedCount,recMetadata.topic(),recMetadata.partition(),recMetadata.offset());
             }
         };
-        IntStream.range(1,6000).forEach(num->{
+        IntStream.range(1,2000).forEach(num->{
         //Here we are sending all messages to partition number 1, so all msgs will be sent to p1
             // and key is unique for every message
             // and as we are already giving partition num,so it will not decide the partition based on the key
             ProducerRecord<String,String> record=
-                new ProducerRecord<>("stockso","vammov naina--"+num);
+                new ProducerRecord<>("infosys","vammov naina--"+num);
             // this callback method will be executed each and every time for each and every message
             producer.send(record,callback);
         });
