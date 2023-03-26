@@ -23,6 +23,7 @@ public class MykafkaConsumer {
         p.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG,"latest");
         p.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
         p.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
+        p.put(ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG,10*1000);
 
         KafkaConsumer<String,String> consumer=new KafkaConsumer<String, String>(p);
         consumer.subscribe(Arrays.asList("infosys"));

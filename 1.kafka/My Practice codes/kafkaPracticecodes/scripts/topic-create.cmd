@@ -1,0 +1,1 @@
+%KAFKA_HOME%\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092  --topic koni --partitions 1 --replication-factor 1 --config min.insync.replicas=1  --config cleanup.policy=compact --config min.cleanable.dirty.ratio=0.00001 --config segment.ms=5000

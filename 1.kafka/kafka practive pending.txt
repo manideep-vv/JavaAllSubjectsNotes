@@ -33,3 +33,26 @@ since this is a new consumer group it consumed all 700 messages in the topic
 
 3)configure consumergroup id as "1.infosys-group" and auto.offset.reset=latest --this is also a new consumer group 
 but it is reset to latest
+4) try batch processing and get 1000 records and throw some exceptions fter processinng 900 records or shut down the consumer afer processing 900 records by keeping some thread.sleep and make the consumer live after that and 
+see the impact by changing 
+1) auto commit enable and disable- see if we can process all 1000 records
+2) change the auto commit interval time and see if we can get all 1000 records
+first disable auto commit and enable manual commit and do commit at last and check
+3)Make sure u should not re-process all those records  and u should process all those 1000 records only single time
+case:- 
+what if consumer went down after processing those 1000 records and before commit, only consumer.commitAsync() is pending and if it came back after that will reprocess all those 1000 records??
+4) check the backoff mechanism
+@RetryableTopic(attempts = 5,
+    backoff = @Backoff(delay = 1000, multiplier = 2, maxDelay = 5000))
+@KafkaListener(topics = "my-annotated-topic")
+The above is an exponential backoff first time it will retry after 1 second
+and see if it is retrying that message from which topic??
+5) in case of null pointer exceptions -it will retry 10 times 
+check how and from which topic its getting retried 
+6) log compaction in console -- and observe the offsets-try both deleting based on age of data, and delete based on old keys
+7) observe the timestamp/set the timestamp @producer side itself
+8) set the header to each message and see,-header like co-relation id
+make youtube videos on
+==========================
+kafka offsets
+

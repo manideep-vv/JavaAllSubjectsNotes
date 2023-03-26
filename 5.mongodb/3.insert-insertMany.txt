@@ -1,0 +1,127 @@
+db.persons.insertMany([{name:"santoor",age:26,address:"chirala"},{name:"mohan",address:"kavali"}]);
+
+age> 24 and address !=null
+db.persons.find( { $and:[ {age:{$gte:24}},{adress: {$ne:null}} ] } );
+age>21 and persons from kavali
+db.persons.find( { $and:[ {age:{$gte:21} },{address:"kavali"} ] }  );
+
+all persons in hyd+ age must be there
+db.persons.find( {$and: [ {address:'Hyd'}, {age:{$exists:true}}  ] });
+
+
+inserting arrays
+========================
+db.users.insertMany([  
+{name:"sai",hobbies:["shuttle","badminton"]},
+{name:"jagan",hobbies:["cricket","suttle","carrom"]},
+]);
+db.users.insertMany([  
+{name:"mohit",hobbies:["badminton","shuttle"]},
+]);
+
+db.users.insertMany([
+{
+name:"charan gadu",
+hobbies:[ {title:"shuttle",frequency:6},{title:"astachamma",frequency:16}  ]
+}
+,{
+name:"sailu",
+hobbies:[ {title:"chess",frequency:16},{title:"snakegame",frequency:26}  ]
+}
+]);
+
+db.users.insertMany([
+{
+name:"Santhoshi",
+hobbies:[ {title:"sports",frequency:6},{title:"cricket",frequency:16}  ]
+}
+,{
+name:"manideep",
+hobbies:[ {title:"sports",frequency:16},{title:"badminton",frequency:26}  ]
+}
+]);
+
+
+inserting many users
+==================================
+db.users.find();
+[
+  {
+    _id: ObjectId("64167bd315ae4ae7e928cde7"),
+    name: 'Santhoshi',
+    hobbies: [
+      { title: 'sports', frequency: 6 },
+      { title: 'cricket', frequency: 16 }
+    ]
+  },
+  {
+    _id: ObjectId("64167bd315ae4ae7e928cde8"),
+    name: 'manideep',
+    hobbies: [
+      { title: 'sports', frequency: 16 },
+      { title: 'badminton', frequency: 26 }
+    ]
+  },
+  {
+    _id: ObjectId("64167c3315ae4ae7e928cde9"),
+    name: 'charan gadu',
+    hobbies: [
+      { title: 'shuttle', frequency: 6 },
+      { title: 'astachamma', frequency: 16 }
+    ]
+  },
+  {
+    _id: ObjectId("64167c3315ae4ae7e928cdea"),
+    name: 'sailu',
+    hobbies: [
+      { title: 'chess', frequency: 16 },
+      { title: 'snakegame', frequency: 26 }
+    ]
+  },
+  {
+    _id: ObjectId("641683e315ae4ae7e928cdec"),
+    name: 'jagan',
+    hobbies: [ 'cricket', 'suttle', 'carrom' ]
+  },
+  {
+    _id: ObjectId("64168ae115ae4ae7e928cdee"),
+    name: 'jagan',
+    hobbies: [ 'cricket', 'suttle', 'carrom' ]
+  },
+  {
+    _id: ObjectId("64168af115ae4ae7e928cdf0"),
+    name: 'jagan',
+    hobbies: [ 'cricket', 'suttle', 'carrom' ]
+  }
+]
+
+1)Import the attached data file into a new collection (e.g. exmoviestarts) in the boxOffice database
+2)Find all movies with exactly two genres
+3)Find all movies which aired in 2018
+4)Find all movies which have ratings greater than 8 but lower than 10
+
+shop> db.movies.find({},{genres:1,_id:0}).limit(100);
+  { genres: [ 'Drama', 'Science-Fiction', 'Thriller' ] },
+  { genres: [ 'Drama', 'Action', 'Crime' ] },
+  { genres: [ 'Drama', 'Horror', 'Romance' ] },
+  { genres: [ 'Drama', 'Fantasy', 'Horror' ] },
+  { genres: [ 'Drama', 'Action', 'Horror' ] },
+  { genres: [ 'Drama', 'Horror', 'Thriller' ] },
+  { genres: [ 'Drama', 'Horror', 'Thriller' ] }
+  { genres: [ 'Drama', 'Action', 'Science-Fiction' ] },
+  { genres: [ 'Drama', 'Crime', 'Thriller' ] },
+  { genres: [ 'Action', 'Adventure', 'Science-Fiction' ] },
+  { genres: [ 'Drama', 'Thriller', 'Espionage' ] },
+  { genres: [ 'Drama', 'Music', 'Romance' ] },
+  { genres: [ 'Drama', 'Thriller', 'Mystery' ] },
+  { genres: [ 'Drama', 'Crime', 'Supernatural' ] },
+  { genres: [ 'Drama', 'Action', 'Crime' ] },
+
+  { genres: [ 'Drama', 'Action', 'Science-Fiction' ] },
+  { genres: [ 'Drama', 'Crime', 'Science-Fiction' ] },
+
+  { genres: [ 'Action', 'Adventure', 'Family' ] },
+  { genres: [ 'Drama', 'Action', 'Supernatural' ] },
+
+]
+

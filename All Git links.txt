@@ -70,6 +70,10 @@ https://github.com/kousen/mockito-hamcrest
 
 
 
+kafka sample code are written in
+===============================
+https://github.com/spring-projects/spring-kafka/tree/main/samples
+https://github.com/conduktor/kafka-connect-wikimedia
 
 kafka source code is available in 
 https://spring.io/projects/spring-kafka 
