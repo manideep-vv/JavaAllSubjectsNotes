@@ -1,0 +1,39 @@
+db.Employees.updateOne({name:'Manideep'},
+{$set:{hobbies:[ {title:'Carrom',frequency:20} ,{title:'shuttle',frequency:30}   ]}},
+{upsert:true}
+);
+db.sports.updateMany({},[{title:'Cricket',requiresTeam:true}, {title:'Shuttle',requiresTeam:true} ],{$upsert:true});
+
+
+db.sports.updateMany({},{$set:{currentTeamSize:0}},{upsert:true}  )
+
+1)Create a new collection ("sports") and upsert two new documents into it (with these fields: "title", "requiresTeam")
+db.sports.updateOne({_id:1},{$set:{title:'Carroms',requiresTeam:true}},{upsert:true});
+db.sports.updateOne({_id:20},{$set:{title:'Cricket',requiresTeam:true}},{upsert:true});
+db.sports.updateOne({_id:21},{$set:{title:'Shuttle',requiresTeam:false}},{upsert:true});
+2)Update all documents which do require a team by adding a new field with the minimum amount of players required
+db.sports.updateMany({requiresTeam:true},{$set:{minPlayersRequired:2}},{upsert:true})
+3)Update all documents that require a team by increasing the number of required players by 10
+db.sports.updateMany({requiresTeam:true},{$inc:{minPlayersRequired:10}},{upsert:true});
+
+
+array related queries
+=====================
+db.users.find({hobbies:{$elemMatch:{title:'sports',frequency:6  } } });
+db.users.find({hobbies:{$elemMatch:{title:'sports',frequency: {$gte:7}  } } });
+db.users.updateMany({hobbies:{$elemMatch:{title:'sports',frequency: {$gte:10}}}},
+ {$set:{"hobbies.$.highFrequency":true}} );
+ 
+ db.users.find({hobbies:{$elemMatch:{title:'sports',frequency: {$gte:7}  } } });
+ 
+For insertMany
+===========================
+db.books.insertMany([
+{name:'java8',description:'This book is really fantastic and its most truested right source and its Yellow '},
+{name:'spring',description:'This book is almost equally important book its in red colour '}
+]
+);
+
+db.books.createIndex({description:'text'});
+Db.books.find({$text:{$search:'colour'}});
+db.books.createIndex({description:'text',name:'text'});

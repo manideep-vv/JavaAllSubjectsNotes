@@ -125,3 +125,12 @@ shop> db.movies.find({},{genres:1,_id:0}).limit(100);
 
 ]
 
+db.email.insertMany([{name:'Manideep'},{name:'santu',email:'santu@gmail.com'},{name:'charan'}  ]);
+db.email.createIndex({email:1},{unique:true,partialFilterExpression:{email:{$exists:true}}})
+
+shop> db.email.find().pretty();
+[
+  { _id: ObjectId("64297be8d825310fdd6a1835"), name: 'Manideep' },
+  {_id: ObjectId("64297be8d825310fdd6a1836"),name: 'santu',email: 'santu@gmail.com'},
+  { _id: ObjectId("64297be8d825310fdd6a1837"), name: 'charan' },
+  { _id: ObjectId("6429b0c0d825310fdd6a1838"), name: 'ramadevi' }
