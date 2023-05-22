@@ -1,0 +1,16 @@
+## parent is node application which is alpine version and this is a builder phase
+## builder is not fixed keyword,it can be any name
+FROM node:16-alpine as builder
+WORKDIR '/app'
+			# once proj is built ,"build" folder also will be created here in /app/build
+COPY package.json .  ##bec this is mandatory file to install node
+RUN npm install  		## same like maven clean install
+COPY . .
+RUN npm run build
+
+## once above step is complete, all the software will be in /app/build,because 
+we set the workspace to "/app" folder
+FROM nginx
+## this says copy from builder phase ,from builder phase copy the data from /app/build 
+to "/usr/share/nginx/html" this is a fixed path , we should copy into this folder only
+COPY --from=builder /app/build /usr/share/nginx/html

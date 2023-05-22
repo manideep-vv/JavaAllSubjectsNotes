@@ -1,0 +1,11 @@
+version: "3"
+services:
+  web:          //create a container called web 
+    build:
+      context: .    // use this as a location to pull the required files
+      dockerfile: Dockerfile.dev
+    ports:
+      - "8000:3000"         //map system port 8000 to the docker port 3000
+    volumes:
+      - /home/node/app/node_modules //if request comes to this folder in the container dont map
+      - .:/home/node/app            //if request comes to /home/node/app map to current working directory

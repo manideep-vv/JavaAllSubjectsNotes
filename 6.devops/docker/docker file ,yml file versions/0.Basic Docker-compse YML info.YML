@@ -1,0 +1,53 @@
+Example:-
+=================
+version: '3'
+services:## under services what ever is there, those are called containers
+  postgres: // create a container called postgres and use the image with that name
+   image: 'postgres-latest' 
+            // this key ,image is the predefined name and value is from docker hub
+  redis:   //create a contianer called redis
+    image: 'redis:latest'
+  nginx:
+    depends_on:
+      - api
+      - client
+    restart: always
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./nginx
+    ports:
+      - "3050:80"
+  server: //create a container called server
+    build:   //if u dont have image then u have to choose build option
+      dockerfile: Dockerfile.dev
+      context: ./server //means look in current working directory find a folder called server
+                    because we are in root location ,whereas the "Dockerfile.dev" is present in 
+                    server folder and inside there use all the folders for building the image/jar file 
+    environment:        // u have to pass environment variables via docker-compose.yml file only
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - PGUSER=postgres
+      - PGHOST=postgres
+      - PGDATABASE=postgres
+      - PGPASSWORD=postgres_password
+      - PGPORT=5432
+    ports:  //says this container should run on which ports here 
+      - '3050:80'  //sys port 3050 is exposed & mapped to 80 
+    restart: always     //if application crashed due to any reason,if u give this everytime it
+                                will be restarted automatically
+      
+understand below points
+=========================
+under container we have options like 
+1) image   --if u cant build/ if image is already there use this                     
+2) build   --if u dont have direct image, and if u have to build the image using docker file 
+               then prefer this options
+        --->>dockerfile,context
+    2.1) under build - you have options like -how to build
+        to build u should have "docker file name"and u should tell the 
+        "location of docker file "which is nothing but the context
+3) volumes
+4) environment 
+5) restart
+6) ports  
+7) depends_on : if this container creation is dependent on other contaniers then use this     

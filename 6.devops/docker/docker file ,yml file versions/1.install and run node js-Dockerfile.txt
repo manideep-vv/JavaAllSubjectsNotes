@@ -1,0 +1,12 @@
+FROM node:16-alpine // for every image 1 base image will be there
+RUN mkdir -p /home/node/app   //this will create a folder /home/node/app
+WORKDIR '/app'  	//The WORKDIR command is used to define the working directory of a Docker
+						container at any given time. The command is specified in the Dockerfile.
+						any RUN,COPY,ADD,CMD commands will be executed inside the specific work directory
+
+COPY package.json .  //it will copy the package.json to the current working directory
+RUN npm install
+
+COPY . .
+
+CMD ["npm", "run", "start"] //these are the startup commands when container is ready and 		these 							commands will be executed inside that running container

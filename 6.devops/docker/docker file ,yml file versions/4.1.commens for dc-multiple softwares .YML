@@ -1,0 +1,17 @@
+version: '3'
+services:## under services what ever is there, those are called containers
+  postgres: // create a container called postgres and use the image with that name
+   image: 'postgres-latest' 
+            // this key ,image is the predefined name and value is from docker hub
+  redis:   //create a contianer called redis
+    image: 'redis:latest'
+  server: //create a container called server
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./server //means look in current working directory find a folder called server
+                    because we are in root location ,whereas the "Dockerfile.dev" is present in 
+                    server folder and inside there use all the folders for building the image/jar file 
+      volumes:
+        - /app/node_modules     //this is related to dyn refres,if any req comes to 
+                                    this node_modules dont redirect
+        - ./server : /app   //if any request comes to /app then redirect to server folder

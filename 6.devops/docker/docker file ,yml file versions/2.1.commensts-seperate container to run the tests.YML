@@ -1,0 +1,26 @@
+version:'3'
+services:
+    web: //create a container called web
+      build: //build using 
+        context: . //context says while building use this folder as location to look
+        dockerfile: Dockerfile.dev //when we have a custom docker file name,we should mention that file name here
+      ports: //says map the container running port 3000 to the system port 8080
+        - '8080:3000'
+      volumes://this is related to dynamic refresh concept,
+      - /app/node_modules //this issays copy all the 
+      - .:/app //when a request comes to right side folder /app map those requests to .means
+                //current directory
+    tests: //create a seperate container called tests,this container is just to run the tests
+       build: 
+          context: .
+          dockerfile: Dockerfile.dev
+       volumes: 
+         - /app/node_modules
+         - .:/app
+       commands: ["npm","run","test"]
+
+
+//therefore when we type "docker-compose up"   , now 2 containers will be started
+second container is just to run the tests
+       
+        
