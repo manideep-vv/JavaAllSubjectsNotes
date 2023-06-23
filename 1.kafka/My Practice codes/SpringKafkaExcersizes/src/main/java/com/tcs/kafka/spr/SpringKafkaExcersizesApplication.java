@@ -8,8 +8,8 @@ import org.springframework.data.mongodb.core.query.Update;
 public class SpringKafkaExcersizesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringKafkaExcersizesApplication.class, args);
-		Update u=new Update()
+//		SpringApplication.run(SpringKafkaExcersizesApplication.class, args);
+//		Update u=new Update()
 	}
 
 }
