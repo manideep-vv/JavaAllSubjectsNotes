@@ -1,0 +1,41 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+#in this name space only this role object will be created
+  namespace: santons
+  #this is the name of the role object
+  name: santoroleobj
+rules:
+- apiGroups: # "" indicates the core API group
+    - ""
+    - apps
+    - autoscaling
+    - batch
+    - extensions
+    - policy
+    - rbac.authorization.k8s.io 
+  resources: 
+  #these resources will belong to above api groups
+    - pods
+    - componentstatuses
+    - configmaps
+    - daemonsets
+    - deployments
+    - events
+    - endpoints
+    - horizontalpodautoscalers
+    - ingress
+    - jobs
+    - limitranges
+    - namespaces
+    - nodes
+    - pods
+    - persistentvolumes
+    - persistentvolumeclaims
+    - resourcequotas
+    - replicasets
+    - replicationcontrollers
+    - serviceaccounts
+    - services
+
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]

@@ -1,0 +1,15 @@
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: hpaobj
+  #now this hpa object will be created in the manins2 namespace
+  namespace: manins2
+spec:
+  scaleTargetRef:
+  #namespace contains  lot of deployment objects among them which deployment obj it should pick ,we should link hpa with Deployment object or some pod object, if u dont link how does the hpa object knows which Deploymentobj it should pick and scale,so remember to keep a selector so that hpa can pick that deployment object
+    apiVersion: apps/v1
+    kind: Deployment
+    name: hpa-deployment-obj
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 75

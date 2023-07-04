@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  namespace: maninamespace
+  name: podwithenvvariables
+spec:
+  containers:
+  - name: simple-web-app
+    image: nginx:latest
+    ports:
+      - containerPort: 8080
+    env:
+      - name: dbhostname
+        value: sqlserver.com

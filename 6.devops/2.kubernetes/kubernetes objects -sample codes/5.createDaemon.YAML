@@ -1,0 +1,14 @@
+apiVersion: apps/v1 
+kind: DaemonSet 
+metadata:
+  name: monitoring-daemon 
+spec:
+  template: 
+    metadata:
+     name: monitoring-agent 
+     labels:
+      app: monitoring-agent 
+    spec:
+      containers:
+      - image: monitoring-agent
+

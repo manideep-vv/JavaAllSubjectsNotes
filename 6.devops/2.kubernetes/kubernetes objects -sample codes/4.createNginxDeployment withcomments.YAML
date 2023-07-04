@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ namespace: maninamespace
+#this will create the object Deployment in namespace name "maninamespace"
+ name: busyboxdepobject
+ # this is the name of the object 
+ labels:
+   space: low
+   # this is the label that is given to this object,if u describe this deployment object u will get to know all the labels of it the ,that if u create service object ,those can pick the deployment based on this selector
+   
+spec:
+  replicas: 3
+    # this object will internally create a replicaset ,which is the real object who will control the pods directly, so to control the pods it should know which pod to pick right, this replicaset will pick based on the pod label ,here we will mention which pod to pick using pod selector
+  selector:
+    matchLabels:
+      space: low
+  strategy:
+  #rolling update means slowly one by one,old pod will be deleted and new will be created
+    rollingUpdate:
+      maxSurge: 2
+  template:
+    metadata:
+    #here these are the labels which will be given to each container of a pod
+      labels:
+       space: low
+    spec:
+      containers: 
+      - image: nginx:1.17
+        name: bb
+    
+    

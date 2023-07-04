@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: santons
+  name: ngindepobj
+  labels:
+    vol: high
+spec:
+#create a replicaset and that obj ensures always 3 replicas are there and it will 
+#pick the pods/containers based on the label of the pod/containers
+  replicas: 3
+  selector:
+    matchLabels:
+      vol: high
+      #now this replicaset object is going to pick the pick with label vol=high
+  strategy:
+    rollingUpdate:
+      maxSurge: 2
+  template:
+    metadata:
+      name: santopod
+      labels:
+        #here these are the labels which will be given to each container of a pod
+        vol: high
+    spec:
+      containers:
+      - image: nginx:1.17
+        name: santocont
+      

@@ -1,0 +1,5 @@
+service:
+  servicetype: ClusterIP
+deploymentName: santngindeployobj
+repository:
+  imageName: nginx:1.18

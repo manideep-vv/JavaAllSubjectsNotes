@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ namespace: maninamespace
+ name: busyboxdepobject
+ labels:
+   space: low
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      space: low
+  strategy:
+    rollingUpdate:
+      maxSurge: 2
+  template:
+    metadata:
+      labels:
+       space: low
+    spec:
+      containers: 
+      - image: nginx:1.17
+        name: bb
+    
+    

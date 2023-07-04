@@ -1,0 +1,17 @@
+apiVersion: rbac.authorization.k8s.io/v1 
+kind: RoleBinding
+metadata:
+  name: app-rolebinding 
+  namespace: santons
+roleRef:
+#here we should refer to the role which we created,
+#here we will give all the role details 
+  apiGroup: rbac.authorization.k8s.io #this is the api group of that role
+  kind: Role
+  name: santoroleobj  #this is the name of that role object
+  #here we will give all service account details to which that role should be mapped to 
+subjects:
+- namespace: santons  ## means this service account object is present inside this 
+                        #namespace
+  kind: ServiceAccount ## here we are mapping the above role to this service account 
+  name: svcaccobject

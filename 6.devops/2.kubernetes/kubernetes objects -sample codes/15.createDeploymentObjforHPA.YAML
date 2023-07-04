@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+#this "hpa-deployment-obj"  is the name of the deployment obj. 
+  name: hpa-deployment-obj
+  namespace: manins2
+  labels:
+    #this is the label for this Deployment object, we can give any label,key can be anything,value also can be anything
+    objlocation: northamerica
+    
+spec:
+  #now we are creating a replicaset,bec Deploymentobj will manage replicaset
+  replicas: 2
+  selector:
+    #this will ensure this replicaset will pick only those pods with below labels
+    matchLabels:
+      objlocation: canada
+  template:
+    metadata:
+    #these are the labels that will be applied to each pods
+      labels:
+        objlocation: canada
+    spec:
+      containers:
+      - image: k8s.gcr.io/hpa-example
+        name: hpa-pod-name
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            cpu: 500m
+          requests:
+           cpu: 200m
+    
+    
+  
