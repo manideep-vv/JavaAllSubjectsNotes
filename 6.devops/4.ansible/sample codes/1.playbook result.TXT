@@ -1,0 +1,62 @@
+
+
+[bob@student-node ~]$ vi ansi-playbok.yaml
+[bob@student-node ~]$ cat ansi-playbok.yaml
+-
+ name: Test connectivity to all servers
+ # here we should mention host names
+ hosts: target1 target2 target3
+ tasks:
+ # here below are the modules- like command,ping (100 of of such modules/command tasks are there)
+ - name: just printing the date
+   command: date
+ - name: listing out all files
+   command: ls
+ - name: ping all servers
+   ping:
+ - name: creatting a sample file on all servers
+   command: touch santu.txt
+
+
+[bob@student-node ~]$ ls
+abcd.txt  ansi-inv.txt  ansi-playbok.yaml  playbooks
+[bob@student-node ~]$ ansible-playbook ansi-playbok.yaml  -i ansi-inv.txt
+
+PLAY [Test connectivity to all servers] **************************************************************************
+
+TASK [Gathering Facts] *******************************************************************************************
+ok: [target1]
+ok: [target3]
+ok: [target2]
+
+TASK [just printing the date] ************************************************************************************
+changed: [target1]
+changed: [target3]
+changed: [target2]
+
+TASK [listing out all files] *************************************************************************************
+changed: [target2]
+changed: [target1]
+changed: [target3]
+
+TASK [ping all servers] ******************************************************************************************
+ok: [target1]
+ok: [target2]
+ok: [target3]
+
+TASK [creatting a sample file on all servers] ********************************************************************
+[WARNING]: Consider using the file module with state=touch rather than running 'touch'.  If you need to use
+command because file is insufficient you can add 'warn: false' to this command task or set
+'command_warnings=False' in ansible.cfg to get rid of this message.
+changed: [target2]
+changed: [target1]
+changed: [target3]
+
+PLAY RECAP *******************************************************************************************************
+target1                    : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+target2                    : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+target3                    : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[bob@student-node ~]$ ls
+abcd.txt  ansi-inv.txt  ansi-playbok.yaml  playbooks  santu.txt
+[bob@student-node ~]$ 

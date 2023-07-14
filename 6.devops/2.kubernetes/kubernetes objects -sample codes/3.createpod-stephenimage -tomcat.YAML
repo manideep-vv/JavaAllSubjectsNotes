@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Pod
+metadata:
+#it says name of this object
+  name: manipod1
+  #namespace tells in which namespace this object is going to reside
+  namespace: manins
+  labels:
+  #label can be anything
+    component: samsung
+spec:
+  containers:
+  - image: tomee
+    name: manicontainer
+    ports:
+    #here port number means we should give port only where the software will run
+    # if ur application is running on 8080, here u should give 80 only
+      - containerPort: 8080
+      
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: maninodeport
+spec:
+  type: NodePort
+  ports:
+    - port: 3050
+      targetPort: 8080
+      nodePort: 31520
+  selector:
+    component: samsung
+  

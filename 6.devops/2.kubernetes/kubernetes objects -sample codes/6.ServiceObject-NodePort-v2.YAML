@@ -1,0 +1,42 @@
+## First create a pod with label brand:realme
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: ipod1
+  namespace: iphone
+  labels: 
+  #label key value pair can be anything
+    brand: realme
+spec: 
+  containers:
+  - image: stephengrider/multi-client
+    ports: 
+    - containerPort: 3000
+    name: stephencontainer
+  
+  
+
+
+#Service object creations
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: manisvcobject
+  namespace: iphone
+  labels:
+    brand: realme
+spec:
+  type: NodePort
+  ports:
+  - targetPort: 3000 # it is the port to which the requests will be redirected from NodePort
+    port: 8080 #i dont know what is this
+  #inside a node machine, this service obj will be installed on the port number nodeport
+    #NodePort is the port where this object is going to reside inside node machine
+    nodePort: 31516
+    #therefore if any request comes to node machines nodeport -all those traffic will be 
+    # diverted to pod's targetPort
+    
+  selector:
+#selector is the most important, this service object main pupose is to redirect the traffic to the pods, this service object will select and send the traffic to the pods with the below label
+    brand: realme  

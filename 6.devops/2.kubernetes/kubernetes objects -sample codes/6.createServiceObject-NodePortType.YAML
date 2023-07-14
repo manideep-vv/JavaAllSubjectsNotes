@@ -1,3 +1,4 @@
+#hereafter we no need to hit pod, we should hit with node ipaddress+ port of the pod
 apiVersion: v1
 kind: Service
 metadata: 
@@ -6,7 +7,13 @@ metadata:
 spec:
   type: NodePort
   ports:
-  - targetPort: 80
+  # Its port of the pod,target port is the port that we should hit the pod,
+  - targetPort: 80 #target port means should be application running on this port
     port: 8080
+    #if u dont assign ,kube will auto assign between 30,000 - 32,767,inside a node machine in this port only this service objecte will be installed
+    # 
+    nodePort: 31515
+#this service object is the one who receives traffic and sends to underlying pods
+    # to redirect traffic to underlying pods 1st this object should select the pods right, here it will select the pods based on the below selector
   selector:
    space: low

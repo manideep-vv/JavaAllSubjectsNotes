@@ -1,0 +1,15 @@
+-
+ name: Test connectivity to all servers
+ # here we should mention host names
+ hosts: target1 target2 target3
+ tasks:
+ # here below are the modules- like command,ping (100 of of such modules/command tasks are there)
+ - name: just printing the date
+   command: date
+ - name: listing out all files
+   command: ls
+ - name:
+   ping:
+   ## now this will create a abcd.txt file in all above servers
+ - name: creating a file 
+   command: touch abcd.txt

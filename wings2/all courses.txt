@@ -12,7 +12,9 @@ better to with path3 -group 1
 https://ievolveng.ultimatix.net/ievolve/coursedetails/62243
 
 
-
+for CICD 
+====================
+go with path 1
 
 docker path 3 is best
 https://ievolveng.ultimatix.net/ievolve/competencydetails/5548
