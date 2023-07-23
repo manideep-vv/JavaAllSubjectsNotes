@@ -1,6 +1,7 @@
 
 https://ievolveng.ultimatix.net/ievolve/ViewProfilePage
 Right now wings2 is 28% as on 31-march-2023
+66% as on 17-july
 ====================================================
 MRC
 Core Java
@@ -49,52 +50,4 @@ misc
 ====
 mongo db ion assesment-not mandatory - just time pass
 https://ievolveng.ultimatix.net/ievolve/coursedetails/51921
-
-
-24
-========
-docker from 36
-
-6:30-8
-9:45-11:30
-945-1030
-docker commit –c 'CMD ["redis-server"]'
-27
-============
-330-
-4501 7214 0153 1006
-
-29th
-========
-0 hours
-
-30 th
-=========
-4:00 pm-6
-7:30-8:30
-
-
-9th
-=========
-6:30-7:30 
-from video 51-62
-12-130
-10th
-========
-video 62-
-
-10-1130
-930-10-30
-
-schedule for 11,12,13,14
-daily 5 hrs docker-total read docker for 20 hours -complete 5 hours
-daily complete 1 hour docker
-rem 3 hours read- tcs core java
-5 hours docker
-10-1130 -docker
-12:30-2 -docker
-2:30-4:30 -fresco
-4:30-5:30 -docker
-6:30-8:30- docker
-9-10:30- fresco
 

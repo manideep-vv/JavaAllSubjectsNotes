@@ -1,0 +1,16 @@
+- name: playbook with multiple conditions
+  hosts: localhost
+  tasks:
+  - name: task-1 to demo when-AND condition-way1
+    when: ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "22"
+    command: touch way1-AND-variable-Demo.txt
+    
+  - name: task-2 to demo when-AND condition-way2
+    command: touch way2--AND-variable-Demo.txt  
+    when: 
+      - ansible_distribution == "Ubuntu"
+      - ansible_distribution_major_version == "22"
+      
+  - name: task-3 to demo when -OR condition
+    command: touch ORConditionSuccess.txt
+    when: ansible_distribution == "Centos" or ansible_distribution_major_version  == "22"

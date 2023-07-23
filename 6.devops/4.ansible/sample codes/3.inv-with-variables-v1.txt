@@ -1,0 +1,6 @@
+target1 visa=approved location=canada ansible_host=localhost ansible_connection=ssh ansible_password=MANIdeep123 ansible_user=manideepvv 
+
+target2 visa=rejected location=india ansible_host=localhost ansible_connection=ssh ansible_password=MANIdeep123 #ansible_user=manideepvv 
+
+localhost ansible_connection=localhost
+

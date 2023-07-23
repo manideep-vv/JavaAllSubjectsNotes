@@ -1,0 +1,11 @@
+-
+ name: playbook-to-check-onsite-possibilities
+ hosts: target1 
+ vars:
+   org: '{{ company }}'
+   foreign: '{{ onsite }}'
+ 
+ tasks:
+ - name: create a file
+   command: touch ansible/'santu do u know {{org}} have {{foreign}}'.txt
+ 

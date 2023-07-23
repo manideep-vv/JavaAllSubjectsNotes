@@ -1,0 +1,13 @@
+- 
+ name: playbook-4-to-demo-loops
+ hosts: target1
+ tasks: 
+  - name: looper
+    loop:
+      - joe
+      - geo
+      - ravi
+      - mani
+    
+
+     

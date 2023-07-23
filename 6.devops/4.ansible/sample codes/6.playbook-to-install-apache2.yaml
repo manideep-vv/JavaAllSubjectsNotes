@@ -1,0 +1,7 @@
+---
+- name: playbook-to-install-apache2
+  hosts: target1
+  sudo: yes
+  tasks:
+  - name: installing apache2
+    apt:  name=apache2 update_cache=yes state=latest

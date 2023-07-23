@@ -1,0 +1,11 @@
+-
+ name: playbook-1-execution-creating files based on visa status
+ hosts: target1 target2
+ vars:
+   visastatus: "{{ visa }}" 
+   
+ tasks:
+ - name: -checking visa status--
+   when: visastatus  == 'approved'
+   command: touch ansible/{{ location }}.txt
+   

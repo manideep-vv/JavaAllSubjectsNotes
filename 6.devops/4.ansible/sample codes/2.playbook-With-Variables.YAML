@@ -1,0 +1,6 @@
+- 
+ name: Test connectivity with all servers
+ hosts: target1 target2
+ tasks:
+ - name: creating  a file
+   command: touch {{ filename }}.txt

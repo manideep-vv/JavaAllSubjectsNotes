@@ -1,0 +1,1 @@
+target1 company=mnc onsite=possible ansible_host=localhost ansible_connection=ssh ansbile_user=manideepvv ansible_ssh_pass=MANIdeep123

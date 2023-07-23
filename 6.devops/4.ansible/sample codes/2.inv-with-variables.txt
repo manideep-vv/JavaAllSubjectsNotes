@@ -1,0 +1,8 @@
+target1 filename=d1 ansible_host=localhost ansible_connection=ssh ansible_password=MANIdeep123 ansible_user=manideepvv 
+
+target2 filename=d2 ansible_host=localhost ansible_connection=ssh ansible_password=MANIdeep123 ansible_user=manideepvv 
+
+
+
+localhost ansible_connection=localhost
+

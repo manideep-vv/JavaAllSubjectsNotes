@@ -1,0 +1,12 @@
+#Alert: this below code is not working, but just kept for reference
+-
+  name: playbook to move files
+  hosts: localhost
+  tasks:
+  - name: task to check if file is already present in target or not
+    stat:
+      path: /ansible/simplefile
+    register: p
+  - name: task to move the file if its present
+    when: p.stat.exists == False
+    command: mv /ansible/simplefile /ansible/challenge/ 
