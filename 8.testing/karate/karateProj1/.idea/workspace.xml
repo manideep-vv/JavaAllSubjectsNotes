@@ -5,28 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8fd66d0-f4b9-4a94-9783-a8cdeea41b43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/examples/ExamplesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/examples/users/UsersRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/examples/users/users.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/karate-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample proj/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sample proj/sample proj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6.devops/1.Git/git commands.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6.devops/1.Git/git commands.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6.devops/5.maven/1.maven-1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6.devops/5.maven/1.maven-1.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../6.devops/6.mulesoft/1.mulesoft-udemy.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../6.devops/6.mulesoft/1.mulesoft-udemy.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../wings2/july status.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wings2/july status.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/users/api.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/users/postMethodDemo.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../~$karate by udemy artem.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../~WRL1633.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../14.things learnt in prev proj/1. new ones learnt in 1DSTR.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.karate by udemy artem.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../1.karate by udemy artem.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/ExamplesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/ExamplesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/users/users.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/users/users.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-examples.ExamplesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-examples.ExamplesTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/examples.ExamplesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/examples.ExamplesTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/ExamplesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/ExamplesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examples/users/UsersRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examples/users/UsersRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/com.tcs/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/com.tcs/src/test/java/examples/ExamplesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/com.tcs/src/test/java/examples/users/UsersRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/com.tcs/src/test/java/examples/users/users.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/com.tcs/src/test/java/karate-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/com.tcs/src/test/java/logback-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample proj/sample proj.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Resume_Manideep2022-nov.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Resume_Manideep2022-nov.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wings2/my study status.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wings2/my study status.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +45,25 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Karate" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -53,14 +76,90 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/study related/my git hub -new/JavaAllSubjectsNotes/8.testing/karate/angular-realworld-example-app&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Karate Feature.postMethodDemo.feature: login to get the token and pass that token as header to publish the article">
+    <configuration name="api.feature: hit PLain Get method url" type="karate" temporary="true">
+      <option name="karateSearchPaths">
+        <list>
+          <option value="$PROJECT_DIR$/src/test/java/examples/users/api.feature:12" />
+        </list>
+      </option>
+      <module name="karateProj1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="api.feature: hit url with query paramers (2)" type="karate" temporary="true">
+      <option name="karateSearchPaths">
+        <list>
+          <option value="$PROJECT_DIR$/src/test/java/examples/users/api.feature:6" />
+        </list>
+      </option>
+      <module name="karateProj1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="api.feature: hit url with query parameters https://api.realworld.io/api/articles?limit=10&amp;offset=1" type="karate" temporary="true">
+      <option name="karateSearchPaths">
+        <list>
+          <option value="$PROJECT_DIR$/src/test/java/examples/users/api.feature:6" />
+        </list>
+      </option>
+      <module name="karateProj1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="postMethodDemo.feature: login to get the token and pass that token as header to publish the article" type="karate" temporary="true">
+      <option name="karateSearchPaths">
+        <list>
+          <option value="$PROJECT_DIR$/src/test/java/examples/users/postMethodDemo.feature:7" />
+        </list>
+      </option>
+      <module name="karateProj1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="postMethodDemo.feature: postMethodDemo.feature" type="karate" temporary="true">
+      <option name="karateSearchPaths">
+        <list>
+          <option value="$PROJECT_DIR$/src/test/java/examples/users/postMethodDemo.feature" />
+        </list>
+      </option>
+      <module name="karateProj1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Karate Feature.postMethodDemo.feature: login to get the token and pass that token as header to publish the article" />
+        <item itemvalue="Karate Feature.postMethodDemo.feature: postMethodDemo.feature" />
+        <item itemvalue="Karate Feature.api.feature: hit url with query parameters https://api.realworld.io/api/articles?limit=10&amp;offset=1" />
+        <item itemvalue="Karate Feature.api.feature: hit PLain Get method url" />
+        <item itemvalue="Karate Feature.api.feature: hit url with query paramers (2)" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

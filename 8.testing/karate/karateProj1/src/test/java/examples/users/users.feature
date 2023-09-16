@@ -4,10 +4,20 @@ Feature: sample karate test script
   Background:
     * url 'https://jsonplaceholder.typicode.com'
 
+  Scenario: test url working or not
+    Given url 'https://conduit.productionready.io/api/tags'
+    When method Get is invoked
+    Then status 200 is returned back from the server
+
   Scenario: get all users and then get the first user by id
     Given path 'users'
     When method get
     Then status 200
+Scenario: firing get method with  path params
+  Given url 'https://api.realworld.io/api/articles?limit=10&offset=10'
+  When Get method
+  Then status 200
+
 
     * def first = response[0]
 
