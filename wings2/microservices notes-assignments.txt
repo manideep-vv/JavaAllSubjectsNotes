@@ -1,0 +1,87 @@
+
+1st day little bit on java
+2nd day on core java programs practice- this is not at all microservices
+
+https://github.com/akash-coded/core-java/discussions/56 done
+https://github.com/akash-coded/core-java/discussions/56#discussioncomment-7114409
+
+https://github.com/akash-coded/core-java/discussions/69 -done
+https://github.com/akash-coded/core-java/discussions/69#discussioncomment-7114014
+
+https://github.com/akash-coded/core-java/discussions/61
+
+https://github.com/akash-coded/core-java/discussions/51
+
+
+sir i completed 2 -56,69
+https://github.com/akash-coded/core-java/discussions/69#discussioncomment-7114014
+https://github.com/akash-coded/core-java/discussions/56#discussioncomment-7114409
+
+
+
+day3 
+======
+
+https://github.com/akash-coded/spring-framework/discussions/7?sort=new
+
+sir i posted both assignments
+my assignments -1
+=========================
+https://github.com/akash-coded/spring-framework/discussions/7?sort=new#discussioncomment-7134846
+my assignment -2- 9th discussion
+================
+https://github.com/akash-coded/spring-framework/discussions/9?sort=new#discussioncomment-7135108
+
+https://github.com/akash-coded/spring-framework/tree/main/eclipse-projects/spring-boot/spring-boot-accessing-data-with-jpa-app
+
+https://github.com/akash-coded/spring-framework/tree/main/eclipse-projects/spring-boot/spring-boot-ecommerce-joins-jpa
+
+https://github.com/akash-coded/spring-framework/blob/main/eclipse-projects/spring-boot/spring-boot-ecommerce-joins-jpa/src/main/java/com/demo/jpa/joins/model/Customer.java
+
+https://github.com/akash-coded/spring-framework/tree/main/eclipse-projects/spring-boot/spring-boot-ecommerce-joins-jpa
+- CRUD on Order
+- CRUD on Customer
+- CRUD on Product
+- CRUD on Category
+
+- Finding all products in a Order
+- Finding all Orders for a Customer
+- Finding all products for a Category
+- Finding the Customer with the most number of Orders
+- Finding the Category with no Products
+- Finding the Orders with more than 1000 Rs in value
+
+https://github.com/akash-coded/spring-framework/tree/main/eclipse-projects
+
+
+same category is getting saved multiple times- no unique key on category
+order table is not getting created
+
+select * from category;
+select * from customer;
+select * from product
+
+{
+
+    "name":"shirt",
+    "price": 120,
+    "category":{
+        "name":"clothing"
+    }
+}
+{
+
+    "name":"keyboard",
+    "price": 500.263,
+    "category":{
+        "name":"electronics"
+    }
+}
+{
+
+    "name":"mouse",
+    "price": 100.263,
+    "category":{
+        "name":"electronics"
+    }
+}

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90f39543-84a8-4c05-8912-dc36eae4cc55" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../4.Microservices/H2 related configurations.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../4.Microservices/H2 related configurations.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.karate by udemy artem.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../1.karate by udemy artem.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/SampleRestAPI/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/SampleRestAPI/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/SampleRestAPI/Employeecontroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/SampleRestAPI/SampleRestApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/SampleRestAPI/pojo/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/SampleRestAPI/pojo/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/s1/read.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bdds/CreateVariablesAndUse.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bdds/ExamplesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bdds/FeatureWhichCallsOther.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bdds/ReadDataFromFile.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bdds/assertions.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bdds/callingJavaMethods.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bdds/empCrud.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bdds/json/credentials.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bdds/json/employee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bdds/reUsableGlobalFeature.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bdds/time-validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bdds/udemyAssignment.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/EmpFaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karate-config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VTkW2efo7Av3bKD3iEfMU1fSsg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_directory_selection": "E:/study related/my git hub -new/JavaAllSubjectsNotes/8.testing/karate/SampleRestAPI/src/main/java/com/tcs/SampleRestAPI",
+    "last_opened_file_path": "E:/study related/my git hub -new/JavaAllSubjectsNotes/8.testing/karate/BddsWithSampleRestAPI",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="s1" />
+      <recent name="com.tcs.SampleRestAPI" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study related\my git hub -new\JavaAllSubjectsNotes\8.testing\karate\SampleRestAPI\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edureka" />
+      <recent name="bdds" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EdurekaRestApiApplication">
+    <configuration name="EdurekaRestApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edureka.EdurekaRestApiApplication" />
+      <module name="SampleRestAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleRestApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tcs.SampleRestAPI.SampleRestApiApplication" />
+      <module name="SampleRestAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tcs.SampleRestAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="empCrud.feature: Hit Get method to fetch all employees" type="karate" temporary="true">
+      <option name="karateSearchPaths">
+        <list>
+          <option value="$PROJECT_DIR$/src/test/java/bdds/empCrud.feature:10" />
+        </list>
+      </option>
+      <module name="SampleRestAPI" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="empCrud.feature: SAVE demo- login to get the token (1)" type="karate" temporary="true">
+      <option name="karateSearchPaths">
+        <list>
+          <option value="$PROJECT_DIR$/src/test/java/bdds/empCrud.feature:16" />
+        </list>
+      </option>
+      <module name="SampleRestAPI" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="empCrud.feature: SAVE demo- login to get the token" type="karate" temporary="true">
+      <option name="karateSearchPaths">
+        <list>
+          <option value="$PROJECT_DIR$/src/test/java/bdds/empCrud.feature:17" />
+        </list>
+      </option>
+      <module name="SampleRestAPI" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EdurekaRestApiApplication" />
+        <item itemvalue="Application.SampleRestApiApplication" />
+        <item itemvalue="Karate Feature.empCrud.feature: SAVE demo- login to get the token (1)" />
+        <item itemvalue="Karate Feature.empCrud.feature: SAVE demo- login to get the token" />
+        <item itemvalue="Karate Feature.empCrud.feature: Hit Get method to fetch all employees" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90f39543-84a8-4c05-8912-dc36eae4cc55" name="Changes" comment="" />
+      <created>1694867495803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694867495803</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tcs/SampleRestAPI/Employeecontroller.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edureka/Student.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

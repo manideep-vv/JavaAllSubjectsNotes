@@ -29,7 +29,7 @@ Feature: Create and use the variables in feature files
     """
     When method post
     Then status 200
-    And match response[7] contains {"empname": #(userData.tcsempname)}
+    And match response[6] contains {"empname": #(userData.tcsempname)}
 
 
 Scenario: Assert emp names
