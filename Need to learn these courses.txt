@@ -1,0 +1,26 @@
+in udemy
+================
+
+microservices
+==========
+1) edureka old videos
+https://tcsglobal.udemy.com/course/master-microservices-with-spring-docker-kubernetes/learn/lecture/39943496#overview
+
+spring 
+-------
+OAuth 2.0 in Spring Boot Applications
+https://tcsglobal.udemy.com/course/oauth2-in-spring-boot-applications/learn/lecture/20814602?learning_path_id=3756374#overview
+
+
+junit
+====
+long 7.5 hours course
+Testing Java with JUnit 5 & Mockito
+https://tcsglobal.udemy.com/course/testing-java-code-with-junit-5-and-mockito/learn/lecture/31565062?learning_path_id=4185740#overview
+
+
+
+
+RESTful web service
+=======
+https://www.udemy.com/course/restful-web-service-with-spring-boot-jpa-and-mysql/?referralCode=7F52FFDB63782010560F

@@ -1,0 +1,97 @@
+CREATE DATABASE IF NOT EXISTS `ecommerce` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE ecommerce;
+CREATE TABLE `offices` (
+  officeCode INT(8) UNSIGNED NOT NULL AUTO_INCREMENT, 
+  city VARCHAR(50) NOT NULL, 
+  phone VARCHAR(10) NOT NULL, 
+  addressLine1 VARCHAR(300) NOT NULL, 
+  addressLine2 VARCHAR(100) DEFAULT NULL, 
+  state VARCHAR(100) DEFAULT NULL, 
+  country VARCHAR(100) NOT NULL, 
+  postalCode VARCHAR(6) NOT NULL, 
+  territory VARCHAR(10) NOT NULL, 
+  CONSTRAINT PK_officeCode PRIMARY KEY(officeCode), 
+  CONSTRAINT UQ_offices_phone UNIQUE(phone)
+) ENGINE = InnoDB;
+CREATE TABLE `employees` (
+  employeeNumber INT(8) NOT NULL AUTO_INCREMENT, 
+  lastName VARCHAR(100) NOT NULL, 
+  firstName VARCHAR(100) NOT NULL, 
+  extension VARCHAR(100) DEFAULT 'x000', 
+  email VARCHAR(100) NOT NULL, 
+  officeCode INT(8) UNSIGNED, 
+  reportsTo INT(8), 
+  jobTitle VARCHAR(50) DEFAULT 'Employee', 
+  CONSTRAINT empid_pk PRIMARY KEY(employeeNumber), 
+  CONSTRAINT UQ_employees_email UNIQUE(email), 
+  CONSTRAINT FK_offices_officeCode FOREIGN KEY(officeCode) REFERENCES offices(officeCode), 
+  CONSTRAINT FK_employees_reportsTo FOREIGN KEY(reportsTo) REFERENCES employees(employeeNumber)
+) ENGINE = InnoDB;
+CREATE TABLE `productLines` (
+  productLine INT(8) UNSIGNED NOT NULL AUTO_INCREMENT, 
+  textDescription VARCHAR(100), 
+  htmlDescription VARCHAR(100), 
+  image VARCHAR(300), 
+  CONSTRAINT PK_productLines PRIMARY KEY(productLine)
+) ENGINE = InnoDB;
+CREATE TABLE `products` (
+  productCode INT(8) UNSIGNED NOT NULL AUTO_INCREMENT, 
+  productName VARCHAR(100) NOT NULL, 
+  productLine INT(8) UNSIGNED NOT NULL, 
+  productScale VARCHAR(300), 
+  productVendor VARCHAR(100) NOT NULL, 
+  productDescription VARCHAR(300), 
+  quantityInStock INT(8) UNSIGNED NOT NULL, 
+  buyPrice DECIMAL(15, 2) UNSIGNED NOT NULL, 
+  MSRP DECIMAL(15, 2) UNSIGNED NOT NULL, 
+  CONSTRAINT PK_products_productCode PRIMARY KEY(productCode), 
+  CONSTRAINT UQ_products_productName UNIQUE(productName), 
+  CONSTRAINT FK_products_productLines FOREIGN KEY(productLine) REFERENCES productLines(productLine)
+) ENGINE = InnoDB;
+CREATE TABLE `customers` (
+  customerNumber INT(8) UNSIGNED NOT NULL AUTO_INCREMENT, 
+  customerName VARCHAR(100) NOT NULL, 
+  contactLastName VARCHAR(100), 
+  contactFirstName VARCHAR(100), 
+  phone VARCHAR(10) NOT NULL, 
+  addressLine1 VARCHAR(300) NOT NULL, 
+  addressLine2 VARCHAR(100) DEFAULT NULL, 
+  city VARCHAR(50) NOT NULL, 
+  state VARCHAR(50) DEFAULT NULL, 
+  postalCode VARCHAR(6) NOT NULL, 
+  country VARCHAR(50) NOT NULL, 
+  salesRepEmployeeNumber INT(8), 
+  creditLimit DECIMAL(11, 2) UNSIGNED DEFAULT 0.00, 
+  CONSTRAINT PK_customerNumber PRIMARY KEY(customerNumber), 
+  CONSTRAINT UQ_customers_phone UNIQUE(phone), 
+  CONSTRAINT FK_employees_customers FOREIGN KEY(salesRepEmployeeNumber) REFERENCES employees(employeeNumber)
+) ENGINE = InnoDB;
+CREATE TABLE `orders` (
+  orderNumber INT(8) UNSIGNED NOT NULL AUTO_INCREMENT, 
+  orderDate DATETIME NOT NULL, 
+  requiredDate DATETIME, 
+  shippedDate DATETIME NOT NULL, 
+  STATUS VARCHAR(50) NOT NULL, 
+  comments VARCHAR(300), 
+  customerNumber INT(8) UNSIGNED NOT NULL, 
+  CONSTRAINT PK_orders PRIMARY KEY(orderNumber), 
+  CONSTRAINT FK_customers_orders FOREIGN KEY(customerNumber) REFERENCES customers(customerNumber)
+) ENGINE = InnoDB;
+CREATE TABLE `orderDetails` (
+  orderNumber INT(8) UNSIGNED NOT NULL AUTO_INCREMENT, 
+  productCode INT(8) UNSIGNED NOT NULL, 
+  quantityOrdered INT(8) UNSIGNED NOT NULL, 
+  priceEach DECIMAL(15, 2) NOT NULL, 
+  orderLineNumber INT(8), 
+  CONSTRAINT PK_orderDetails_orderNumber_productCode PRIMARY KEY(orderNumber, productCode), 
+  CONSTRAINT FK_orderDetails_productCode FOREIGN KEY(productCode) REFERENCES products(productCode)
+) ENGINE = InnoDB;
+CREATE TABLE `payments` (
+  customerNumber INT(8) UNSIGNED NOT NULL, 
+  checkNumber INT(8) UNSIGNED, 
+  paymentDate DATETIME NOT NULL, 
+  amount DECIMAL(15, 2) NOT NULL, 
+  CONSTRAINT PK_payments_customerNumber_checkNumber PRIMARY KEY(customerNumber, checkNumber), 
+  CONSTRAINT UQ_payments_checkNumber UNIQUE(checkNumber), 
+  CONSTRAINT FK_customers_payments_customerNumber FOREIGN KEY(customerNumber) REFERENCES customers(customerNumber)
+) ENGINE = InnoDB;

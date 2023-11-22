@@ -39,6 +39,13 @@ https://github.com/akash-coded/spring-framework/tree/main/eclipse-projects/sprin
 https://github.com/akash-coded/spring-framework/blob/main/eclipse-projects/spring-boot/spring-boot-ecommerce-joins-jpa/src/main/java/com/demo/jpa/joins/model/Customer.java
 
 https://github.com/akash-coded/spring-framework/tree/main/eclipse-projects/spring-boot/spring-boot-ecommerce-joins-jpa
+
+1) akash for thursday order micro services assignment i placed my solution here
+i placed my solution in https://github.com/manideep-vv/Edureka-Assignments/tree/main
+
+2) for friday sql queries i placed queries here
+https://github.com/akash-coded/mysql/discussions/2?sort=new#discussioncomment-7177450 
+
 - CRUD on Order
 - CRUD on Customer
 - CRUD on Product
@@ -57,9 +64,6 @@ https://github.com/akash-coded/spring-framework/tree/main/eclipse-projects
 same category is getting saved multiple times- no unique key on category
 order table is not getting created
 
-select * from category;
-select * from customer;
-select * from product
 
 {
 
@@ -85,3 +89,15 @@ select * from product
         "name":"electronics"
     }
 }
+
+friday - sql assignment
+============================
+https://github.com/akash-coded/mysql/discussions/2
+my response
+https://github.com/akash-coded/mysql/discussions/2?sort=new#discussioncomment-7177450
+https://github.com/akash-coded/mysql/discussions/2?sort=new#discussioncomment-7177450 
+
+tuesday - oct 3 assignment
+============================
+keep it on hold
+https://github.com/akash-coded/spring-framework/discussions/153

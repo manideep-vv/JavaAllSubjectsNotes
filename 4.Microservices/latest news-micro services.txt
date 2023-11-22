@@ -1,0 +1,2 @@
+Zuul, hystrix is in maintainence mode,
+alternate for hystrix is resilience 4j

@@ -1,0 +1,66 @@
+oct 11
+11:30-1:30
+
+o-13
+=====
+6:15-7:45
+
+0CT-23
+========
+11:30-1:30 ms-  api gateway filters
+2-3 - api gateway global filters
+3-5 resilience 4j
+
+oct-24
+========
+7:20-9:30
+
+oct-28
+-----
+6:30-8:30- pp2
+
+nov11
+=========
+10-12 linkedin LSS
+12-1:30 break ,2:30-3:15 break
+1:30-2:30-study
+3:15-5:30
+
+nov 12
+======
+atleast study 8 hours
+1-10 (30mins dinner+lunch+30mins diwali+1hr yoga)
+1-2 -linkedin
+2-3 break
+3-5 -software estimation
+
+nov 13
+=====
+2-10
+
+nov 15
+======
+11-12
+4:30- 6:30
+
+
+nov 16
+---------
+2-10 (1 hour dinner+news paper)
+total 7 hours 
+total 6 hours -so complete wings 2
+
+nov 19
+---------
+7:30-9
+
+nov 20
+------
+7-8 sleep
+4-6:30-yoga+tcs work
+630-730-
+
+nov 21
+--------
+10-12- bokka
+
