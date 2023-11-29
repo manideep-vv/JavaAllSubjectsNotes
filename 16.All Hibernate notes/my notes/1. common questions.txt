@@ -1,0 +1,5 @@
+1) in real time, when session is getting opened and when sess is getting closed, we are just using crudRepository.save(), internally is it opening and closing session?????
+
+2) what is difference between jparepo.save(), ses.save(), what happens if we call jparepo.save(), how it is related to ses.save(), see the intervals
+
+3) what happens on ses.close()- means will it closes the connection- then after jparepo.save() will internally ses also will get closed??
