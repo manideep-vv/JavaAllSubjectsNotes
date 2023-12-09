@@ -92,3 +92,50 @@ target 8 hours with  hibernate + git
 10-10:30 tiffin
 10:30-12:30- hib
 
+
+nov 30
+-------
+6 hours of study
+12:30-1:15 study
+1:15-3 lunch
+3-5:30 hib-87-done
+5:30-7-yoga+accounts
+7-8 git-wasted
+8-9 dinner+news wasted
+9-10 hib -wasted for dinner
+
+DEC 3 -3.5
+-
+others-mirchi, reply abanti,infosys exam,news,light pp3
+7:20-8:30 hibernate-done-1
+8:30-3:30 yoga+tifin+lunch+mirapak
+3:30-5 hibe practice-1.5
+5-7 break
+7-8-info exam-1
+
+dec4
+8-9:30
+
+dec5
+5:30-7 hiber
+
+dec-6
+1 hr rights,2-inter,1-pickup,1 meeting,1 dinner+lunch,1 misc
+total 11 hrs-5hours study
+11-12 hib
+\
+dec 7
+----
+10-1
+4-5 hib
+5-6 sleep
+
+dec 12
+-----
+12-2
+6-9 94th video completed
+
+1) try delete cascade, 
+2) cascade insert--insert in parent- auto insert in child
+3) eager and lazy loading demo
+
