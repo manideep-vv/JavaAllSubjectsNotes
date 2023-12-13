@@ -130,12 +130,32 @@ dec 7
 4-5 hib
 5-6 sleep
 
-dec 12
+dec 9
 -----
 12-2
 6-9 94th video completed
+
+10-dec
+--------
+6:45-7:45- 95 done
+9-9:45 -done
+11-12 -done   12-12:30 break
+12:30-1
+1-2:30 break
+330-6
+
+11-dec
+--------
+8:15-9:15
+
 
 1) try delete cascade, 
 2) cascade insert--insert in parent- auto insert in child
 3) eager and lazy loading demo
 
+hibernate status
+96- ignored
+97 -done
+98-started98-till 1:25th minute
+
+practice delte many to 1 delete 1 child among 3 with parent, lazy loading
