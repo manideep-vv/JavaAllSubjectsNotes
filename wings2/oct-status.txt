@@ -148,6 +148,23 @@ dec 9
 --------
 8:15-9:15
 
+16th
+--
+groceries+decided hospital
+
+17th
+------
+wasted hospital+exhibition
+
+18th
+----
+5:15-7 mandatory courses
+9-10-preg
+
+19th
+-----
+10-11:30
+
 
 1) try delete cascade, 
 2) cascade insert--insert in parent- auto insert in child
