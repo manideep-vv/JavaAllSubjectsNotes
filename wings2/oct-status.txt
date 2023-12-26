@@ -165,6 +165,77 @@ wasted hospital+exhibition
 -----
 10-11:30
 
+20
+==
+4-5:30- kafka streams
+5:45-6:30 pregnancy videos
+6:30-8 TRAVEL pickup
+8-9 preg videos
+
+21
+--------
+8 hours study
+11:30-9:30 total 7/10 hours 
+breaks
+1:30-2:30 -lunch+news paper
+6:30-8 pickup+dinner+milk
+
+11:30-1:30 preg videos2 - OFC work
+2:30-4:30- pp3 courses 2 -ofc work
+4:30-6- rights+ meditation
+6-6:30 kafka  2
+8-9 pp3	
+
+
+22
+-
+3:30-4:30 break
+8-8:30 break
+9:30-11:30 wasted
+11:30-12 interview
+1:30-2 break
+
+7-8 kafka 			   1	
+12-1:30 pp3
+2-2:30 pp3
+2:30-3:30 kafka
+4:30-6 kafka
+6:40-7:40 kafka
+
+23
+======
+target atleast 5 hours
+
+
+2-3 lunch
+4:30-6 home works
+8-8:30 dinner+news paper
+
+1:30-2 kafka -done
+3-5:30 kafka
+
+24
+-
+3:30-7 kafka
+7-8 preg - saw till 9th video
+7-9 preg
+9-10
+
+25
+1-2 neelima house disc
+2-3 lunch
+3-5 kafka
+5-6 pp3
+6-7 news
+7-9dogs
+9-10 preg
+
+26
+-----
+11-2 pp3
+
+
+kafkaStreams-1-Basic
 
 1) try delete cascade, 
 2) cascade insert--insert in parent- auto insert in child

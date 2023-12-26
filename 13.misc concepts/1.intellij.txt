@@ -1,0 +1,2 @@
+to install lombok plugin
+1) file-- settings-plugins--lombok install the plugin
