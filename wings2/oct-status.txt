@@ -1,238 +1,105 @@
-oct 11
-11:30-1:30
-
-o-13
-=====
-6:15-7:45
-
-0CT-23
-========
-11:30-1:30 ms-  api gateway filters
-2-3 - api gateway global filters
-3-5 resilience 4j
-
-oct-24
-========
-7:20-9:30
-
-oct-28
------
-6:30-8:30- pp2
-
-nov11
-=========
-10-12 linkedin LSS
-12-1:30 break ,2:30-3:15 break
-1:30-2:30-study
-3:15-5:30
-
-nov 12
-======
-atleast study 8 hours
-1-10 (30mins dinner+lunch+30mins diwali+1hr yoga)
-1-2 -linkedin
-2-3 break
-3-5 -software estimation
-
-nov 13
-=====
-2-10
-
-nov 15
-======
-11-12
-4:30- 6:30
+c wing-24
+hotel rates
+royal residency normal 950+250--500
+srikanya-non 1600
+sri sai lodge - ac- 1120 -2 rooms
+delx -1658
+kolas ongole -
+sri 
 
 
-nov 16
----------
-2-10 (1 hour dinner+news paper)
-total 7 hours 
-total 6 hours -so complete wings 2
+6-7 brush+excrete
+7-8 yoga+milk
+8-9 pooja+tiffin
 
-nov 19
----------
-7:30-9
-
-nov 20
-------
-7-8 sleep
-4-6:30-yoga+tcs work
-630-730-
-
-hibernate 13 hours*2 
-nov 21
---------
-10-12- bokka
-
-nov 23
-11:30-12 -0.5-h-d
-12:30-1:30 -1 -wings2
-1:30-2 break
-2-6 work
-6-8 hibernate 2
-
-nov 25
-=====
-budget 8 hours but studied 5.5
-9-1 ready+ groceries -wasted
-2-3 lunch+ butter -yes
-9-10 dinner
-
-1-2 hibernate -yes
-3-6 hibernate
-6-7:30 break
-7:30-9 wings2
-
-nov 26
---------
-target 8 hours with  hibernate + git
-8:30-9 hibernate
-9-10 yoga
-10-10:30 tiffin
-10:30-12:30- hib
-
-
-nov 30
--------
-6 hours of study
-12:30-1:15 study
-1:15-3 lunch
-3-5:30 hib-87-done
-5:30-7-yoga+accounts
-7-8 git-wasted
-8-9 dinner+news wasted
-9-10 hib -wasted for dinner
-
-DEC 3 -3.5
--
-others-mirchi, reply abanti,infosys exam,news,light pp3
-7:20-8:30 hibernate-done-1
-8:30-3:30 yoga+tifin+lunch+mirapak
-3:30-5 hibe practice-1.5
-5-7 break
-7-8-info exam-1
-
-dec4
-8-9:30
-
-dec5
-5:30-7 hiber
-
-dec-6
-1 hr rights,2-inter,1-pickup,1 meeting,1 dinner+lunch,1 misc
-total 11 hrs-5hours study
-11-12 hib
-\
-dec 7
-----
-10-1
-4-5 hib
-5-6 sleep
-
-dec 9
------
-12-2
-6-9 94th video completed
-
-10-dec
---------
-6:45-7:45- 95 done
-9-9:45 -done
-11-12 -done   12-12:30 break
-12:30-1
-1-2:30 break
-330-6
-
-11-dec
---------
-8:15-9:15
-
-16th
---
-groceries+decided hospital
-
-17th
-------
-wasted hospital+exhibition
-
-18th
-----
-5:15-7 mandatory courses
-9-10-preg
-
-19th
------
-10-11:30
-
-20
+30-jan
 ==
-4-5:30- kafka streams
-5:45-6:30 pregnancy videos
-6:30-8 TRAVEL pickup
-8-9 preg videos
+target 4 hour
+6:30-10:30- ready+khashayam+house help+tiffin+antlu
+10:30-1 spring
+1-2:30 lunch+ house hold cleaning
+2:30- 3 study
+3-5 tcs work
+5-6:30 yoga+walking
+6:30-7:30 pickup
+7:30-8:30 ms
+8:30-9:30 dinner+news paper
+9:30-10 pp3
 
-21
---------
-8 hours study
-11:30-9:30 total 7/10 hours 
-breaks
-1:30-2:30 -lunch+news paper
-6:30-8 pickup+dinner+milk
+31-jan
+========
+oil,health,semen analysis
 
-11:30-1:30 preg videos2 - OFC work
-2:30-4:30- pp3 courses 2 -ofc work
-4:30-6- rights+ meditation
-6-6:30 kafka  2
-8-9 pp3	
+1-feb
+===
+7:30-10:30 house work
+10:30-11:30 sollu with murali
+11:30-1 oauth
+1-2 lunch
+2-4:30 mandatory trainings+tcs work
+4:30- 5:30 oauth
+5:30-6:30 walking
+6:30-7:30 pickup
+7:30-8:30 junit
+8:30-9 lunch
+9-9:45 pp3
 
-
-22
--
-3:30-4:30 break
-8-8:30 break
-9:30-11:30 wasted
-11:30-12 interview
-1:30-2 break
-
-7-8 kafka 			   1	
-12-1:30 pp3
-2-2:30 pp3
-2:30-3:30 kafka
-4:30-6 kafka
-6:40-7:40 kafka
-
-23
-======
-target atleast 5 hours
+2-feb
+------
+10-2:30 rooms calls
+2:30-4:30 mongodb+oauth done
+4:30-5 bills
+5-6:30 yoga , 6:30-7:30 pickup
+7:30-8:30 mandatory courses 
+8:30-10 dinner+cook+news paper
 
 
-2-3 lunch
-4:30-6 home works
-8-8:30 dinner+news paper
+6-feb
+=====
+4:30-5:30 oauth
 
-1:30-2 kafka -done
-3-5:30 kafka
+7-feb
+=====
+10-3room+mobile cleanup+house repair
+3:15-5:15 oauth
+6-11 lalitha jew
 
-24
--
-3:30-7 kafka
-7-8 preg - saw till 9th video
-7-9 preg
-9-10
+8-feb
+=====
+7-11:30 drop+calls
+11:30-1:30 oauth
 
-25
-1-2 neelima house disc
-2-3 lunch
-3-5 kafka
-5-6 pp3
-6-7 news
-7-9dogs
-9-10 preg
+9-feb
+=======
+8-11 drop
+11-1 tiffin+news paper+videos -wasted
+1-2
 
-26
------
-11-2 pp3
+
+
+daily 2 h
+feb 9-18 chandu and sai marriage
+
+
+you are not actively working in any client project and has been idle since an year so you must get into project ASAP 
+
+ok keep the same potential and spirit to continue learnings
+To utilize your potential your must really be inclined to get into any project
+
+
+daily expected
+--
+7-8:30 pp3 -1
+10-12 pp3-2
+12-1 -kafka-1
+2-4 pp3-2
+4-5 kafka-1
+5-7 -shopping+pickup
+7-8 kafka-1
+8-8:30 dinner
+8:30-9:30 walking
+
+
 
 
 kafkaStreams-1-Basic

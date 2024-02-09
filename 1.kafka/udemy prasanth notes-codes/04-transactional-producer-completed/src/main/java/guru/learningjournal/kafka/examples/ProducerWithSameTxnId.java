@@ -10,10 +10,10 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Properties;
 
-public class HelloProducer {
+public class ProducerWithSameTxnId {
     private static final Logger logger = LogManager.getLogger();
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws Exception {
 
         Properties props = new Properties();
 //        props.put(ProducerConfig.CLIENT_ID_CONFIG, AppConfigs.applicationID);
@@ -29,15 +29,13 @@ public class HelloProducer {
         System.out.println("Created producer");
         producer.initTransactions();
 
-        long l=10000;
+        long l=1000;
         System.out.println("current thread will be slept for "+l/1000+"seconds");
         Thread.sleep(l);
         System.out.println("current thread is wakenup from slept ");
 
-
         logger.info("Starting First Transaction...");
         producer.beginTransaction();
-        logger.info("Started First Transaction...");
         try {
             for (int i = 1; i <= AppConfigs.numEvents; i++) {
                 producer.send(new ProducerRecord<>(AppConfigs.topicName1, i, "Simple Message-T1-" + i));
@@ -51,24 +49,6 @@ public class HelloProducer {
             producer.close();
             throw new RuntimeException(e);
         }
-
-        logger.info("Starting Second Transaction...");
-        producer.beginTransaction();
-        try {
-            for (int i = 1; i <= AppConfigs.numEvents; i++) {
-                producer.send(new ProducerRecord<>(AppConfigs.topicName1, i, "Simple Message-T2-" + i));
-                producer.send(new ProducerRecord<>(AppConfigs.topicName2, i, "Simple Message-T2-" + i));
-            }
-            logger.info("Aborting Second Transaction.");
-            producer.abortTransaction();
-        }catch (Exception e){
-            logger.error("Exception in Second Transaction. Aborting...");
-            producer.abortTransaction();
-            producer.close();
-            throw new RuntimeException(e);
-        }
-
-        logger.info("Finished - Closing Kafka Producer.");
 
     }
 }

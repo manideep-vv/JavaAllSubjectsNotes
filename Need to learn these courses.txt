@@ -12,6 +12,9 @@ OAuth 2.0 in Spring Boot Applications
 https://tcsglobal.udemy.com/course/oauth2-in-spring-boot-applications/learn/lecture/20814602?learning_path_id=3756374#overview
 
 
+spring basics
+https://tcsglobal.udemy.com/course/learn-spring-boot/learn/lecture/36256996#overview
+
 junit
 ====
 long 7.5 hours course
@@ -23,4 +26,4 @@ https://tcsglobal.udemy.com/course/testing-java-code-with-junit-5-and-mockito/le
 
 RESTful web service
 =======
-https://www.udemy.com/course/restful-web-service-with-spring-boot-jpa-and-mysql/?referralCode=7F52FFDB63782010560F
+https://tcsglobal.udemy.com/course/restful-web-service-with-spring-boot-jpa-and-mysql/?referralCode=7F52FFDB63782010560F

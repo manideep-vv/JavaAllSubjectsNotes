@@ -1,0 +1,155 @@
+db.Disaster Assistance.deleteMany({'disasterOrderId':'084a473a-e9a0-4d1d-98b3-c299fd903edb'))
+
+db.Employee.update(
+
+("Employeeid" : 1), (
+
+$set: { "EmployeeName":"NewMartin"}});
+
+From <https://www.guru99.com/mongodb-update-document.html>
+
+db.Employee.update(
+
+("Employeeid":1},
+
+{$set: { "EmployeeName":"NewMartin"}});
+
+db.DisasterAssistance.deleteMany(('disasterOrderId':'084a473a-e9a0-4d1d-98b3-c299fd903edb'));
+
+db.FailedRequest.deleteMany({IsMsgLostByKafka:false})
+
+db.DisasterOrder.update((disasterOrderld:'084a473a-e9a0-4d1d-98b3-c299fd903edb'), ($set: {benefitStatus:'REJECTED')));
+
+BasicDBObjectquery-newBasicDBObject();
+
+StringqueryableField-CREATED TIMESTAMP COLLECTIONS.contains(mongoDBCollectionName)?CREATED_BY_TIMESTAMP:MODIFIED_BY_TIMESTAMP; query.put(queryableField.newBasicDBObject("$lte".expiryDate)); //
+
+@Value("#{'${mongoDBCollectionsForDataDeletion.list}'.split(',')}") Map<String, String> collectionNameWithExpiryPeriod =mongoDBCollectionsList.stream().collect(Collectors.toMap(
+
+s-> substringBefore(s, ":").strip(), s-> substringAfter(s, ":").strip()
+
+
+How to save repo.save();
+
+1)
+
+2) In mongo try to use queries on top of that interface
+
+@Query("{lastProcessedTime : {$lt:?0}}, isMsgLostByKafka: {$eq:?1}}")
+
+List<FailedRequestEntity> findByLastProcessedTime(LonglastProcessedTime.booleanisMsgLostByKafka);
+
+) Fetch only required columns not all columns- don't fetch all the fields / columns 2
+
+Whatever u do, mongo will store only GMT time alone
+
+If u are storing current time, mongo will store the current time of GMT, it wont store the America time, How to delete
+
+db.DisasterAssistance.deleteMany({'disasterOrderId':'084a473a-e9a0-4d1d-98b3-c299fd903edb'))
+
+How to update
+
+db.DisasterOrder.update({disasterOrderld:'084a473a-e9a0-4d1d-98b3-c299fd903edb'}, {
+
+$ set:{benefitStatus:'REJECTED'}});
+
+db.DisasterOrder.update({disasterOrderld:'084a473a-e9a0-4d1d-98b3-c299fd903edb'},
+
+{$set: {disasterName:'mani'}});
+
+db.DisasterOrder.update({accountNumber:'4008217309423346'},
+
+{$ set:{disasterNa me:'mani'}}):
+
+
+
+db.ReqResLogger.deleteMany({ component: "dsos",component:"dirs"})
+
+Deleting records in DisasterAssistance
+
+db.DisasterAssistance.deleteMany({ disasterOrderld: "3284fd73-3c2b-42d7-9a4d-a6f7f433783e"})
+
+db.DisasterAssistance.deleteMany({ accountNumber: "4465400001142381"})
+
+db.DisasterOrder.deleMany({})
+
+db.DisasterOrder.deleteMany({disasterOrderld:"f39ef529-6c2a-4bfc-9e74-5e24d90ec542"})
+
+db.DisasterOrder.deleteMany({accountNumber:"4679997494130487"})
+
+To update with current date and time
+
+db.DisasterAssistance.update({ "accountNumber": "1234"}, { "$set": { "benefitExpiration Date": new Date() }})
+
+{benefitStartDate:{$gte:ISODate("01-01-2022")}}
+
+{benefitEndDate: {$lt:ISODate("2022-07-20")}}
+
+(benefitExpirationDate: {$gte:ISODate("2022-08-24")}}
+
+{'payload.paymentDetails.effectivePaymentDate': {$lt:ISODate("2027-01-26")}}
+
+{"Requested URL":{$regex: "localhost"}}
+
+
+How to get mongoDb curreto date
+
+new Date()
+
+new Date()
+
+ISODate()
+
+ISO date is same as UTC date
+
+Date()- gives local date and time
+
+Site: ISODate('2016-12-31T00:00:00-04:00')
+
+How to get the records which are expiring today
+
+db.DisasterAssistance.count({"createdTimestamp": {"$gte": new Date()}})
+
+Searching with current date and time in compass {"createdTimeStamp": {"$gte" : ISODate("2022-09-15")}}
+
+The below is comparing both date and time, time zone and milli seconds
+
+db.DisasterOrder.count({"createdTimestamp": {"$gte": new Date()}})
+
+Searching with custom date
+
+db.DisasterOrder.count({"createdTimestamp": {"$gte" : ISODate("2022-09-15")}})
+
+"America/New York"}})
+
+db.DisasterOrder.count({"createdTimestamp": {"$gte" : ISODate("2022-09-15").timezone:
+
+db.DisasterAssistance.count(("createdTimestamp":{"$gte":new Date()}})
+
+db. DisasterAssistance.find({"benefitExpiration Date":new Date()}).pretty()
+
+db.DisasterAssistance.find(
+
+{benefitExpiration Date: {$gte:ISODate("2022-08-24")}}
+
+).pretty()
+
+Update
+
+db.Disaster Assistance.updateMany(
+
+{accountNumber:'5774421148236251'}
+
+{$set:[benefitStatus: 'MANUALLY_REVOKED'}}
+
+);
+
+Count
+
+(disasterEventid: '38951')db DisasterAssistance.count()
+
+From <https://www.mongodb.com/docs/mongodb-shell/crud/delete/> https://www.mongodb.com/docs/mongodb-shell/crud/delete/
+
+https://www.tutorialspoint.com/inserting-the-current-datetime-in-mongodb?
+
+key=mongo+db+to+fetch+with+current+date

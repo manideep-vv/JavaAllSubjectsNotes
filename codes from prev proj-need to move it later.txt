@@ -1,0 +1,36 @@
+all common projects as seperate service and it should not return any reps entity
+Always provide comments in code And while approving a pr u test from ur side
+
+Layered approach - all rest svc calls in 1 class, like DSOSRestclient
+
+Good exception handling- separate 1dstr-Exception package for exception handling and used properties to enable and disable it, usage of mongoRepository.save() and chandra's idea to use this instead of
+
+Because after sometime if mongo goes away, 1) either u should have kept all mongo interactions in 1 layer or
+
+mongoOperations.update()
+
+don't use mongoOperations widely
+
+Using thread local beautifully
+
+Mongo Auditing mechanism-
+
+How corealtion id, trace id is manitained and trace id is maintained in 1DStr Org.slf4j.MDC.put() -put whatever u
+
+want and fetch any where this is for logging purpose MDC.getCopyOfContextMap() this map will be created for each and every thread InheritableThreadLocal vs ThreadLocal
+
+Use of mongo auditing
+
+@CreatedBy,
+
+@CreatedDate
+
+@LastModifiedBy
+
+@LastModifiedDate
+
+privateLocalDate Timelast Modified Timestamp;
+
+Beautiful retry\
+
+@Superbuilder
