@@ -1,0 +1,17 @@
+Java program that finds the element with the lowest salary in a list using streams without sorting - using reduce
+    or get max value without sorting
+	
+	public static void maxEleWithReduce() {
+        Stream<Employee> emps = StreamsPrac.getEmpAsStream();
+        System.out.println("max value is "+emps.mapToInt(e->e.getSalary()));
+
+    }
+	// assume we have 10k employees in list
+	java8 collectors program - top salary in males and top sal in female..- use collectors.grouping(function,collector)
+	
+	Top gpa in each grade{
+	2=Optional[Student{name='Jenny', gradeLevel=2, gpa=3.8, }], 
+	3=Optional[Student{name='Emily', gradeLevel=3, gpa=4.0],
+	4=Optional[Student{name='James', gradeLevel=4, gpa=3.9]}
+
+

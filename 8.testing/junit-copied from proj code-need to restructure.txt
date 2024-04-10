@@ -1,0 +1,127 @@
+https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html#unit-testing-spring-mvc
+
+@TestPropertySource(locations="classpath: application-test.yml",properties={ "ccs.mongo.connection.enabled=true","spring.data.mongodb.authMechanism-PLAIN"}
+
+To write junit for config classes:-
+
+Refer MongoClientConfigTest in 1dstr-common utilities to
+
+@Mock vs @MockBean
+
+@MockBean - will generate a mock and it keeps that mocked bean in the context. want spring to create a bean and put it into context, better use @componenet or write a cfg class and
+
+If u Keep @Bean and give that cfg class to sring
+
+@Spring UnitConfig(classes={RestTemplateConfigMock.class)) these classes will be loaded or detected by the spring
+
+@SpringJUnitConfig=@ExtendWith(SpringExtension.class) + @ContextConfiguration @SpringJUnitWebConfig
+
+@WebMvcTest(DataController.class)
+
+@ContextConfiguration(classes={RestTemplateConfigMock.class}) //same like @Configuration annotation - this will be picked up or loaded when container is
+
+getting started-used to put some beans in the context. .this annotation alone is enough to start the container with this class, it is
+
+similar to component scan
+
+@TestPropertySource(locations="classpath: application-test.yml",properties={
+
+"ccs.data.controller.enabled=true"})
+
+
+Instead of placing the properties in property file, keep the entries here
+
+When container is getting started these properties will be placed in the context. @ActiveProfiles("test")
+
+is a composed annotation that combines @ExtendWith(SpringExtension.class) from JUnit Jupiter with @ContextConfiguration from the Spring TestContext Framework. It can be used at the class level as a drop-in replacement for @ContextConfiguration. With regard to configuration options, the only difference between @ContextConfiguration and @SpringJUnitConfig is that component
+
+classes may be declared with the value attribute in @SpringJUnitConfig
+
+@MockBeans({ @MockBean(EmployeeService.class), @MockBean(EmployeeRepository.class) }) Those mocked beans will be placed in spring context
+
+@MockBean
+
+@Qualifier("apiV1")
+
+private ApiService service;
+
+This mocked bean will be placed in the spring context with that name
+
+Depenedncies
+
+testImplementation group: 'org.powermock', name: 'powermock-api-mockito2', version: 2.0.9'
+
+testImplementation group: 'org.powermock',
+
+Setting value to private instance variable
+
+name: 'powermock-module-junit4',
+
+version: '2.0.9'
+
+Whitebox.setInternalState(example5, "random", random);
+
+Setting value to private static variable
+
+Whitebox.setInternalState(Abc.class, "random", random);
+MockedStatic<TokenManager>
+
+tokenManagerMockedStatic-Mockito.mockStatic(TokenManager.class); tokenManagerMockedStatic.when (JokenManager::getInstance) then Return(tokenManager);
+
+If u add mockito-inline u can happily mock final classes- else u cant create mock fo final clases
+
+Junit standards
+
+Always write verify statement-else some times some methods will be called so many times
+
+=
+
+Mocking constructor calls
+
+Junit annotations
+
+@ExtendWith(SpringExtension.class) // ApplicationContext will be loaded from AppConfig and TestConfig
+
+@ContextConfiguration(classes = (AppConfig.class, TestConfig.class}) @ExtendWith(SpringExtension.class) @WebAppConfiguration("classpath:META-INF/web-resources")
+
+@ContextHierarchy({
+
+@ContextConfiguration(classes = RootConfig.class), @ContextConfiguration(classes = WebConfig.class)
+
+})
+
+Refer 1dstr-commom's MongoClientConfigTest @Spring
+
+UnitConfig(classes={RestTemplateConfigMock.class, MongoClientConfig.class,Log ExecutionTimeConfig.class, RestTemplateConfig.class})
+
+@ActiveProfiles("test") @
+
+TestPropertySource(locations="classpath:application-test.yml",properties={
+
+" ccs.mongo.connection.enabled=true","spring.data.mongodb.authMechanism-PLAIN",
+
+"ccs.mtls.resttemplate.enabled=true"."ccs.mtls.resttemplate.interceptors=com.wellsfa
+
+To test whether Spring MVC controllers are working as expected, use the @WebMvcTest annotation. @WebMvcTest auto-configures the Spring MVC infrastructure and limits scanned beans to @Controller, @ControllerAdvice, @JsonComponent, Converter, GenericConverter, Filter, HandlerInterceptor, WebMvcConfigurer, and HandlerMethodArgumentResolver. Regular @Component and @ConfigurationProperties beans are not scanned when the @WebMvcTest annotation is used. @EnableConfigurationProperties can be used to include @ConfigurationProperties beans
+
+From <https://wheleph.gitlab.io/posts/2021-06-28-springweb-testing/>
+
+To test whether Spring MVC controllers are working as expected, use the @WebMvcTest annotation.
+
+@WebMvcTest auto-configures the Spring MVC infrastructure and limits scanned beans to @Controller,
+
+@ControllerAdvice, @JsonComponent, Converter, GenericConverter, Filter, HandlerInterceptor, WebMycConfigurer, and HandlerMethodArgumentResolver. Regular @Component and @ConfigurationProperties beans are not scanned when the @WebMvcTest annotation is used. @EnableConfigurationProperties can be used to include @ConfigurationProperties beans.
+
+From <https://wheleph.gitlab.io/posts/2021-06-28-springweb-testing/>
+
+@TestMethodOrder(OrderAnnotation.class)
+
+From <https://www.baeldung.com/junit-5-test-order
+
+Verify or capture can be written after the actual test call also
+
+Extension that initializes mocks and handles strict stubbings. This extension is the JUnit Jupiter equivalent of our JUnit4 MockitolUnitRunner. Example usage:
+
+@RunWith(PowerMockRunner.class)
+
+@PowerMockignore({ "javax.net.ssl.*", "javax.script.*", "javax.management.*" }) PowerMockito.whenNew

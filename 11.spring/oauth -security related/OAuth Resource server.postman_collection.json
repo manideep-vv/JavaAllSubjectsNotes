@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "a5615af2-ebd8-42a6-b6a4-47ac686bcf7e",
+		"name": "OAuth Resource server-origi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28834521"
+	},
+	"item": [
+		{
+			"name": "get auth code",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer authojjk",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/realms/hydrealm/protocol/openid-connect/auth?client_id=1dstr-wellsfargo&response_type=code&state=edookati&scope=openid profile&redirect_uri=http://localhost:8083/callback",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"realms",
+						"hydrealm",
+						"protocol",
+						"openid-connect",
+						"auth"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "1dstr-wellsfargo"
+						},
+						{
+							"key": "response_type",
+							"value": "code"
+						},
+						{
+							"key": "state",
+							"value": "edookati"
+						},
+						{
+							"key": "scope",
+							"value": "openid profile"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "http://localhost:8083/callback"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hit resource server",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5SndUUUdxb1E5QlVwLWdiNUt2LU9zTnQ4cGlON0cxc0FYRllqX2stZklzIn0.eyJleHAiOjE3MDk3MTI1MTEsImlhdCI6MTcwOTcxMjIxMSwiYXV0aF90aW1lIjoxNzA5NzExNTI1LCJqdGkiOiJjYmU4ZDkxMi0yZjc0LTRmODctODMwNC00YzU3OWE0Y2M2ZmQiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL2h5ZHJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjI0ODQ2MzQ2LWRiMDMtNDM5Zi05ZjViLTA4NjRlODkwMTBlZiIsInR5cCI6IkJlYXJlciIsImF6cCI6IjFkc3RyLXdlbGxzZmFyZ28iLCJzZXNzaW9uX3N0YXRlIjoiZjc3NWQ3MTgtNzlmYi00YjhmLTkzODYtYTVjMjExZjliNTY2IiwiYWNyIjoiMCIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjgwODMiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtaHlkcmVhbG0iLCJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsInNpZCI6ImY3NzVkNzE4LTc5ZmItNGI4Zi05Mzg2LWE1YzIxMWY5YjU2NiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoic2FudGhvc2hpIGNoaW1ha3VydGh5IiwicHJlZmVycmVkX3VzZXJuYW1lIjoic2FudHUiLCJnaXZlbl9uYW1lIjoic2FudGhvc2hpIiwibG9jYWxlIjoiZW4iLCJmYW1pbHlfbmFtZSI6ImNoaW1ha3VydGh5IiwiZW1haWwiOiJzYW50dUBnbWFpbC5jb20ifQ.AgPPkvPWfUfx5ZxRvAu8b0-K6GXi2U8nnExP6uqfEpOtjeQTBL84yVJiEymCtHt7aJ-0PeSheajXmGRG2Dc6-NNirJ-nD6IVwSi6t2wJ1pxn3RwzOyrmbdEHP-GpJOlkw0wWVSBDN8K0mfYrK4c0ro-k_kQ1DqVzYhMl1VNlgTnF40SZ7ptVWrYVkcP3gGbjuif6_8fiPwjPMtYUsOxEhYofHQNf2xXLVRBv_ySi28gsT1dDuJUQEePMxARDkxjPB8AhSmO-HsD3bz2SkbNP1JAR0xLiGPswWnxScEfHYadMBY--Vr3pSEfQ9fHD2kM1FU5iMR3W4uBkBTYxjkWaUg"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8081/hello"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Auth token",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": ""
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "1dstr-wellsfargo",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "XTNIvgA6aCrjdK2DedhDwappBI7JWXar",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "code",
+							"value": "04fa31d9-d5a3-4ff9-89b9-0ecb39b66391.f775d718-79fb-4b8f-9386-a5c211f9b566.c978ad54-0fa0-4275-a242-23016c25d851",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "http://localhost:8083/callback",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "openid profile",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "edookatile",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:8080/realms/hydrealm/protocol/openid-connect/token"
+			},
+			"response": []
+		}
+	]
+}

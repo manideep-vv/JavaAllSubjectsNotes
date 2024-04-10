@@ -1,0 +1,8 @@
+1) Maven command to run the code or to start the appln
+ mvn spring-boot:run
+ 
+ 2)Run your Spring Boot application using Gradle
+ gradle bootRun
+ 
+ 3) dynamic spring port
+ server.port=0 if u give 0 every time u start restart, then app will start on diff port number

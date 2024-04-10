@@ -1,0 +1,6 @@
+1) if u have more application traffic then use spring reactive - so that no thread will be free in thread pool
+2) Batching--if u want process in batch - use spr batch or use bulk insertion mechanisms
+3) when u are using mongo db then use reactive mongodb  - mongodb supports reactive connectivity 
+4) REactive way -->if ur application is doing more rest calls and if it is talking more processing time then use spring reactive
+Asynchronous calls: Explore asynchronous libraries like CompletableFuture or RxJava to make non-blocking API calls. This allows your application to continue processing while waiting for API responses.
+5) catching - Implement caching mechanisms to store frequently accessed data locally. This reduces the number of API calls needed. Libraries like Caffeine or Guava Cache can be helpful

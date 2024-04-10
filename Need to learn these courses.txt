@@ -1,3 +1,11 @@
+spring webflux, owasp,hibernate,desin patterns
+react or angular
+
+
+
+do a video what is JWT , what is a JWT claim, how JWT is secure?
+
+oauth, hibernate, design patterns, webflux
 in udemy
 ================
 
@@ -15,15 +23,38 @@ https://tcsglobal.udemy.com/course/oauth2-in-spring-boot-applications/learn/lect
 spring basics
 https://tcsglobal.udemy.com/course/learn-spring-boot/learn/lecture/36256996#overview
 
+oauth all flows
+=======
+OAuth 2.0 tutorial | OAuth flows
+youtube channel name --> Jan Goebel
+OAuth step-by-step by Sascha Preibisch
+https://www.youtube.com/playlist?list=PLcX_9uDXp_CQuUK3BOddGVqqujZ4nxMPw
+
+open id connect 
+https://www.youtube.com/playlist?list=PLcX_9uDXp_CQIft43cBBO74ejUMRoGDCY
+
 junit
 ====
 long 7.5 hours course
 Testing Java with JUnit 5 & Mockito
 https://tcsglobal.udemy.com/course/testing-java-code-with-junit-5-and-mockito/learn/lecture/31565062?learning_path_id=4185740#overview
-
+mockito
+https://www.youtube.com/playlist?list=PLxbRjI3sr4mwDtHoQbM_xJmLLGTDSSScp
+junit 5
+https://www.youtube.com/watch?v=8Jk9iRzFS5Q&list=PLzS3AYzXBoj_84_CmzPt9QD7eFFGwKhfa
 
 
 
 RESTful web service
 =======
 https://tcsglobal.udemy.com/course/restful-web-service-with-spring-boot-jpa-and-mysql/?referralCode=7F52FFDB63782010560F
+
+kubernetes
+=======
+school of devops channel
+
+
+java8
+============
+https://www.youtube.com/playlist?list=PLy6zyakL6t9qN1DxL5gOCgv6eaMyHU6IV
+https://www.youtube.com/watch?v=vc4_95keR4c

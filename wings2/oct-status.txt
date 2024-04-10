@@ -1,104 +1,97 @@
-c wing-24
-hotel rates
-royal residency normal 950+250--500
-srikanya-non 1600
-sri sai lodge - ac- 1120 -2 rooms
-delx -1658
-kolas ongole -
-sri 
+book - page 254
+video 56->
 
 
-6-7 brush+excrete
-7-8 yoga+milk
-8-9 pooja+tiffin
+Daily target 7 hours
+10:30AM-10 PM- 11.5 hours - 4.5 pakka wastage
+1.5 hours pickup+drop
+40 mins- sun+meditation
+40 mins -news
+30 mins youtube
+1 hours- lunch+dinner breaks
 
-30-jan
-==
-target 4 hour
-6:30-10:30- ready+khashayam+house help+tiffin+antlu
-10:30-1 spring
-1-2:30 lunch+ house hold cleaning
-2:30- 3 study
-3-5 tcs work
-5-6:30 yoga+walking
-6:30-7:30 pickup
-7:30-8:30 ms
-8:30-9:30 dinner+news paper
-9:30-10 pp3
-
-31-jan
-========
-oil,health,semen analysis
-
-1-feb
-===
-7:30-10:30 house work
-10:30-11:30 sollu with murali
-11:30-1 oauth
-1-2 lunch
-2-4:30 mandatory trainings+tcs work
-4:30- 5:30 oauth
-5:30-6:30 walking
-6:30-7:30 pickup
-7:30-8:30 junit
-8:30-9 lunch
-9-9:45 pp3
-
-2-feb
-------
-10-2:30 rooms calls
-2:30-4:30 mongodb+oauth done
-4:30-5 bills
-5-6:30 yoga , 6:30-7:30 pickup
-7:30-8:30 mandatory courses 
-8:30-10 dinner+cook+news paper
-
-
-6-feb
-=====
-4:30-5:30 oauth
-
-7-feb
-=====
-10-3room+mobile cleanup+house repair
-3:15-5:15 oauth
-6-11 lalitha jew
-
-8-feb
-=====
-7-11:30 drop+calls
-11:30-1:30 oauth
-
-9-feb
+apr4
 =======
-8-11 drop
-11-1 tiffin+news paper+videos -wasted
-1-2
+min 7 hours
+10:30-11:30 news paper+ investments
+11:30 -1:0 java8
+1-1:30 youtube
+1:30-2 java8
+2-3 break
+3-4 gradle
+4-6 java8
+6-7:30 break+ pickup
+7:15-8:30 java8
+8:30-9:30 dinner+news paper
+9:30-10 read anything
+
+
+apr 5
+========
+10-12 house works + calls
+12-2 java8
+2-4 lunch+tcs work
+4-5 java11
+5-9 family star movie
+
+apr 6
+==========
+10-2 movies
+3-5:30 movies amazon prime
+
+apr 7
+==========
+10-3 chaitu relatives
+3-4 sleep
+4-6 java8
+
+apr 8
+=======
+10-12:30 twitter pollution
+12:30-2:30 java8
+2:30-3:50 news+ shoppping
+3:50-4:50 gradle
+5-6 tcs trainings
+
+apr 9
+===========
+9-12 calls+temple
+12-2 java8 over
+
+2-3 break
+3-4 tcs
+4-4:30 sleep
+4:30-6 tcs trainings
+6-7:30 calls
+7:30-8 spr web flux
+8-9 lunch+mails
+
+apr10
+=======
+30 mis news, 30 mins pickup, 30 mins Lunch+wash, 30 sun+30 misc
+7.5-3= 4.5 min 
+10-1 tcs work
+1-2 amrutham
+2-2:30 sleep
+2:30-5 spr reactive
 
 
 
-daily 2 h
-feb 9-18 chandu and sai marriage
 
 
-you are not actively working in any client project and has been idle since an year so you must get into project ASAP 
 
-ok keep the same potential and spirit to continue learnings
-To utilize your potential your must really be inclined to get into any project
-
-
-daily expected
---
-7-8:30 pp3 -1
-10-12 pp3-2
-12-1 -kafka-1
-2-4 pp3-2
-4-5 kafka-1
-5-7 -shopping+pickup
-7-8 kafka-1
-8-8:30 dinner
-8:30-9:30 walking
-
+daily expected max 6.5 hours
+----------------
+7-8:30 sun light+ khashayams
+8:30-10:30 drop+ ready
+10:30-1 study
+1:30-2:30 lunch
+2:30-5 study 
+5-6 health khashayams
+6-7 pickup
+7-8 study
+8-9:30 dinner+news paper
+9:30-10 study
 
 
 
@@ -114,3 +107,33 @@ hibernate status
 98-started98-till 1:25th minute
 
 practice delte many to 1 delete 1 child among 3 with parent, lazy loading
+ 104 8104  00 9089
+ IBKL0001048
+ 
+
+
+
+I am working in TCS as a I.T.Analyst C2 Grade 8 years exp Java developer and 
+i aspired for Wings 2 “Engineer - Microservices” role current role is developer
+Answer is :- I completed wings 2 and i received a total hike of 1,15,000 INR for all power plays
+(and for PP1 i received around 46,092 INR ) 
+Earlier package 14.15LPA
+Now wings 2 incentive is 1.15Lakhs (i wasted my 2 years for this 1 lakh rupee which is same as my annual hike All my expectations were shattered after seeing this bullshit hike)
+simple reason why i am calling this as a waste program for me ?
+people who didn't do even single course they also will get 8% hike and people who invested they 2 years for completing all courses by completing all certifications they also get same hike, so what is the use of completing all courses if amount is same? instead we can stay silent right?????????
+
+In my point of view its time waste program, because of following reasons
+1) i used to complete all these ievolve courses even on saturdays and sunday without going outside
+2) literally i begged TD spoc for enrolling me for PP1 edureka certifications, i escalated TD spoc as they didnt notify me reg certifications, how much of time i waited after clicking notify button in ievolve
+3) 2 years i struggled to improve t-factor and to loyally complete all these course and hacker ranks
+
+These are only technical courses alone
+There are around 100+ udemy, linked in courses for pp2,pp3 and to complete pp3 mettle exam we should write many assessments and we should attend articulation sessions in based ODC locations
+
+After investing this amount this wings2 incentive is same as my annual hike
+The worst thing is people who completed 
+
+My experience :- for this lolipop increment i invested 2 years, this increment is not at all worth , and they is very very far less than what i expected, 
+If u decided to stay in tcs forever then only do it 
+ 
+My dear colleagues:-  Take away is first ask and know how much hike will be given for your aspired role, know that before starting your wings2  journey, and think if that great amount is really worth for you or not, based on that enroll

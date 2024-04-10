@@ -1,0 +1,60 @@
+
+core java spring, spr boot, maven, git,
+
+corea java basics
+Java
+
+1. Variables and Data Types.
+
+2. Control Statements.
+
+3. OOP's concepts.
+
+4. Java Inheritance.
+
+5. Polymorphism.
+
+6. Abstraction.
+
+7. Encapsulation.
+
+8. Array.
+
+9. Strings.
+
+10. Exception Handling.
+
+11. Inner Classes.
+
+12. Method overloading and overriding.
+
+13. Object Cloning.
+
+14. Key words in Java.
+
+15. Multithreading.
+
+16. Collections
+java basics- collections
+java 7 features- try with resources, auto closeable
+java8 features -streams , methods in streams, lambda expressions, datetime api, 
+
+spring core-annoatations like stereo types, load a value from property file, exception handling, diff types of injections, @qualifier, 
+Spring REST- anno,Rest template, web client
+JDBC- statement, prepared statement, callable statements
+spring jpa- jpa basics, finder methods, projections, crud operations,
+SPring JDBC- JDBCTemplate
+spring boot- auto config,boot specific annotations,
+spring mvc
+Spring OAuth
+
+
+
+
+
+
+JWT
+===
+what is jwt, encoding, encrypting(symmetric,asymmetric)
+
+Oauth
