@@ -1,4 +1,17 @@
 
+all java, hibernates, spring updates --java related in reddit https://www.reddit.com/r/java/
+all java versions from java 7 to 22 https://docs.oracle.com/en/java/javase/index.html
+almost similar to java docs in understandable way api https://developer.android.com/reference/java/util/concurrent/CompletionService
+
+All Spring boot full fledged guides
+2.1 version has clear documentation even basics
+https://docs.spring.io/spring-boot/docs/2.1.x/reference/html/index.html
+single pdf which is easy to search  --> https://docs.spring.io/spring-boot/docs/2.1.x/reference/htmlsingle/
+This have section by section --> https://docs.spring.io/spring-boot/docs/3.1.1/reference/html/
+
+all in one espicially for microservices
+https://www.vinsguru.com/circuit-breaker-pattern/
+
 for spring- junit-microservices,oauth
 https://www.appsdeveloperblog.com/
 
@@ -7,3 +20,8 @@ channels to visit
 ==============
 for spring, microservices, junit,json, yaml
 https://www.youtube.com/@codefarm0/playlists
+
+mind blowing concurrency java videos, hundreads of parallel concurrent ,reactive programmin, fork join pools..., architects,spring, scalable microservices
+https://www.youtube.com/@DouglasSchmidt/playlists
+ms playlists
+https://www.youtube.com/playlist?list=PLZ9NgFYEMxp7rnNmw4q57FtP9GHyrtWE_

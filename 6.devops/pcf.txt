@@ -1,0 +1,11 @@
+cf apps  -->to see the apps in current namespace
+cf login 
+cf push <appliaction name> -p <path where jar file is present ex:- target/...>
+ex: cf push sdp -p target/jarfilename
+
+cf routes -- to see the urls mapped for each and every appliaction
+cf stop <appliaction name> - to stop appliaction
+cf start <appliaction name> - to start appliaction
+cf restart <appliaction name> - to re-start appliaction
+cf create-app-manifest <application name>  - to create a manifest file which contains the required info
+or we can prepare a manifest.yml file which contains the application name, jar name, jar location, routes/urls for that application

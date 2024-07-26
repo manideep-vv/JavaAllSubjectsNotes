@@ -1,13 +1,32 @@
 spring webflux, owasp,hibernate,desin patterns
 react or angular
+harness, json tutorial
 
 
-
-do a video what is JWT , what is a JWT claim, how JWT is secure?
+do a video what is JWT , what is a JWT claim, how JWT is secure?, how to connect 2 computer to a single monitor
 
 oauth, hibernate, design patterns, webflux
+
+
+jdbc
+===============
+all jdbc advanced concepts are here
+https://tcsglobal.udemy.com/course/complete-jdbc-programming-part-2/
+
+
+java8
+============
+https://tcsglobal.udemy.com/course/ocp11_from_oca8/learn/lecture/29853950#overview all java latest versions
+https://www.youtube.com/playlist?list=PLy6zyakL6t9qN1DxL5gOCgv6eaMyHU6IV
+https://www.youtube.com/watch?v=vc4_95keR4c
+
+oracle  sql
+=====
+https://www.youtube.com/watch?v=yukL9vRalVo&list=PLsphD3EpR7F9mmtY2jBt_O8Q9XmvrhQEF
+
 in udemy
 ================
+
 
 microservices
 ==========
@@ -53,8 +72,3 @@ kubernetes
 =======
 school of devops channel
 
-
-java8
-============
-https://www.youtube.com/playlist?list=PLy6zyakL6t9qN1DxL5gOCgv6eaMyHU6IV
-https://www.youtube.com/watch?v=vc4_95keR4c

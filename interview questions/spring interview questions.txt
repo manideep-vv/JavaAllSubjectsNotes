@@ -1,2 +1,3 @@
 ask about JWT, encoding vs encrypting (symmetric vs asymmetric encrypting), hashing, oauth flow
 what is a principle, what is JWT, what is JWT claim, how to apply method level security
+how to connect to database

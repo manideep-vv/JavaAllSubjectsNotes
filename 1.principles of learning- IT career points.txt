@@ -24,3 +24,13 @@ how to learn all concepts
 =========================
 1) Daily you have to learn a bit 
 2) punctuailty
+
+
+
+
+how to solve issues easily
+=============================
+1) read the issue fully , all issues will be solved with what, why , how these WH keywords
+in wells i got a error 401, but i gave credentials to pull , but what is missed is "i didnt read the error properly" it was --> 401 while downloading gradle 
+i should have analysed as "why its downloading gradle as i already have it in my system" then issue would have solved without any other person help
+so ready 

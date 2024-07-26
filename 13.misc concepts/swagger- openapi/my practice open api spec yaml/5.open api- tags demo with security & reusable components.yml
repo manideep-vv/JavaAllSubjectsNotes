@@ -1,0 +1,281 @@
+openapi: 3.0.3
+info:
+  title: manideep kumar api
+  version: 1.0.01 
+  description: |-
+    We can define components as 
+    `components: 
+      parameters: 
+        queryParamCarDemo:
+          name: carId
+          #here in means input type of param -- path/ query
+          in: query
+          schema:
+            type: integer
+          required: true
+          example: 102 `
+          and we can refer as parameters:
+        ** - $ref: "#/components/parameters/queryParamCarDemo" **
+        
+  contact:
+    name: Manideep kumar
+    url: google.com
+    email: vv.manideep@gmail.com
+  termsOfService:  google.com
+tags:
+  - name: cars
+    description: all apis related to cars
+  - name: products
+    description: all apis related to mis products
+  - name: orders
+    description: all apis related to ur recent orders
+security:
+    # here we are mentioning scheme names, no need to mention all of them
+  - BasicAuthori: []
+  - BearerTokenBasedAuthor: []
+  - ApiKeyBasedAuth: []
+  
+paths:
+  /getCar:
+  # one path can have multiple protocols - like GET, PUT, POST,Delete hence root ele must be url not path
+    get:
+      tags: 
+        - cars
+      summary: query param demo to get all cars noo input 
+      description: get cars
+      parameters:
+      #the below is the syntax used to refer the component dollar ref with double quotes
+        - $ref: "#/components/parameters/queryParamCarDemo"
+      responses:
+        '200':
+          description: list of categories
+          content:
+          #content can be of any type , json or xml ..and every json will have schema.
+            application/json:
+              schema:
+                $ref: "#/components/schemas/carPOJO"
+                  
+          
+  /car/{carId}:
+    get:
+      tags:
+        - cars
+      summary: path param demo
+      description: get single car
+      parameters:
+      #means carId is a variable name
+        - $ref : "#/components/parameters/pathParamCarDemo"
+          
+      responses:
+        '200':
+          description: car info
+          content:
+            application/json: 
+              schema:
+                $ref: "#/components/schemas/carPOJO"
+                
+  
+  /products:
+    get:
+      tags: 
+        - products
+      summary: Another GET query param api returns list of products
+      description: to get products
+      parameters:
+        - name: productId
+          in: query
+          schema:
+            type: integer
+          example: 100  
+          required: true
+      responses: 
+        '200': 
+          description: list of products
+          content: 
+            application/json:
+              schema:
+                type: array
+                items: 
+                  $ref: "#/components/schemas/productPOJO"
+                      
+  /products/{productId}:
+    get:
+      tags: 
+        - products
+      summary: GET api with PATH PARAM demo give 1 product
+      description: To get specific product
+      parameters:
+        - name: productId
+          in: path
+          schema:
+            type: integer
+          required: true
+          example: p112
+      responses: 
+        '200':
+          description: a specific product
+          content:
+            application/json:
+              schema: 
+                $ref: "#/components/schemas/productPOJO"
+  
+  /orders: 
+    post:
+      tags: 
+      - orders
+      summary: POST api demo
+      description: to create a order accepts list of products and address
+      requestBody: 
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                products:
+                  type: array
+                  items:
+                    $ref: "#/components/schemas/productPOJO"
+                address:
+                  $ref: "#/components/schemas/addressPOJO"
+                    
+      responses: 
+        '201':
+          description: order created successfully 
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties: 
+                  orderId:
+                    type: integer
+  
+  # one path can have multiple protocols - like GET, PUT, POST,Delete
+    get:
+      tags:
+        - orders
+      summary: GET api with QUERY params to return order details which is a complex object
+      description: This takes a complex object gives order details with order id list of products and address
+      parameters:
+        - name: orderId
+          in: query
+          example: 1234
+          schema: 
+            type: integer
+      responses: 
+        '200':
+          description: found an order with this order id
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  orderId:
+                    type: integer
+                  products:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/productPOJO"
+                  address:
+                    $ref: "#/components/schemas/addressPOJO"
+        '500':
+          $ref: "#/components/responses/InternalServerError"
+components: 
+  parameters: 
+    queryParamCarDemo:
+      #this name we should give any unique name of param which can be refered using $ref
+      name: carId
+      #here in means input type of param -- path/ query
+      in: query
+      schema:
+        type: string
+        # format password means, password will be masked like in html
+        format: password
+      required: true
+      example: 102
+    pathParamCarDemo:
+      name: carId
+      in: path
+      schema:
+        type: number
+        format: double
+      example: 203
+      required: true
+  schemas:
+    carPOJO:
+      type: object
+      properties:
+        carId: 
+          type: integer
+          example: 123
+        carName: 
+          type: string
+          format: password
+          example: "Nano"
+        manufacturerName:
+          type: string
+          example: "TATA"
+    productPOJO:
+      type: object
+      properties:
+        productId:
+          type: integer
+        name:
+          type: string
+          format: password
+          example: "realme"
+          enum:
+            - "mobile"
+            - "laptop"
+        price:
+          type: integer
+        categoryName:
+          type: string
+        quantity:
+          type: integer
+    addressPOJO:
+      type: object
+      properties:
+        addressline:
+          type: string
+        city: 
+          type: string
+        state:
+          type: string
+        zipcode:
+          type: integer
+          example: 445
+        stayingSince:
+          type: string
+          format: date
+          
+  responses:
+    InternalServerError:
+      description: an Exception occurred while processing ur request
+  securitySchemes:
+    BasicAuthori:
+      # This basic auth can be any unique name
+      type: http
+      scheme: basic
+    BearerTokenBasedAuthor:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+    ApiKeyBasedAuth:
+      type: apiKey
+      in: header
+      name: X-API-KEY
+      
+      
+      
+
+
+      
+  
+                
+            
+        
+                    
+                
+          
+          
+      

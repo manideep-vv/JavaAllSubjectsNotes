@@ -1,0 +1,46 @@
+read the internals of hashmap
+print hashmap using keyset or iterator or entryset
+See all string videos
+impact of overriding hashcode and equals method when you are adding custome classes like emp obj to any collection
+concurrenthashmap 
+copyonwrite arraylist,set
+multithreading
+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑
+java 7 features on Exception, eception handling- try with autocatch,	
+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑
+->java basics- collections
+->java 7 features- try with resources, auto closeable
+->java8 features -streams , methods in streams, lambda expressions, datetime api,     // revisit streams 
+
+->spring core-annoatations like stereo types, load a value from property file, exception handling, diff types of injections, @qualifier, 
+
+->JDBC- statement, prepared statement, callable statements
+-->spring jpa- jpa basics, finder methods, projections, crud operations,//
+->spring boot- auto config,boot specific annotations,
+-->spring mvc- jsp 
+--Spring OAuth
+Spring REST- annotation,how to call another REST service and get data using "RestTemplate" or WebClient(REACT)//+ ->  swagger
+-->SPring JDBC- JDBCTemplate,h2,namedParameter
+
+
+‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑
+JDBC vs Data JDBC
+JPA vs DATA JPA
+JDBC vs JPA(hibernate)
+
+Basic Spring Web programs 
+What is dispatcherServelet
+Model modelMap Model Interfaces
+
+practice has a relationship in hibernate(Ex-> @onetomany,@manytoone )
+try two create two microservices both being eureka clients 
+create one eureka server application and one ms should call another ms for data like passport and aadhar 
+passport should call aadhar using application name(with which it is registered in eureka server)  instead of address
+
+1->Use has-a-relationship
+2->if you insert in parent records in child table should be automatically inserted.
+3->if you delete in parent records in child table should be automatically deleted.
+4-> In passport app use proper Exception handling
+5->Implement and Test the Resilience4J Retry mechanism.
+
+22 5-7pm t3

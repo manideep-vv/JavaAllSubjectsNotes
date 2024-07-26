@@ -1,0 +1,66 @@
+confidential- Any customer sent information -- if it is not specified then it is confidential
+TCS confidential - indicates ownership of information
+Restricted - if disclosed it causes huge loss- financial results are restricted untill disclosed
+
+Do's and dont's with ur laptop
+===================================
+1) Say NO to password sharing.  - if u share it means u are sharing ur accountability also- we should never violate company policies
+2) we should Never login in another machine with our credentials - Logging in and allowing someone else to use your session is as bad as sharing your password
+
+Inside campus & ODC
+===============================
+4) never tailgate or never use another id card and dont give ur id card to others
+4.1) never swipe ur id card for another users who dont have access to our organization
+5) dont click any photgraph /take screenshots of business infor, or TCS premises or in customer premises
+photography (audio/video recording) of any TCS info or photgraphy of TCS premises is strictly prohibited, TAKE ISM approval before clicking photos
+6) personal laptops are not allowed inside TCS campuses
+7) avoid eating and drinking in the vicinity of ur laptop/ desktop because water may spill & computer gets damaged
+
+While travelling 
+==========================
+7) while travelling shutdown the computer, so that theif cannot find out user id and he cant even reset password
+8) During air travel, we should carry client laptop with us , we should not keep that in check-in baggage, it may get lost
+8) Always carry ur laptop if u are going outside from ur car- never leave ur laptop when u are going outside- stealing laptop from car when u went outside of car leaving laptop in car -
+penalty, anxiety weighs  more than weight of a laptop
+9) Dont connect ur laptop to public wi-fi
+10) lock ur laptop when u are going away from ur system,- unauthorised users can misuse ur workstation 
+11) we should not carry any personal pen drives into TCS machines, they will scan our entire bag, its a security violation to carry those pendrives 
+or any other TCS un approved devices
+Dont carry any personal or un authorised electronic devices inside tcs premises - if u bring u should declare it at entrance
+
+
+usage of email and internet
+=====================
+never send any business data to outside from tcs mail, avoid sending data from ur tcs mails, everything is tracked
+1) dont send any business data to ur personal email from ur tcs mail ids- else security incidents will be raised on us
+2) use internet and email for business purposes only
+3) dont access any non business websites- sites that are illegal, adult , violence ,rumours...
+4) never download copyrighted content
+5) Don’t click links provided in SPAM e-mail; it may download some malware on your system. 
+It may take you to fake sites(exactly like bank sites) where you may end up providing sensitive information like password, account details and so on.- 
+it may steal ur bank account details and take all the money
+it can corrupt ur system and causing mal function of ur system like ransomware virus
+5.1) always check senders email address, those guys could be spamming you
+6) Never reply to SPAM e-mails.
+7) use internet only for official business purposes not for personal purposes - never open linked in, gmail, facebook, or booking movie tickets, downloading movies
+8) Dont upload tcs/customer java/any lang code/any customer info to public portal like stackoverflow, 
+9) never upload customer json data to online portals like json formatter, pdf converter
+10) Dont ever send any tcs/customer info to personal id ex:- dont send code to ur personal email id 
+11) never post anything bad about tcs/customer in facebook
+
+social engineering attacks
+===============================
+doing cheating with acting as genuine - namminchi gonthu koyadam
+1) art of manipulating people to perform actions or to reveal confidential information
+2) an attack which uses trust to gain un authorised access
+
+
+u should keep all these instructions in some banner or in 1 place inside every campus, so that it will always reminding instead of refreshing after 1 year
+
+You can also log a security incident anonymously by going to Security Incident Reporting tool link (https://securityportal.tcs.com(opens in a new tab)). 
+
+
+
+
+data backup
+Risk pertaining to loss or unavailability of information requires the custodian of the information to take regular backup of the data and perform restorability

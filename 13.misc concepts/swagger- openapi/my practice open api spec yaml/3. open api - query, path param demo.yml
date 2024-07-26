@@ -1,0 +1,240 @@
+openapi: 3.0.3
+info:
+  title: manideep kumar api
+  version: 1.0.01 
+  description: |-
+    this is the free api  fdgok
+  contact:
+    name: Manideep kumar
+    url: google.com
+    email: vv.manideep@gmail.com
+  termsOfService:  google.com
+paths:
+  /cars:
+  # one path can have multiple protocols - like GET, PUT, POST,Delete hence root ele must be url not path
+    get:
+      summary: query param demo to get all cars noo input 
+      description: get cars
+      parameters:
+        - name: carId
+          #here in means input type of param -- path/ query
+          in: query
+          schema:
+            type: integer
+          required: true
+          example: 101
+      responses:
+        '200':
+          description: list of categories
+          content:
+          #content can be of any type , json or xml ..and every json will have schema.
+            application/json:
+              schema:
+                type: array
+                # we have to use this items name only when we use array
+                items:
+                  type: object
+                  properties:
+                    carId: 
+                      type: integer
+                    name: 
+                      type: string
+          
+  /car/{carId}:
+    get:
+      summary: path param demo
+      description: get single car
+      parameters:
+      #means carId is a variable name
+        - name: carId
+          in: path
+          schema:
+            type: integer
+          example: 202
+          required: true
+          
+      responses:
+        '200':
+          description: car info
+          content:
+            application/json: 
+              schema:
+                type: object
+                properties:
+                  carId: 
+                    type: integer
+                  carName:
+                    type: string
+                  manufacturerName:
+                    type: string
+  
+  /products:
+    get:
+      summary: Another GET query param api returns list of products
+      description: to get products
+      parameters:
+        - name: productId
+          in: query
+          schema:
+            type: integer
+          example: 100  
+          required: true
+      responses: 
+        '200': 
+          description: list of products
+          content: 
+            application/json:
+              schema:
+                type: array
+                items: 
+                  type: object
+                  properties:
+                    productId:
+                      type: integer
+                    name:
+                      type: string
+                    price:
+                      type: integer
+                    categoryName:
+                      type: string
+                    quantity:
+                      type: integer
+                      
+  /products/{productId}:
+    get:
+      summary: GET api with PATH PARAM demo give 1 product
+      description: To get specific product
+      parameters:
+        - name: productId
+          in: path
+          schema:
+            type: integer
+          required: true
+          example: p112
+      responses: 
+        '200':
+          description: a specific product
+          content:
+            application/json:
+              schema: 
+                type: object
+                properties:
+                  productId:
+                    type: integer
+                  name:
+                    type: string
+                  price:
+                    type: integer
+                  categoryName:
+                    type: string
+                  quantity:
+                    type: integer
+  
+  /orders: 
+    post:
+      summary: POST api demo
+      description: to create a order accepts list of products and address
+      requestBody: 
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                products:
+                  type: array
+                  items:
+                  # each item type is object 
+                    type: object
+                    properties:
+                      productId:
+                        type: integer
+                      name: 
+                        type: string
+                      price:
+                        type: integer
+                      categoryName:
+                        type: string
+                      quantity:
+                        type: integer
+                address:
+                  type: object
+                  properties:
+                    addressline:
+                      type: string
+                    city:
+                      type: string
+                    state:
+                      type: string
+                    zipcode:
+                      type: integer
+                    
+      responses: 
+        '201':
+          description: order created successfully 
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties: 
+                  orderId:
+                    type: integer
+  
+  # one path can have multiple protocols - like GET, PUT, POST,Delete
+    get:
+      summary: GET api with QUERY params to return order details which is a complex object
+      description: This takes a complex object gives order details with order id list of products and address
+      parameters:
+        - name: orderId
+          in: query
+          example: 1234
+          schema: 
+            type: integer
+      responses: 
+        '200':
+          description: founda an order with this order id
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  orderId:
+                    type: integer
+                  products:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        productId:
+                          type: integer
+                        name: 
+                          type: string
+                        price:
+                          type: integer
+                        categoryName:
+                          type: string
+                        quantity:
+                          type: string
+                  
+                  address:
+                    type: object
+                    properties:
+                      addressLine:
+                        type: string
+                      city:
+                        type: string
+                      state:
+                        type: string
+                      zipcode:
+                        type: integer
+    
+            
+      
+  
+                
+            
+        
+                    
+                
+          
+          
+      

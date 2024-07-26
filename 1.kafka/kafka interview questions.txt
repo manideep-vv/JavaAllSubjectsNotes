@@ -1,3 +1,22 @@
+
+Horizantally scalable, fault tolerant, distributed
+Retru topic- we had a retry topic where we will keep messages when we are unable to process like transient exception - when our target service is down.
+DLT-->for un-deserializable messsages we thought of keeping DLTopic, we used to re-attemp the consumption- if that is not transient then we will keep into DLQ
+
+0) batch listener 
+1) duplicate message consumption- a consumer before we send the ack to broker if it crashes broker will resend the same msg as it didnt rxd
+2) DLT , retry topics
+3) Exception - un necessary retries even for Non-transient exceptions - deserialization errors
+4) schema registry
+
+kafka-topics.sh --create --replication-factor <replication_factor> --partitions <number_of_partitions> --topic <topic_name> --config retention.ms=<retention_time_in_ms> --config segment.bytes=<segment_size_in_bytes>
+
+.\bin\windows\kafka-topics.bat --create --topic myTopic --partitions 3 --bootstrap-server localhost:9092 --config retention.ms=45000 --config segment.bytes=10000
+
+major issues i faced
+=======================
+un- necessary retries- in exception handler before attempting a retry  - i used to check if it is transient exception or not
+
 why do we send the key while sending a message-if we dont send it what happens
 lets say 10 partitions are there - if i want my message always to go the partitin -1 -then i should send partition num also along with my message- if i dont send partition number ,based on the key partition unmber will be decided
 if i dont send the key the alll the messages will be sent to all partitions based on the round robin fashion
