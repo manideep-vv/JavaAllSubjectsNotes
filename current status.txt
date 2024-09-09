@@ -1,18 +1,17 @@
-mydukur,kurnool
+
 
 if ur mood is off then read preg books
-amounts doesnt included my 80c investments
+
 
 my daily target should be ====4==== hours of study
 0.5- preg 0.5 news
 3 hours offc study
 
-current target -kafka,till java 17 udemy course, harness,spr boot
+current target -kafka,hibernate, gradle,SQL
  jdbc (https://tcsglobal.udemy.com/course/complete-jdbc-programming-part-2/) durga soft jdbc prog , spr batch ,git,
-,,completable future,, autosys, hibernate,Design patterns, enums, inner classes
-next target-  oracle, hibernate, css, html, full & advanced java script , type script, angular, 1 cloud platform
+,,completable future,Design patterns, enums, inner classes
+next target-  logger,oracle,  css, html, full & advanced java script , type script, angular, 1 cloud platform
 spring batch - 8 hours *3= 24 hours
-autosys - 4 hours
 
 *********************************************tech for jumping job - front end tech,sql, hibernate, AWS, Design patterns*******************************
 
@@ -25,15 +24,13 @@ started on june 2-
 daily status from june 9, 1) daily we have to study 3 hours of spr batch and 2) complete 1 hour of spring batch syllabus
 
 
-pending courses i like
+UI
+==============
+remember how much i feared in CTR project for not knowing UI 
 
-
-target date :- may 15th - july 15th
-=============================
-dedicate 4 hours for UI daily
-
-
-java script - 45 hours (just to complete js i need 34 days)
+Daily complete 1 hr of syllabus
+so to complete js  i need 2 months, 2 months angular
+java script - 53 hours (youtube 36+ js advanced course 17) ()
 angular - 30 hours
 total 75 hours - *3 = 225 hours i need to complete these 75 hours syllabus
 daily max 4 hours i can spend for ui - 225/4 == total 56 days = 60 days approximately
@@ -41,76 +38,124 @@ daily max 4 hours i can spend for ui - 225/4 == total 56 days = 60 days approxim
 css also there - 10 hours
 
 
----read till page 28 schemas---kafka book--
+---read till page 80 schemas---kafka book--
+daily target 10 pages pages == within 30 days we can complete the book
+-- daily 3 hours kafka for kafka avro course- we shuld complete by jul2
 
 
-july 26
-=============
-today target 8 hours
-1030-630
-630-730 vegetables+khashayam+milk
-730-9 news,dinner
-9-10 Git hub co-pilot
+aish,swetha are best ayurveda doctors
 
-actual
-====
-10-11 apply for companies
-11-2 kafka
-2-3 lunch +news
-3-5 spring boot 
+HTML +css = 40 hours- *2 practice=80
+==========================
+daily 2 hours (1 hr prac+1 hr syllabus) - 40 days = aug 8 --> sept 20 
+complete udemy course by jonas
+
+1.5 hr CSS syllabus left as of - sept 4
 
 
 
-smitha jayadev
+
+sept-9
+============
+930-1130 css
+1130-12 pcf
+12-1230 work
+1230-140pcf
+915-945 css 
 
 
-ex
-1-2 bus booking+shopping+ god cheepuru 
-2-3 news, lunch
-3-5 spring
-5-630 walking+sun
-630-730 jdbc
-730-830 dinner+kitchen
-830-930 java all version
 
- 
+target 5.5 
+930-11 CSS
+11-12:15 PCF youtube videos
+12-8 work
+8-9 news dinner
+9-930 CSS
 
-Today expectations
+
+
+
+
+
+
+weekend plan
+======================
+tcs mandatory trainings, knife sharp ,millets
+start javascript,pcf , complete css, 
+
+
+
+office daily plan
+==========
+daily 4 hrs study
+9-12:30 study
+12:30-1:15 travel
+1-6 work
+6-7 travel
+7-8:30 meeting 30,dinner 30min ,work 30 min
+8:30-9 work 
+9-930 study
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TCS trainings
+--------------
+now - Leadership Essentials - Understanding Contract and Legal Implications of Security N...
+
+
+
+
+
+tcs trainings 4 completed
+now 5 -Leadership Essentials - Planning Business Continuity for services to your customer
+
+
+
+
+
+
+
+
+office days
+===============
+
+
+
+
+sun,sat expectations
 ===================
-10-2 kafka
-1-2 news+break
-2-5 spr boot
-4-5 amazon shopping
-5-530 preg books
-530-630 walking sun med
-630-730 harness
-730-830 dinner+milk
-830-930 kafka
+target 6 my study +4tcs trainings/14 hours
+7:30-9:30 kafka
+930-10 break - snanam+dust
+10-12 UI
+12-1:30 dinner+news+photo frame decide
+130-4 kafka
+4-6:05 tcs mandatory trainings
+6-7:30 sun+milk+dinner+meditation
+730-930 tcs trainings
 
 
-Daily expectations 8.5 hours
-=========================
-9-9 
-30 mins walking,30 min sun, 30 mins news, 30 mins milk,30 mins preg book,misc 30 1 hr lunch+dinner, 
-4 hrs waste /13 hours = we can study 9 hours minimum
-
-12-1230 news, 3-330 preg book
-545-615 wal,615-645 sun,10 min med
-730-830 milk,dinner,house work
 
 
-6-7 scooty teaching
-7-8 yoga /kitchen help
-8-9 ready
-9-930 drop
-930-130 study 4
-130-230 news paper+lunch
-230-530 study 4
-530-630 walking+sun+meditation
-730-830 milk +dinner
-830-930 study 1
-take any 1 hour break
 
+
+sun,sat - 3hrs gurantee wastage +1 hr house work
+daily wastages- 30 min sun+ 30 mins milk +30 news+ 30 meditation+calls ,30 misc+1hr lunch+dinner+tiffin
 
 
 
@@ -133,6 +178,26 @@ hibernate status
 98-started98-till 1:25th minute
 
 practice delte many to 1 delete 1 child among 3 with parent, lazy loading
- 104 8104  00 9089
- IBKL0001048
+ 
 
+
+
+video on plastic - take bharateeyudu moive snipping
+roads becoming polluted - papam GHMC karmikulu, even cows are also eating that plastic
+water, food contains plastic 
+cancers- even sambar also in plastic , cell membranes, placenta loki kuda ivi daparisthunay
+if people are dying with plastic- how can they pay tax,
+It is not to save a nation or race, it is for your own safety and health.”
+
+intha sampadinchi arogyamga undaka pothe, sampadichi upayogam enti
+veg market- single use plastic no ban cheyandi
+
+solution:- plastic seperate can, degradable waste ki seperate can
+
+
+https://www.thenewsminute.com/tamil-nadu/hot-sambar-dustbin-bags-and-plastic-bucket-how-chennai-rail-vendor-packed-food-52197
+https://www.newindianexpress.com/cities/hyderabad/2012/Sep/06/hot-food-in-plastic-bags-can-cause-cancer-403342.html
+
+ cancer, heart diseases and reproductive problems.
+ 
+ khadar vali 

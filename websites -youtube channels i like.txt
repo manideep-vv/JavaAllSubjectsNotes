@@ -1,4 +1,6 @@
 
+https://www.youtube.com/@javawave7003 for interview experiences
+
 all java, hibernates, spring updates --java related in reddit https://www.reddit.com/r/java/
 all java versions from java 7 to 22 https://docs.oracle.com/en/java/javase/index.html
 almost similar to java docs in understandable way api https://developer.android.com/reference/java/util/concurrent/CompletionService

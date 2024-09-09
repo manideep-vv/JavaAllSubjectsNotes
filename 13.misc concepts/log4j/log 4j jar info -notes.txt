@@ -1,0 +1,39 @@
+Logback is a replacement for its predecessor, Log4j and logback is one of the most widely used logging frameworks in the Java Community. 
+https://www.baeldung.com/logback
+
+add these jars to pom.xml
+
+
+but nothing worked out 
+implementation 'ch.qos.logback:logback-core:1.2.11'
+    implementation 'ch.qos.logback:logback-classic:1.2.11'
+    implementation 'org.slf4j:slf4j-api:1.7.36'
+	
+
+	
+
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-core</artifactId>
+    <version>1.2.11</version>
+</dependency>
+
+
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.2.11</version>
+    <scope>test</scope>
+</dependency>
+
+
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.7.36</version>
+</dependency>
+
+	
+	
+	
+	

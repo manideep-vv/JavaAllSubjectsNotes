@@ -2,9 +2,13 @@ WHAT
 WHY 
 HOw
 
-THink negatively
+
+
+THink negatively - what if we change default application.properties file name to santu.properties file (will it recognize? if yes how ?)
 Extend the functionality and think or
 Think in more scenarios
+
+1) always read documentation - which will have all concepts, trainer may miss some concepts, but in docs every thing will be there
 
 your behaviour
 1) u have to be proactive instead of reactive 

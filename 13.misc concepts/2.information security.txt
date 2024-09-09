@@ -32,6 +32,7 @@ Dont carry any personal or un authorised electronic devices inside tcs premises 
 usage of email and internet
 =====================
 never send any business data to outside from tcs mail, avoid sending data from ur tcs mails, everything is tracked
+Information classification--> Always classify the mails with public/confidential/Restricted/Internal
 1) dont send any business data to ur personal email from ur tcs mail ids- else security incidents will be raised on us
 2) use internet and email for business purposes only
 3) dont access any non business websites- sites that are illegal, adult , violence ,rumours...
@@ -60,7 +61,34 @@ u should keep all these instructions in some banner or in 1 place inside every c
 You can also log a security incident anonymously by going to Security Incident Reporting tool link (https://securityportal.tcs.com(opens in a new tab)). 
 
 
+code:-
+========
+one must write code by adopting the SSA (software security assurance)
+detect any unauthorized access by monitoring logs
+dev should ensure logs must be caputured for all critical events
 
+
+logical access
+==============
+implement a role based access--> like in wells fargo 
+one must hold related access only, a dev should not be given with prod database access
+
+as a delivery partner
+============
+BCP- business continuty plan (so we should always think about our future projects and plan prepare tech accordingly)
+BCP plan must be documented earlier  and should be communitcated to customer,assco & take approval from customer and admin..
+so that assoc will be prepared
+
+
+
+personal
+============
+1) Never give ur credentials to others & never take others credentials
+2) never give ur id card to other - 1 person gave his id card to her wife & she used to scan , finally after 1 year in audit they found out
+password sharing should be strictly prohibited
+3) use access/data only for intended purposes for what access has been given - since u have prod db access- we shouldnot misuse the data
+accessing business information without a valid use case is a misuse of data
+4) associates will be checked for criminal records- so never go wrong route - these days traffic police is filing criminal case if u go on wrong route
 
 data backup
 Risk pertaining to loss or unavailability of information requires the custodian of the information to take regular backup of the data and perform restorability

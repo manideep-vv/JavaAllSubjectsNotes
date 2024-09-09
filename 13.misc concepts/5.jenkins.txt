@@ -1,0 +1,8 @@
+jenkins is a CI/CD tool
+CI -- with jenkins u can build jar file as it internally uses maven
+CD- jenkins can deploy ur code to any environment
+ex:- in our kubernetes, we have  seperate build component for helm, when we run that component
+jenkins will login to the cluster it will execute commands like 1)helm install <chart-name> 2) helm upgrade <chart-name>
+so that finally it will extract the image and deploys the code to the pods of kubernetes cluster by creating many kub objects like -pod,service,deployment,configmap, secret
+
+so finally jenkins can do both building the code (creating a jar file) and it can deploy the code to kub cluster also 
