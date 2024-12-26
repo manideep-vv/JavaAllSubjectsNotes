@@ -1,0 +1,51 @@
+
+
+general rules
+------------
+never share ur password -or never use ur password 
+sharing ur password means being accountable for everything
+
+while developing new project
+--------------
+1) consult with the person who already did it to avoid typical traps
+2) identify all risks from begining and maintain them in risk register and it should be a continous process
+ex:- especially while going to prod identify all risks, like before executing query/before running a script , run that query/script in test environments
+
+maintain Risk register --->we should maintain a risk register to maintain and track risks -
+dont manipulate any UAT test cases/results, because later they will be audited
+Risk- cause (what can go wrong), weakness (why something will go wrong) , effect,impacted proj (risk affects which service)
+ex:- reconciliation of txn in current process is manual(cause of risk),a manual error (risk) can lead to incorrect data (impact)
+
+3) prepare the standard operating procedures document, revise it periodically
+
+
+All risks (always discuss all d risks with customer)
+--------
+1) team accessing prod data without having  a valid business purpose 
+2) Use internet diligently, use it for valid business purposes, even though u have full internet use or visit only related sites
+3) project using 3rd party software which have limited support
+
+	In production
+----------
+1) Running a update query in production without where clause (1st always query must be exec in lower environments then only prod)
+2) Running update query in prod instead of test- since they have access to both they would have mistakenly ran
+3) revoking un neccesary access
+
+
+mandatory
+------
+consider security for your application at the early stage of development
+            means app should protect itself from any cyber attacks
+
+
+dev
+--------
+production data must be modified before loading to lower environments
+
+while going to production
+--
+security - security must be from begining
+logging - make sure sensitive data is masked while logging in the splunk
+controls -- we should have controls to mitigate the risk - like rollback plan when prod deployment failed
+
+

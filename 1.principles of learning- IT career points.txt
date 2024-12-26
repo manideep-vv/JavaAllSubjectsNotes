@@ -2,6 +2,16 @@ WHAT
 WHY 
 HOw
 
+once a risk is identified, you should have proper controls
+ex:- i watch movies more, you should have controls like note down in excel file how many movies you watched in this month
+
+how to learn all concepts
+=========================
+always plan the day, 
+what u are going to learn tomm - plan it 
+1) Daily you have to learn a bit - onsite anil is learning na daily, so we should also learn
+2) punctuality
+
 
 
 THink negatively - what if we change default application.properties file name to santu.properties file (will it recognize? if yes how ?)
@@ -9,6 +19,7 @@ Extend the functionality and think or
 Think in more scenarios
 
 1) always read documentation - which will have all concepts, trainer may miss some concepts, but in docs every thing will be there
+
 
 your behaviour
 1) u have to be proactive instead of reactive 
@@ -19,15 +30,29 @@ your behaviour
 5) set milestones and evaluates progress against that
 6) consult with a friend who already done it
 
+Behaviour and character
+============================
+1) Diversity - people are from diverse locations.., 
+show Equity- respect them equally based on their needs -
+show inclusion - if you cant come to park , to include others change the location
+show inclusion in workspace-  if someone goes to pickup her child , change the meeting time so that she will also attend daily
+inclusion is pre-requisite for the functioning of a diverse workforce
+	Creating an inclusive environment at work essentially means, treating every employee fairly, specifically basis their needs, respectfully and equally. An inclusive individual ensures awareness around his/her personal bias stereotypes and preferences to make sure that their behaviors are consistently inclusive. 
+2) Respecting every individual for their uniqueness - Be respectful, Be sensitive
+show respect to everyone encourage individuals to share their thoughts
+3) there should not be any Conscious / Unconscious Bias between men and women - no gender bias/ no location bias
+Bias- this is the tendency to prefer one person /one thing
+Unconscious Bias has a negative impact at the workplace  as it leads to favouritism, groupism, projection of personal beliefs, likes and dislikes and irrational behaviour.
+No gender bias- we should provide fair and equal oppurtunity with everyone
+ The team needs to understand that all diverse identities need to be respected and there will be zero tolerance towards discrimination of any kind.
+4) Listen- listen to others, be open to new ideas
 
-while developing new project
---------------
-1) consult with the person who already did it to avoid typical traps
 
-how to learn all concepts
-=========================
-1) Daily you have to learn a bit 
-2) punctuailty
+specially abled - elen Keller, Einstein, Stephen Hawking, Aristotle, Beethoven, Newton, Galileo
+Sachin Tendulkar and Bhimsen Joshi have different extraordinary abilities  
+
+
+
 
 
 

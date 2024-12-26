@@ -1,8 +1,12 @@
+read later
+https://medium.com/@kiarash.shamaii/best-practices-for-working-with-large-datasets-in-java-spring-ac43d02b533d
+https://medium.com/@jake.page91/the-guide-to-git-i-never-had-a89048d4703a
+
+tcs reference- sreelakshmi, vinya r
 Time pass- dances, preg books, D3 book, 
+
 Do cooking- borugu muddalu, kobbari muddalu
 	
-
-
 make video on - what is a pod in n kubernetes, plastic,RO
 RO- - each has one diff advantage, LG- stainless steel, Kent- TDS controller
 
@@ -19,14 +23,8 @@ spring batch - 8 hours *3= 24 hours
 
 *********************************************tech for jumping job - front end tech,sql, hibernate, AWS, Design patterns*******************************
 
-daily 3 hours- june 2- june 9(failed to acheive),june 18 is the target for spr batch- daily spend 3 hours for spr batch to complete 1 hour syllabus
 
-started on june 2-
-1st target june - 9 failed
-2nd target - failed due to santu abortion
-3rd target - by june 28 EOD we should finish
-daily status from june 9, 1) daily we have to study 3 hours of spr batch and 2) complete 1 hour of spring batch syllabus
-
+Learning speed- to complete 1 hours syllabus i need 3 hours to understand and document + 1hr to practice
 
 UI
 ==============
@@ -39,58 +37,88 @@ angular - 30 hours
 total 75 hours - *3 = 225 hours i need to complete these 75 hours syllabus
 daily max 4 hours i can spend for ui - 225/4 == total 56 days = 60 days approximately
 
-css also there - 10 hours
+
+------atleast complete 30 min syllabus---------------
+24-oct- 9-36hours = 27 hours syllabus pending- = 54 days to complete this syllabus
+24-oct-24-dec - js must be completed atleast youtube tutorial
 
 
----read till page 80 schemas---kafka book--
-daily target 10 pages pages == within 30 days we can complete the book
--- daily 3 hours kafka for kafka avro course- we shuld complete by jul2
+Rules
+==========
+Mobile-:- 
+And dont touch cell phone from 9-12, keep cell phone far away  from 9-12
+don’t lontalk any call from 9-12
+
+see mobile before 9 and dont see any mobile -afternoon /night - see only once in a day that to while doing khashayams
+Stop watching moview untill  u complete javascript / december
+
+1) I should see  Saturday /Sunday as opportunity for learning
+we should wakeup early and be more strict on Sunday and utilize holidays
+3) shutdown after 930 towake up by 530 see orange sun
+4) prepare ganji & eat dinner during meetings scrum calls
+5) dont watch movie every sunday, max 1 movie per month not 1 per weekend
+
+most important rules
+-------------------
+1) prepare the plan what to read in work from home days
+2) keep the cell phone away after 9AM
+3) see only subject related videos - dont see any video other than subject
+4) see only informational videos in youtube- keep entertainment,christian videos aside untill u complete JS
 
 
-
-
-HTML +css = 40 hours- *2 practice=80
-==========================
-daily 2 hours (1 hr prac+1 hr syllabus) - 40 days = aug 8 --> sept 20 
-complete udemy course by jonas
-
-1.5 hr CSS syllabus left as of - sept 4
-
-
+in office clean 1hr mobile
 
 
 
 office daily plan
 ==========
-daily 4 hrs study
-9-12:30 study
-12:30-1:15 travel
+target is daily 5 hours
+max 5 hrs we can study 8-12
+work only for maximum 6 hours
+6-7 sun,house work help
+7-8 ready +pooja+tiffin 
+8-12:30 study,news
+12:30-1:15 lunch+travel
 1-6 work
 6-7 travel
-7-8:30 meeting 30,dinner 30min ,work 30 min
-8:30-9 work 
-9-930 study
-
-
-
-23-oct
-=======
-12-1 mf
+7-8:30 work 30,dinner 30min ,meeting 30
+8:30-9:30 study
 
 
 
 
 
 
+mistakes- no plan for next day, over sleep,  eating along with her,1hr movie, veera machineni talk
+
+
+
+
+
+dec-26
+======
+target- 75-80.5
 
 
 
 
 
 
-18-oct plan
+
+
+
+
+
+
+
+26-plan- 
 -----------
 
+8-12 3hrs read,1practice
+12-1 os
+1-2 news,dinnner
+2-3 work
+3-6 ofc
 
 
 
@@ -105,29 +133,6 @@ daily 4 hrs study
 
 
 
-
-
-
-TCS trainings
---------------
-now - Leadership Essentials - Understanding Contract and Legal Implications of Security N...
-
-
-
-
-
-tcs trainings 4 completed
-now 5 -Leadership Essentials - Planning Business Continuity for services to your customer
-
-
-
-
-
-
-
-
-office days
-===============
 
 
 
@@ -145,16 +150,8 @@ target 6 my study +4tcs trainings/14 hours
 730-930 tcs trainings
 
 
-
-
-
-
 sun,sat - 3hrs gurantee wastage +1 hr house work
 daily wastages- 30 min sun+ 30 mins milk +30 news+ 30 meditation+calls ,30 misc+1hr lunch+dinner+tiffin
-
-
-
-
 
 
 

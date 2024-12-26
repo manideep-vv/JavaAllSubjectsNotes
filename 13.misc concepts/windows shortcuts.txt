@@ -1,0 +1,45 @@
+Alt+ESC- same like alt tab- alt tab will simply move to next recent window
+
+Control + Shift + Arrow Keys
+This shortcut is a step ahead of Windows + A, as it lets you navigate through the document and select words or lines that are important to you.
+
+Ctrl + Backspace - prev word deletion 
+For people who write thousands of words each day, this can come in handy. This shortcut lets you delete previous words or character blocks instantly.
+
+Ctrl + Delete - next word deletion
+For editors, this shortcut will allow them to delete the next word or character block. It has the opposite effect of CTRL + Backspace.
+
+wind +M or win+D
+to minimise all windows
+
+Alt + D
+If you have been using your mouse to select the URL from the address bar
+
+Ctrl + Shift + N
+While this shortcut will let you to create a new folder on your computer
+
+
+
+  class Employee {
+        //this defines a constructor
+        constructor(name, address) {
+          this.name = name;
+          this.address = address;
+          this.salary = 10000;
+        }
+
+        //setter method
+        set companyName(compName) {
+          //   console.log("setter method invoked");
+          this.companyName = compName;
+        }
+
+        // get getCompanyName() {
+        //   return `Bro company name is ${this.companyName}`;
+        // }
+
+        //this is general public method
+        printAllDetails() {
+          console.log(this.name, this.address, this.salary);
+        }
+      }

@@ -1,3 +1,5 @@
+logback is updated version of log4j more faster logging in java and have less memory foot print 
+logback is better than log4j1.x
 /// Note we should keep this logback.xml file in src/main/resources
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
