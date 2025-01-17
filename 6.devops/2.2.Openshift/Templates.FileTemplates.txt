@@ -1,0 +1,15 @@
+# Use a file-based template
+oc process -o yaml \
+  -f template/hello-world-template.yaml
+
+# Clear the project
+oc delete all --all
+
+# Use a file and a parameter
+oc new-app \
+  -f template/hello-world-template.yaml
+  -p MESSAGE="Hello from oc new-app with a file"
+
+# Check using curl
+curl <your route>
+

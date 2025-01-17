@@ -1,0 +1,19 @@
+# Clear out the project
+oc delete all --all
+
+# Save the processed template to a file
+oc process hello-world -o yaml \
+  -p MESSAGE="Hello from oc process" \
+  > processed-objects.yaml
+
+# Check the file
+head processed-objects.yaml
+
+# Create the objects
+oc create -f processed-objects.yaml
+
+# Check the status
+oc status
+
+# Check the application updates its message
+curl <your route>

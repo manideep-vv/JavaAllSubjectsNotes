@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "samplechart1.fullname" . }}
+  labels:
+    {{- include "samplechart1.labels" . | nindent 4  | upper  }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "samplechart1.selectorLabels" . | nindent 4 }}

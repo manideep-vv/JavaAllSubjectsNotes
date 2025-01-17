@@ -1,26 +1,30 @@
+care@policybazaar.com
+
+
 read later
 https://medium.com/@kiarash.shamaii/best-practices-for-working-with-large-datasets-in-java-spring-ac43d02b533d
 https://medium.com/@jake.page91/the-guide-to-git-i-never-had-a89048d4703a
 
-tcs reference- sreelakshmi, vinya r
+
 Time pass- dances, preg books, D3 book, 
 
 Do cooking- borugu muddalu, kobbari muddalu
-	
-make video on - what is a pod in n kubernetes, plastic,RO
+
+make video on - what is a pod in n kubernetes, plastic,RO, dogs
 RO- - each has one diff advantage, LG- stainless steel, Kent- TDS controller
 
 my daily target should be ====4==== hours of study
 0.5- preg 0.5 news
 3 hours offc study
 
+always while learning anything- analyse- enduku, emiti, ela?
 long target- JS,Angular,react, cloud (AWS),hibernate HQL, gradle,SQL, prompt engineering
 current target -
  jdbc (https://tcsglobal.udemy.com/course/complete-jdbc-programming-part-2/) durga soft jdbc prog , spr batch ,git,
 ,,completable future,Design patterns, enums, inner classes
 next target-  logger,oracle,  css, html, full & advanced java script , type script, angular, 1 cloud platform
 spring batch - 8 hours *3= 24 hours
-
+pendi video-s ps varier
 *********************************************tech for jumping job - front end tech,sql, hibernate, AWS, Design patterns*******************************
 
 
@@ -36,11 +40,18 @@ java script - 53 hours (youtube 36+ js advanced course 17) ()
 angular - 30 hours
 total 75 hours - *3 = 225 hours i need to complete these 75 hours syllabus
 daily max 4 hours i can spend for ui - 225/4 == total 56 days = 60 days approximately
+react js- 30 hours cs world telugu https://www.youtube.com/playlist?list=PLzdWZT-ZJD0-806wl_diOtzcMS8SYTzq3
 
 
+
+plans and statuses
 ------atleast complete 30 min syllabus---------------
 24-oct- 9-36hours = 27 hours syllabus pending- = 54 days to complete this syllabus
-24-oct-24-dec - js must be completed atleast youtube tutorial
+24-oct-24-dec - js must be completed atleast youtube tutorial- done
+--- 85% completed js ------------------------
+--==============================================REACT=====================================================================
+react -30hours syllabus can be completed in 40 days @ daily 45 minutes complete syllabus+ 5 days grace period
+29-dec ---> feb 15  (29 jan to feb 10 + 5days grace period) 
 
 
 Rules
@@ -68,73 +79,10 @@ most important rules
 
 in office clean 1hr mobile
 
-
-
-office daily plan
-==========
-target is daily 5 hours
-max 5 hrs we can study 8-12
-work only for maximum 6 hours
-6-7 sun,house work help
-7-8 ready +pooja+tiffin 
-8-12:30 study,news
-12:30-1:15 lunch+travel
-1-6 work
-6-7 travel
-7-8:30 work 30,dinner 30min ,meeting 30
-8:30-9:30 study
-
-
-
-
-
-
-mistakes- no plan for next day, over sleep,  eating along with her,1hr movie, veera machineni talk
-
-
-
-
-
-dec-26
-======
-target- 75-80.5
-
-
-
-
-
-
-
-
-
-
-
-
-
-26-plan- 
------------
-
-8-12 3hrs read,1practice
-12-1 os
-1-2 news,dinnner
-2-3 work
-3-6 ofc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Distract yourself. When you are feeling overwhelmed by sexual urges, try to find a distraction. This could be anything from reading or watching TV to going for a walk or playing a sport.
+Exercise. Exercise is a great way to release pent-up energy and reduce stress, both of which can help to manage sexual feelings.
+Practice relaxation techniques. Relaxation techniques such as deep breathing and meditation can help to calm your mind and body.
+Avoid1 triggers. If you can identify any triggers that are causing your sexual feelings, try to avoid them. This may mean avoiding certain places, people, or situations.
 
 
 sun,sat expectations
@@ -153,10 +101,107 @@ target 6 my study +4tcs trainings/14 hours
 sun,sat - 3hrs gurantee wastage +1 hr house work
 daily wastages- 30 min sun+ 30 mins milk +30 news+ 30 meditation+calls ,30 misc+1hr lunch+dinner+tiffin
 
+office daily plan
+==========
+with in 2 hours - you should complete daily activites- sun 20, yoga 50, bath20, tiffin 20
+30 mins for - soaking 15, water- 15 mins
+so this 2.5 hour will not be counted
+
+target is daily 5 hours 4+1
+max 5 hrs we can study 8-12
+work only for maximum 6 hours
+
+6-650 study (650-715 sun)
+7-730 sun+dustbin/ready 
+730-830 yoga / house help
+830-9 pooja +tiffin
+
+9-12:30 study,news
+12:30-1:15 lunch+travel
+1-6 work
+6-7 travel
+7-8:30 work 30,dinner 30min ,meeting 30
+8:30-9:30 study
 
 
 
 
+
+
+ram charan entry 
+helicopter scene
+ias 
+CEO
+
+
+jan 12- jan 16 - 5 days - complete section 4,5,6,7
+
+
+jan 17
+-----
+6-615 ready
+615-630 browsing -0.25 wasted
+630-815 helm done
+815-10 dail act
+10-11:30 helm
+1130-1145 kitchen
+
+
+plan- 6
+-------
+630-830 helm -2 
+830-930  break 
+930-10 soaking, raagi
+10-1 react - 3.5
+1- 2 news,ofc travel
+2-630 work
+630-730 travel
+730-830 dinner,dish
+830-930 hib -1
+
+
+
+
+
+
+plan -8.5
+pend- 
+930-1030 helm -1
+1030-1130 kitchen 
+1130-1 helm 
+1-145 news,break
+130-4 react
+430-7 - hibernate, 
+7-8:15 pickup,milk, dinner
+815-930 
+
+ 
+
+
+
+
+pending tasks
+---------------
+create a story in wells, movie ticket to venky
+return ticket , ask gopi marriage soft copy
+, pay gold rd, chintapandu, raagulu pindi, 
+pottu minapappu ,chinta, raaguluu
+
+
+
+jan-13 plan - 7 hours mandatory reading
+------------------------------
+6-8 helm 
+8-9 daily - tiffin,pooja, bath
+1030-1230 helm
+12 verusenaga, tenkayalu, steel binde
+1230-1 news
+1-4 react
+2-5:30 hibernate
+530-730 steel shopping,sun,milk, shopping millets, snacks, 
+730-830 house work - dishwash, laddu
+830-9 dinner
+9-10 preg book, ram prasad book
 
 
 
@@ -193,3 +238,6 @@ https://www.newindianexpress.com/cities/hyderabad/2012/Sep/06/hot-food-in-plasti
  cancer, heart diseases and reproductive problems.
  
  khadar vali 
+ 
+ 
+ 

@@ -1,0 +1,13 @@
+# Get the YAML for the template
+oc get -o yaml template/hello-world
+
+# Remove current deployment
+oc delete all --all
+
+# Give a value 
+oc new-app hello-world \
+  -p MESSAGE="Hello from parameter override."
+
+# Test the update
+curl <your route URL>
+

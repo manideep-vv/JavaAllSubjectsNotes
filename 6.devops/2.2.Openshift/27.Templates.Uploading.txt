@@ -1,0 +1,23 @@
+# Create a new project for template stuff
+oc new-project templates
+
+# Switch to the labs directory
+cd labs
+
+# Create the template from the file
+oc create -f template/hello-world-template.yaml
+
+# Check the template
+oc get template
+
+# Create an application based on the template
+oc new-app hello-world
+
+# Check out the result
+oc status
+
+# Curl the application
+curl <your route>
+
+
+

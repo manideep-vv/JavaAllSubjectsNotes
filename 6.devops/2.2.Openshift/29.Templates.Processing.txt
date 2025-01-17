@@ -1,0 +1,9 @@
+# Basic processing
+oc process hello-world
+
+# Get the processed results in YAML
+oc process hello-world -o yaml
+
+# With parameters
+oc process hello-world -o yaml \
+  -p MESSAGE="Hello from oc process"
