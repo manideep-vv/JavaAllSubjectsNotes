@@ -1,0 +1,73 @@
+mongodb
+
+Main classes- MongoDbCollection, MongoDatabase
+
+talking the raw query object
+
+way-3
+
+/Note: in mongo db before doing anything 1st we should convert to document object in mongodb everything is an object
+
+to create mongodb query object from raw query StringQuery to --> document --> BasicQuery Document query Doc Document.parse(rawQuery); Query query new BasicQuery(query Doc); above will work wiht below query
+
+"DEPT_ID": { "Seq": 100
+
+),
+
+"AGEN STAT": { "Seq": "C" }
+
+mistake-1-always queryobject must consists of direct keys and values below is exampe for wrong one
+
+"collectionName": "T2T_ecar_TACCT",
+
+"query": [
+
+{
+
+"AGEN STAT": { "Seq": "C" }
+
+"DEPT ID": ( "$gt": 180
+
+here the problem is we are passing array of objects, those keys are again inside key less objects
+
+so mistake-2- no need to pass array, in single object we can pass all conditions
+
+way-1
+
+may not work
+
+private Query prepareQuery(String query) {
+
+BasicDBObject dbObject BasicDBObject.parse(query);
+
+return new Query(new org.springframework.data.mongodb.core.query.Criteria().alike(dbObject));
+
+}
+
+way-2 may not work
+
+public List<Document> executeRawQuery(String rawQuery) { Document queryDoc Document.parse(rawQuery);
+
+Query query new Query (Criteria.byExample(queryDoc));
+
+return mongoTemplate.find(query, Document.class, "yourCollectionName");
+
+}
+
+Criteria & Filters
+
+Bson query Filters.and(
+
+Filters.eq("AGEN_STAT", "C"),
+
+Filters.gt("DEPT_ID", 100)
+
+MongoCollection<Document> collection database.getCollection("your_collection"); for (Document doc collection.find(query)) {
+
+System.out.println(doc.toJson());
+
+I
+
+);
+
+}

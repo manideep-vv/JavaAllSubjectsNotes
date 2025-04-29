@@ -1,4 +1,7 @@
 
+if u want some dummy data / Dummy rest api which will give both data + images
+https://fakestoreapi.com/products
+
 https://www.youtube.com/@javawave7003 for interview experiences
 
 all java, hibernates, spring updates --java related in reddit https://www.reddit.com/r/java/
@@ -18,12 +21,47 @@ for spring- junit-microservices,oauth
 https://www.appsdeveloperblog.com/
 
 
-channels to visit
-==============
+youtube channels to visit
+======================================
 for spring, microservices, junit,json, yaml
 https://www.youtube.com/@codefarm0/playlists
+https://www.youtube.com/@CodeSnippetByChetanGhate/playlists
+
+
 
 mind blowing concurrency java videos, hundreads of parallel concurrent ,reactive programmin, fork join pools..., architects,spring, scalable microservices
 https://www.youtube.com/@DouglasSchmidt/playlists
 ms playlists
 https://www.youtube.com/playlist?list=PLZ9NgFYEMxp7rnNmw4q57FtP9GHyrtWE_
+
+
+only java
+-------------------
+only java8 main interview questions https://www.youtube.com/@CodeDecode/playlists
+
+
+
+spring tutorials
+=======================
+spring boot 3 videos module by module https://www.youtube.com/@DilipItAcademy/playlists  - Spring ORM , REST, JDBC
+only for spring boot https://www.youtube.com/watch?v=bfLAYcPdAMc&list=PL-bgVzzRdaPhNeXyQBtp8hMlUc14J2kRK
+basic spr security  -good multi threading videos - new java 21 features , sys design  https://www.youtube.com/@LazzyProgrammer/playlists
+
+ssl, microservices https://www.youtube.com/@ByteMonk/playlists
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for all excel videos
+https://www.youtube.com/@chandoo_/playlists

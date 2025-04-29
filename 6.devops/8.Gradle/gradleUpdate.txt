@@ -1,0 +1,60 @@
+OLD:
+
+task printProjectName{
+    doLast(){
+        println project.name
+    }
+}
+
+NEW:
+
+task printProjectName {
+    def projectName = project.name 
+    doLast {
+        println projectName
+}
+
+}
+
+gradle
+
+new33
+
+gradle projects command to see all sub / multi module projects
+
+gradle bootRun command
+
+build sub module alone gradle :bdd:build
+
+parent dependencies to be applied to child then else parent dependencies may not flow to child
+
+subprojects {
+
+apply plugin: 'java'
+
+if (project.hasProperty("localTests")) ( testImplementation project(':')
+
+}
+
+means root project
+
+here for the current project we are adding the root project as a dependency for the testImplementation configuration.
+
+This means that the test code in the current module can use the classes and resources from the root project.
+
+2) problem while testing with gradle commands
+
+gradle :bdd:test -Dcompany wellsfargo -PlocalTests
+
+here even if u execute gradle command with gradle arguments, temporarily it will set these properties to system path but container @SpringBootTest(classes AppLauncher.class, webEnvironment SpringBootTest.WebEnvironment.RANDOM_PORT)
+
+is getting started these values will be erased and these value will not be considered by spring container at all
+solution is give from intellij arguments
+
+
+
+
+
+
+
+

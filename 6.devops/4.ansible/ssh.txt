@@ -1,0 +1,2 @@
+SSH is used to control a remote machine from our command line
+putty is a free SSH client for windows
