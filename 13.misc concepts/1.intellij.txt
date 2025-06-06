@@ -1,2 +1,8 @@
 to install lombok plugin
 1) file-- settings-plugins--lombok install the plugin
+maximize, minimize window- ctrl+shift+f12
+to generate getters setters - alt+Insert
+
+to format - ctrl+Alt+L
+
+

@@ -1,0 +1,67 @@
+sat- 3hours
+times
+7- 930 EJB
+1015-1045 break
+1045-12
+1-230 soap
+330-
+in EJB, server will provide many benefits like 
+1)  txn management normal , distributed txn management
+2) caching
+3) connection pooling
+4) interceptors
+
+
+we should write the business functionality logics in EJB classes not in servlets ,
+from browser we can directly hit only servlets not EJB
+but u can hit EJB's by getting the ejb beans from JNDI registry
+We don't create objects for ejb , same like as we are not creating objects for servlets.
+web container will create object for servlets similarly EJB container will create objects for EJB
+the objects for ejb classes will be created by ejb container -like how spring creates objects and place in spring container
+similarly EJB container will - only EJB container can scan and create the EJB beans not web container
+EJB container is available only in app server not in web server
+
+
+
+
+app container = web container ++
+app container can also do the job of web container , like app container can process the incoming requests
+basic web server= tomcat
+app server= glassfish
+
+EJB 1
+---------
+it has .ejb files
+
+EJB2 
+-------
+fully XML - ejbjar.xml
+Heavily reliant on interfaces (Home, Remote, Local).
+Entity beans were complex and required to implement specific interfaces and lifecycle methods
+
+
+
+Ejb 3 (EJB3 is one of the vendor implementation of JPA)
+=====
+fully annotations
+entity beans doesn't need to extend any interface and it has EJBQL
+
+
+
+
+
+sample ejb remote program
+------------------------------
+import javax.ejb.Remote;
+@Remote
+public interface CurrencyConverter {
+    double convert(double amount, String fromCurrency, String toCurrency);
+}
+
+The annotation @Remote tells the container that this interface is to be used for remote access.
+
+
+https://docs.oracle.com/javaee/6/tutorial/doc/gipko.html
+
+
+

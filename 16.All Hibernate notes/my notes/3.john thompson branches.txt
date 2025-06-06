@@ -1,2 +1,0 @@
-https://github.com/springframeworkguru/sdjpa-intro/tree/h2-mysql-mode
-h2-mysql-mode -- this contains mysql spec datasource url (so instead of ansi sql it will use mysql sql)

@@ -1,83 +1,52 @@
-care@policybazaar.com
 
-
+my youtube channel name:- java the daily learner
 read later
 https://medium.com/@kiarash.shamaii/best-practices-for-working-with-large-datasets-in-java-spring-ac43d02b533d
 https://medium.com/@jake.page91/the-guide-to-git-i-never-had-a89048d4703a
+-----java performance issues
+https://www.youtube.com/watch?v=PGZeYTIGUTs&list=PLD9DLu3Uw5PQxBuApX8pshZ096eFQ4xGs
+https://www.youtube.com/watch?v=SuguH8YBl5g&list=PLD9DLu3Uw5PQxBuApX8pshZ096eFQ4xGs&index=2
+https://learning.oreilly.com/course/java-performance-livelessons/9780133443561/
 
 
 Time pass- dances, preg books, D3 book, 
 
 Do cooking- borugu muddalu, kobbari muddalu
 
-make video on - what is a pod in n kubernetes, plastic,RO, dogs
-RO- - each has one diff advantage, LG- stainless steel, Kent- TDS controller
 
-my daily target should be ====4==== hours of study
-0.5- preg 0.5 news
-3 hours offc study
 
 always while learning anything- analyse- enduku, emiti, ela?
-long target- JS,Angular,react, cloud (AWS),hibernate HQL, gradle,SQL, prompt engineering
+
 current target -
- jdbc (https://tcsglobal.udemy.com/course/complete-jdbc-programming-part-2/) durga soft jdbc prog , spr batch ,git,
-,,completable future,Design patterns, enums, inner classes
+jdbc (https://tcsglobal.udemy.com/course/complete-jdbc-programming-part-2/) durga soft jdbc prog , spr batch ,git,
+java 8,11,completable future,Design patterns, enums, inner classes
 next target-  logger,oracle,  css, html, full & advanced java script , type script, angular, 1 cloud platform
 spring batch - 8 hours *3= 24 hours
-pendi video-s ps varier
+long target- JS,Angular,react, cloud (AWS),hibernate HQL, gradle,SQL, prompt engineering
+
+
 *********************************************tech for jumping job - front end tech,sql, hibernate, AWS, Design patterns*******************************
 
 
 Learning speed- to complete 1 hours syllabus i need 3 hours to understand and document + 1hr to practice
 
-UI
-==============
-remember how much i feared in CTR project for not knowing UI 
-
-Daily complete 1 hr of syllabus
-so to complete js  i need 2 months, 2 months angular
-java script - 53 hours (youtube 36+ js advanced course 17) ()
-angular - 30 hours
-total 75 hours - *3 = 225 hours i need to complete these 75 hours syllabus
-daily max 4 hours i can spend for ui - 225/4 == total 56 days = 60 days approximately
-react js- 30 hours cs world telugu https://www.youtube.com/playlist?list=PLzdWZT-ZJD0-806wl_diOtzcMS8SYTzq3
-
 
 
 plans and statuses
-------atleast complete 30 min syllabus---------------
-24-oct- 9-36hours = 27 hours syllabus pending- = 54 days to complete this syllabus
-24-oct-24-dec - js must be completed atleast youtube tutorial- done
---- 85% completed js ------------------------
 --==============================================REACT=====================================================================
 react -30hours syllabus can be completed in 40 days @ daily 45 minutes complete syllabus+ 5 days grace period
 29-dec ---> feb 15  (29 jan to feb 10 + 5days grace period) 
+stopped react on jan 31
+
+--------------------------------------------hibernate------------------i love hibernate--------------------
+started udemy bharath tippireddy course on feb-8th- 13 hours -
+feb 8 - march 8th is the target @ daily 30 min syllabus - daily 2 hours
+
+------------------------------------------------------------AWS--------------------------------------------
+AWS cloud practioner
+feb 8- march 8 - daily 30 mins syllabus - study for 2 hours
 
 
-Rules
-==========
-Mobile-:- 
-And dont touch cell phone from 9-12, keep cell phone far away  from 9-12
-don’t lontalk any call from 9-12
-
-see mobile before 9 and dont see any mobile -afternoon /night - see only once in a day that to while doing khashayams
-Stop watching moview untill  u complete javascript / december
-
-1) I should see  Saturday /Sunday as opportunity for learning
-we should wakeup early and be more strict on Sunday and utilize holidays
-3) shutdown after 930 towake up by 530 see orange sun
-4) prepare ganji & eat dinner during meetings scrum calls
-5) dont watch movie every sunday, max 1 movie per month not 1 per weekend
-
-most important rules
--------------------
-1) prepare the plan what to read in work from home days
-2) keep the cell phone away after 9AM
-3) see only subject related videos - dont see any video other than subject
-4) see only informational videos in youtube- keep entertainment,christian videos aside untill u complete JS
-
-
-in office clean 1hr mobile
 
 Distract yourself. When you are feeling overwhelmed by sexual urges, try to find a distraction. This could be anything from reading or watching TV to going for a walk or playing a sport.
 Exercise. Exercise is a great way to release pent-up energy and reduce stress, both of which can help to manage sexual feelings.
@@ -85,123 +54,46 @@ Practice relaxation techniques. Relaxation techniques such as deep breathing and
 Avoid1 triggers. If you can identify any triggers that are causing your sexual feelings, try to avoid them. This may mean avoiding certain places, people, or situations.
 
 
-sun,sat expectations
-===================
-target 6 my study +4tcs trainings/14 hours
-7:30-9:30 kafka
-930-10 break - snanam+dust
-10-12 UI
-12-1:30 dinner+news+photo frame decide
-130-4 kafka
-4-6:05 tcs mandatory trainings
-6-7:30 sun+milk+dinner+meditation
-730-930 tcs trainings
-
-
-sun,sat - 3hrs gurantee wastage +1 hr house work
-daily wastages- 30 min sun+ 30 mins milk +30 news+ 30 meditation+calls ,30 misc+1hr lunch+dinner+tiffin
-
-office daily plan
-==========
-with in 2 hours - you should complete daily activites- sun 20, yoga 50, bath20, tiffin 20
-30 mins for - soaking 15, water- 15 mins
-so this 2.5 hour will not be counted
-
-target is daily 5 hours 4+1
-max 5 hrs we can study 8-12
-work only for maximum 6 hours
-
-6-650 study (650-715 sun)
-7-730 sun+dustbin/ready 
-730-830 yoga / house help
-830-9 pooja +tiffin
-
-9-12:30 study,news
-12:30-1:15 lunch+travel
-1-6 work
-6-7 travel
-7-8:30 work 30,dinner 30min ,meeting 30
-8:30-9:30 study
 
 
 
 
+watch again
+https://www.youtube.com/watch?v=AHLkbqcVLvY
+only java8 main interview questions https://www.youtube.com/watch?v=PMhrMDHFFW4&t=54s 
+https://www.youtube.com/watch?v=PMhrMDHFFW4&list=PLyHJZXNdCXsfcMboYwGoL6wKAFPxljz5W
+revisit https://www.youtube.com/watch?v=Z3h6T8-iQxk
+https://www.youtube.com/watch?v=TV-xsNjbx_g
+https://www.youtube.com/watch?v=oeH_Zeg7N9o
+https://topmate.io/genzcareer/930954 
+
+java 8 
+https://learning.oreilly.com/videos/-/9780134427201/
+https://www.youtube.com/watch?v=VGVS_i-XvxY&list=PLyHJZXNdCXsfcMboYwGoL6wKAFPxljz5W&index=10 continue after 13
+https://www.youtube.com/watch?v=lN3Od1A9Hqc&list=PLx76DzrwX6H3OOALmMT-BxOQJ398HEN2b&index=1&ab_channel=TechMart
+
+	
+major focus items
+-------------
+SSL certs, aws, linux commands, read mastering java 11 book daily for 30 mins(i love these books), 
+read books- real world java book
+
+daily 30 mins each book
+2) files - head 1st java, 3rd edition, 
+3) git,xml and json - read world java
 
 
-ram charan entry 
-helicopter scene
-ias 
-CEO
 
-
-jan 12- jan 16 - 5 days - complete section 4,5,6,7
-
-
-jan 17
+jun6
 -----
-6-615 ready
-615-630 browsing -0.25 wasted
-630-815 helm done
-815-10 dail act
-10-11:30 helm
-1130-1145 kitchen
-
-
-plan- 6
--------
-630-830 helm -2 
-830-930  break 
-930-10 soaking, raagi
-10-1 react - 3.5
-1- 2 news,ofc travel
-2-630 work
-630-730 travel
-730-830 dinner,dish
-830-930 hib -1
 
 
 
 
 
-
-plan -8.5
-pend- 
-930-1030 helm -1
-1030-1130 kitchen 
-1130-1 helm 
-1-145 news,break
-130-4 react
-430-7 - hibernate, 
-7-8:15 pickup,milk, dinner
-815-930 
-
- 
-
-
-
-
-pending tasks
----------------
-create a story in wells, movie ticket to venky
-return ticket , ask gopi marriage soft copy
-, pay gold rd, chintapandu, raagulu pindi, 
-pottu minapappu ,chinta, raaguluu
-
-
-
-jan-13 plan - 7 hours mandatory reading
-------------------------------
-6-8 helm 
-8-9 daily - tiffin,pooja, bath
-1030-1230 helm
-12 verusenaga, tenkayalu, steel binde
-1230-1 news
-1-4 react
-2-5:30 hibernate
-530-730 steel shopping,sun,milk, shopping millets, snacks, 
-730-830 house work - dishwash, laddu
-830-9 dinner
-9-10 preg book, ram prasad book
+pend
+see atta photo
+withdraw the money give to iron
 
 
 
@@ -209,22 +101,96 @@ jan-13 plan - 7 hours mandatory reading
 
 
 
-hibernate status
-96- ignored
-97 -done
-98-started98-till 1:25th minute
 
-practice delte many to 1 delete 1 child among 3 with parent, lazy loading
- 
 
+
+
+
+plans
+---
+senaga, jeel,maamidi - while gng to ofc
+1015-12 aws
+12-1230 soap
+1230-130 news, lunch,ofc
+130-930 (7 work,1 travel) 
+
+
+sal-10
+2-july-2024- 2.58 -
+40 gms-
+till
+2-march-2027
+8075*32- 
+podupu- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+may-31
+--------
+
+
+plans -4.5
+3-6 core java
+630-7 aws
+7-8 dinner, milk
+8-9 aws
+
+
+book medibuddy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+why wasted
+---------
+always complete dinner in 30 mins -15,10,5
+
+
+
+
+
+
+
+
+
+
+1) make video on - what is a pod in n kubernetes, plastic,RO, dogs
+2) RO- - each has one diff advantage, LG- stainless steel, Kent- TDS controller- 6000 yearly off
+3) Best epub reader -aquile
+4) best computer table in 
+5) plastic ban
 
 
 video on plastic - take bharateeyudu moive snipping
+we can do rockets - cant we ban plastic
 roads becoming polluted - papam GHMC karmikulu, even cows are also eating that plastic
 water, food contains plastic 
 cancers- even sambar also in plastic , cell membranes, placenta loki kuda ivi daparisthunay
 if people are dying with plastic- how can they pay tax,
 It is not to save a nation or race, it is for your own safety and health.”
+
+heavy usage- veg santhalum ,vef shops, 
 
 intha sampadinchi arogyamga undaka pothe, sampadichi upayogam enti
 veg market- single use plastic no ban cheyandi
@@ -240,4 +206,4 @@ https://www.newindianexpress.com/cities/hyderabad/2012/Sep/06/hot-food-in-plasti
  khadar vali 
  
  
- 
+  bcb s

@@ -1,0 +1,84 @@
+https://www.youtube.com/watch?v=zAOUpVM6R6I&list=PLtgiThe4j67rAoPmnCQmcgLS4iIc5ungg
+https://www.geeksforgeeks.org/sql-query-interview-questions/
+https://www.geeksforgeeks.org/sql-interview-questions/
+
+Data redundancy is the practice of storing the same data in multiple locations, such as in different tables, databases, or systems
+
+Data integrity is the assurance that an organization's data is accurate, complete, and consistent
+How is data integrity maintained?
+1) Transaction control
+Ensuring that data remains consistent during concurrent database operations 
+2) Domain integrity
+If no data integrity means - we cant trust the data anymore- 2 dob belong to same person (duplicate primary key)
+Ensuring that data in a table's columns adheres to predefined rules or constraints 
+
+Database normalization is a crucial process in database design that aims to reduce data redundancy and improve data integrity. It involves organizing data into tables in such a way that dependencies between data are properly enforced by database integrity constraints.
+
+prevent anamolies-  prevent error when adding removing updating data
+
+Normal Forms
+Normalization is a progressive process, with each level building upon the previous one. The most commonly used normal forms are:
+
+First Normal Form (1NF):
+each cell should have only single value - not comma seperated values
+Eliminates repeating groups in individual tables.
+Creates a separate table for each set of related data.
+Identifies each set of related data with a primary key.
+
+Second Normal Form (2NF):
+All non-key attributes must depend on primary key
+ex- if we store both student and teacher info in same table and student id = pk its wrong- bec teacher name doesnt depend on student primary key
+Must satisfy 1NF.
+Eliminates redundant data that depends only on part of a composite key.
+
+Third Normal Form (3NF):
+Must satisfy 2NF.
+Eliminates data that depends on non-key attributes (transitive dependency).
+...
+
+BCNF
+
+
+view
+------
+if table is having lot of data, if u want user to see only data related to him- then create a view and give the view to him-
+view doesnt contain data
+let say aadhar table contains all state data -then if u want users to limit the data, create a banglore view to user, so that he can see blr people data
+create view v1 as select * from aadhar where location= banglore
+
+Triggers
+-------
+
+to get nth highest salary - sort by desc and fetch that particular row
+queries
+----------
+
+
+name    branch marks rowNum
+mani   cse 900 1
+santu  cse 800 2
+
+sailu ece 900 1
+abi ece   800 2
+total data ---
+Stephen	Computer	USA		2015	200
+Joseph	Laptop		India	2016	500
+John	TV			USA 	2016	700
+Donald	Laptop		England	2015	600
+Joseph	Mobile		India	2015	159
+Peter	Mouse		England	2016	999
+
+--query to fetch country wise highest salary- so 1st partition by each country  and sort by salary  -- and then assign row numbers to each partition 
+select * from 
+ (select *, row_number() over (partition by Country order by Salary desc) as row_num from person) personTemp where row_num=1
+ 
+Peter	Mouse	England	2016	999	1
+Joseph	Laptop	India	2016	500	1
+John	TV	USA	2016	700	1
+
+select name ,branch, marks, row_number() over ( partition by branch order by marks desc)
+
+in every branch if i want 1st ranker 
+
+
+

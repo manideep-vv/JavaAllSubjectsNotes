@@ -1,0 +1,26 @@
+	<plugin>
+				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-codegen-plugin</artifactId>
+				<version>3.3.0</version>
+				<executions>
+					<execution>
+						<id>generate-sources</id>
+						<phase>generate-sources</phase>
+						<configuration>
+		<!-- the final generate classes will be kept in below folder here proj.build.di means target folder	-->
+							<sourceRoot>${project.build.directory}/generated/cxf</sourceRoot>
+							<wsdlOptions>
+								<wsdlOption>
+		<!--here we are telling to pickupt the WSDL file from this location			-->
+									<wsdl>${basedir}/src/main/resources/CustomerOrders.wsdl</wsdl>
+									<wsdlLocation>classpath:CustomerOrders.wsdl</wsdlLocation>
+								</wsdlOption>
+							</wsdlOptions>
+						</configuration>
+						<goals>
+							<goal>wsdl2java</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>

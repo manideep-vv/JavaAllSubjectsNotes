@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="fc390d23-1f92-4302-bf11-07fa616019e5" activeEnvironment="Default" name="soap initial proj" resourceRoot="" soapui-version="5.8.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="d11e9d20-876a-4f5e-acc3-00a380258c3c" wsaVersion="NONE" name="EmployeeControllerServiceSoapBinding" type="wsdl" bindingName="{http://controller.SOAP_1_JAXB_SprDemo.ampf.com/}EmployeeControllerServiceSoapBinding" soapVersion="1_1" anonymous="optional" definition="http://localhost:8080/employee?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://localhost:8080/employee?wsdl"><con:part><con:url>http://localhost:8080/employee?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="EmployeeControllerService" targetNamespace="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="empDetails" type="tns:empDetails"/>
+      <xs:element name="empDetailsResponse" type="tns:empDetailsResponse"/>
+      <xs:complexType name="empDetails">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="empDetailsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="empDetailsResponse">
+    <wsdl:part element="tns:empDetailsResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="empDetails">
+    <wsdl:part element="tns:empDetails" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="EmployeeController">
+    <wsdl:operation name="empDetails">
+      <wsdl:input message="tns:empDetails" name="empDetails"></wsdl:input>
+      <wsdl:output message="tns:empDetailsResponse" name="empDetailsResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EmployeeControllerServiceSoapBinding" type="tns:EmployeeController">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="empDetails">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="empDetails">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="empDetailsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EmployeeControllerService">
+    <wsdl:port binding="tns:EmployeeControllerServiceSoapBinding" name="EmployeeControllerPort">
+      <soap:address location="http://localhost:8080/employee"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/employee</con:endpoint></con:endpoints><con:operation id="12cda4cc-5926-4e13-9baa-1717fe60d824" isOneWay="false" action="" name="empDetails" bindingOperationName="empDetails" type="Request-Response" outputName="empDetailsResponse" inputName="empDetails" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="325b2741-4c8d-40d9-9005-b0dd7c73e3d2" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/employee</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <con:empDetails/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/EmployeeController/empDetails"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>

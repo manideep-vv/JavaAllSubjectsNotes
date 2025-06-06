@@ -1,39 +1,26 @@
 
+for lead dev
+https://www.youtube.com/watch?v=Z3h6T8-iQxk
+
 core java spring, spr boot, maven, git,
 
 corea java basics
 Java
-
 1. Variables and Data Types.
-
 2. Control Statements.
-
 3. OOP's concepts.
-
 4. Java Inheritance.
-
 5. Polymorphism.
-
 6. Abstraction.
-
 7. Encapsulation.
-
 8. Array.
-
 9. Strings.
-
 10. Exception Handling.
-
 11. Inner Classes.
-
 12. Method overloading and overriding.
-
 13. Object Cloning.
-
 14. Key words in Java.
-
 15. Multithreading.
-
 16. Collections
 java basics- collections
 java 7 features- try with resources, auto closeable

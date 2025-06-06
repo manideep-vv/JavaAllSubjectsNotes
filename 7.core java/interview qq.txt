@@ -1,0 +1,5 @@
+threading related
+-----------------
+1) if 100 threads but single processor ? - is there any use? can we create million threads?
+context switch means?
+cyclic barrier & semaphores

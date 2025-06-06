@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://controller.soapDemo.ampf.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="EmployeeControllerService" targetNamespace="http://controller.soapDemo.ampf.com/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://controller.soapDemo.ampf.com/" elementFormDefault="unqualified" targetNamespace="http://controller.soapDemo.ampf.com/" version="1.0">
+
+  <xs:element name="empDetails" type="tns:empDetails"/>
+
+  <xs:element name="empDetailsResponse" type="tns:empDetailsResponse"/>
+
+  <xs:element name="employee1" type="tns:employee"/>
+
+  <xs:element name="getAllEmployees" type="tns:getAllEmployees"/>
+
+  <xs:element name="getAllEmployeesResponse" type="tns:getAllEmployeesResponse"/>
+
+  <xs:element name="init" type="tns:init"/>
+
+  <xs:element name="initResponse" type="tns:initResponse"/>
+
+  <xs:complexType name="init">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="initResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="empDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="empDetailsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getAllEmployees">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getAllEmployeesResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:employee"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="employee">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="employeeName" type="xs:string"/>
+      <xs:element minOccurs="0" name="empRollNumber" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="init">
+    <wsdl:part element="tns:init" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAllEmployeesResponse">
+    <wsdl:part element="tns:getAllEmployeesResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="initResponse">
+    <wsdl:part element="tns:initResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="empDetailsResponse">
+    <wsdl:part element="tns:empDetailsResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="empDetails">
+    <wsdl:part element="tns:empDetails" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAllEmployees">
+    <wsdl:part element="tns:getAllEmployees" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="EmployeeController">
+    <wsdl:operation name="init">
+      <wsdl:input message="tns:init" name="init">
+    </wsdl:input>
+      <wsdl:output message="tns:initResponse" name="initResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="empDetails">
+      <wsdl:input message="tns:empDetails" name="empDetails">
+    </wsdl:input>
+      <wsdl:output message="tns:empDetailsResponse" name="empDetailsResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllEmployees">
+      <wsdl:input message="tns:getAllEmployees" name="getAllEmployees">
+    </wsdl:input>
+      <wsdl:output message="tns:getAllEmployeesResponse" name="getAllEmployeesResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EmployeeControllerServiceSoapBinding" type="tns:EmployeeController">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="init">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="init">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="initResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="empDetails">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="empDetails">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="empDetailsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllEmployees">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getAllEmployees">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAllEmployeesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EmployeeControllerService">
+    <wsdl:port binding="tns:EmployeeControllerServiceSoapBinding" name="EmployeeControllerPort">
+      <soap:address location="http://localhost:8080/employee"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,1 +1,0 @@
-%KAFKA_HOME%\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092  --topic infosys --partitions 1 --replication-factor 2 --config min.insync.replicas=2

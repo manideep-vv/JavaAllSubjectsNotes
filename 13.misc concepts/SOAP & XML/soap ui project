@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:getStudentAddressResponse xmlns:ns2="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/">
+         <return>charan from chirala</return>
+      </ns2:getStudentAddressResponse>
+   </soap:Body>
+</soap:Envelope>

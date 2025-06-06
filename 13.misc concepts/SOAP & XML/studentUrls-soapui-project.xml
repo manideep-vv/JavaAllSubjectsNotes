@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="12d53f78-a8b2-4fad-ae93-0085125417d8" activeEnvironment="Default" name="studentUrls" resourceRoot="" soapui-version="5.8.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="4322e9eb-172e-436f-b3f8-1acb433ca29f" wsaVersion="NONE" name="StudentSOAPControllerServiceSoapBinding" type="wsdl" bindingName="{http://controller.SOAP_1_JAXB_SprDemo.ampf.com/}StudentSOAPControllerServiceSoapBinding" soapVersion="1_1" anonymous="optional" definition="http://localhost:8080/hello?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://localhost:8080/hello?wsdl"><con:part><con:url>http://localhost:8080/hello?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="StudentSOAPControllerService" targetNamespace="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="getStudentAddress" type="tns:getStudentAddress"/>
+      <xs:element name="getStudentAddressResponse" type="tns:getStudentAddressResponse"/>
+      <xs:element name="getStudentName" type="tns:getStudentName"/>
+      <xs:element name="getStudentNameResponse" type="tns:getStudentNameResponse"/>
+      <xs:complexType name="getStudentName">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="getStudentNameResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getStudentAddress">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="getStudentAddressResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getStudentAddress">
+    <wsdl:part element="tns:getStudentAddress" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getStudentAddressResponse">
+    <wsdl:part element="tns:getStudentAddressResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getStudentName">
+    <wsdl:part element="tns:getStudentName" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getStudentNameResponse">
+    <wsdl:part element="tns:getStudentNameResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="StudentSOAPController">
+    <wsdl:operation name="getStudentName">
+      <wsdl:input message="tns:getStudentName" name="getStudentName"></wsdl:input>
+      <wsdl:output message="tns:getStudentNameResponse" name="getStudentNameResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentAddress">
+      <wsdl:input message="tns:getStudentAddress" name="getStudentAddress"></wsdl:input>
+      <wsdl:output message="tns:getStudentAddressResponse" name="getStudentAddressResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="StudentSOAPControllerServiceSoapBinding" type="tns:StudentSOAPController">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getStudentName">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getStudentName">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getStudentNameResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentAddress">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getStudentAddress">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getStudentAddressResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="StudentSOAPControllerService">
+    <wsdl:port binding="tns:StudentSOAPControllerServiceSoapBinding" name="StudentSOAPControllerPort">
+      <soap:address location="http://localhost:8080/hello"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/hello</con:endpoint></con:endpoints><con:operation id="eecb7cb3-a81a-4026-9aaf-2d296c94b0bb" isOneWay="false" action="" name="getStudentAddress" bindingOperationName="getStudentAddress" type="Request-Response" outputName="getStudentAddressResponse" inputName="getStudentAddress" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="d697b69b-ff97-4938-8ac4-19d640a48c94" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/hello</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <con:getStudentAddress/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/StudentSOAPController/getStudentAddress"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="32f04953-687b-46b7-9be3-c9f3dbbdd736" isOneWay="false" action="" name="getStudentName" bindingOperationName="getStudentName" type="Request-Response" outputName="getStudentNameResponse" inputName="getStudentName" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="b87e8588-133f-4dbf-94c4-0085db48517c" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/hello</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <con:getStudentName/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://controller.SOAP_1_JAXB_SprDemo.ampf.com/StudentSOAPController/getStudentName"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>

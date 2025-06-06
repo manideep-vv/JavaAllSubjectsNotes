@@ -1,0 +1,142 @@
+remember these points
+all github 
+https://github.com/spring-projects/spring-framework/wiki
+
+on container is readt CommandLineRunner interface logic will be executed
+
+1) based on some condition we can load the bean definition /load proper file by placing @ConditionalOnProperty on to pof cfg clas
+
+4 1567
+
+9
+
+10
+
+2) based on some conditino we can execute the auto configuration file
+
+by default exclude the auto configuration file if condition is satisfied then load the auto configuration again using Import(MAL)
+
+ideas
+
+11 sometimes some properties in aplication.properties should not be executed at all in that case keep those in seperate file and incors
+
+conditionally if condiotion is satisfies then only import else dont import 12
+
+13
+
+14 conditionally import a properties file
+
+35 @PropertySource("classpath:mongodb.properties")
+
+
+issues i faced
+
+ sometimes yaml file contents will not be loaded at all so in that case use properties file
+
+
+
+if u exclude any autoconfiguration, even if u gave properties in prop file it wont even consider those values but spring will just keep those values in memory but it ignores the values what we gave, even if we gave $ it will just ignore
+
+@SpringBootApplication (exclude = MongoAutoConfiguration.class,
+
+26 27 29 how to trigger auto confifuration based on condition initially by default we will exlude later based on some condition if u want
+
+import then @Import (MongoAutoConfiguration.class)
+
+28 we can import specific autoconfiguration based on demand
+
+Normal text file
+
+To see the auto configuration report /actuator/conditions
+
+http://localhost:8080/actuator/conditions
+
+management.endpoints.web.exposure.include-
+
+spring test:-
+
+the problem with spring test is even though we set all the properties to system using System.setProperty() i tiwont recognize if we take only these value set to this annotation @TestPropertySource (properties(
+
+@SpringBootTest(classes AppLauncher.class, webEnvironment SpringBootTest.WebEnvironment.RANDOM_PORT)
+
+this will start spring boot which ever port is free
+
+
+@LocalServerPort
+
+private String localServerPort;
+
+1) to know in which port spring app is runniing I
+
+2) problem with gradle commands
+
+gradle :bdd:test -Dcompany wellsfargo -PlocalTests
+
+here even if u give with gradle arguments, temporarily it will set these properties to system path but when spring test container @SpringBootTest (classes AppLauncher.class, webEnvironment SpringBootTest.WebEnvironment.RANDOM_PORT)
+
+is getting started these values will be erased and these value will not be considered
+
+so alternative is give all test properties to spr test con with @TestPropertySource (properties { "sqlserverdb_database-dbCODIServices",))
+
+or u can give from intellij run configurations
+
+spring
+
+dummy bean can be created in context
+
+CommandLineRunner
+
+if u want to print some logic before spring container starts then create initializer and add it to container
+
+public class CustomApplicationContextInitializer implements ApplicationContextInitializer ConfigurableApplicationContext
+
+
+@Override
+
+public void initialize(ConfigurableApplicationContext applicationContext) (
+
+ConfigurableEnvironment environment applicationContext.getEnvironment();
+
+System.out.println("Executing custom logic before Spring auto-configuration starts:"); System.out.println("sqlserverdb_host: environment.getProperty("sqlserverdb_host"));
+
+System.out.println("sqlserverdb_database: ⚫ environment.getProperty("sqlserverdb_database"));
+
+// Add more logic as needed
+
+X
+
+}
+
+SpringApplication application new SpringApplication (AppLauncher.class); application.addInitializers (new CustomApplicationContextInitializer());
+
+application.run(args);
+
+actuator/
+
+/actuator/env/
+
+/actuator/heapdump
+
+to see all the environment properties
+
+to see which cond satisfied as part of auto confifuration
+
+https://docs.spring.io/spring-boot/api/rest/actuator/conditions.html
+
+/actuator/conditions
+
+spring boot actuators can generate heap dump also /actuator/heapdump
+
+@Configuration
+
+Conditional0nProperty(name "codi.db.mongoDB.enabled", havingValue - "true")
+
+orily when above condition is true this current CustomMongoConfiguration class will be loaded and autoconfiguration class will be loaded
+
+@ImportAutoConfiguration(MongoAutoConfiguration.class)
+
+@51443
+
+public class CustomMongoConfiguration (
+
+I

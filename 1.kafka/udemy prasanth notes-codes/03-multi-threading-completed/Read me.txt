@@ -1,1 +1,0 @@
-this project says for 1 application 1 kafka producer is enough but multiple threads can use same producer 

@@ -1,0 +1,5 @@
+we faced very latency
+- jvisual vm , actutors to generate heap dumps, we imported into eclipse
+identified memory leaks - static var
+many improvements - caching, kafka batch listener, batch insertions, used async apis
+REST service calls taking too longer- 

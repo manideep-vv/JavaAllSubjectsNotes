@@ -1,6 +1,0 @@
-to start zookeper in confluent kafka
-
-.\bin\windows\zookeeper-server-start.bat .\etc\kafka\zookeeper.properties
-
-to start kafka server in confluent kafka
-.\bin\windows\kafka-server-start.bat .\etc\kafka\server.properties

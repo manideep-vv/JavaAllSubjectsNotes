@@ -1,6 +1,7 @@
 WHAT
 WHY 
 HOw
+5 whys principle - if u ask 5 whys for same question - u will get full knowledge
 
 once a risk is identified, you should have proper controls
 ex:- i watch movies more, you should have controls like note down in excel file how many movies you watched in this month
@@ -11,6 +12,30 @@ always plan the day,
 what u are going to learn tomm - plan it 
 1) Daily you have to learn a bit - onsite anil is learning na daily, so we should also learn
 2) punctuality
+3) always Read source code, read documents, read books, udemy course, read in internet misc sites, YouTube videos , Don’t study for interview, study for the survival of the job
+4) always be up to date, somehow luckily i am able to crack ameriprise interview with old proj knowledge,  other failed only
+- so that why be upd to date,
+  - nobody knows when onsite comes, if onsite requires front end , by that time u should be ready - so learn java and relateed tech fully
+
+5) while learning read  the documentation of a class
+
+
+caution
+--------------------
+---> if u invest time to learn concepts - everything will be easy - because we are not creating anything, we are just learning
+--> if u dont know even system.out.println() also will be difficult
+
+
+read books in windows
+-------
+best app to read in windows is aquile reader
+
+love what u learn
+----------------
+1) love the technology and learn - and embrace by learning that- like react auto re-render using class component
+how much they would have struggled to invent that technology like - JDBC / mongo change streams / react auto -re-render 
+
+
 
 
 

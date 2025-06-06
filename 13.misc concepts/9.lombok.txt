@@ -1,0 +1,2 @@
+for IDE to enable lombok
+maven -->compiler--> Enable annotation processing
