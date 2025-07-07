@@ -12,7 +12,7 @@ https://docs.spring.io/spring-boot/appendix/application-properties/index.html
 
 
 
-"server.servlet.context-path=abcd" to define Context path of the application 
+"server.servlet.context-path=/abcd" to define Context path of the application 
 
 spring.jpa.show-sql=true
 

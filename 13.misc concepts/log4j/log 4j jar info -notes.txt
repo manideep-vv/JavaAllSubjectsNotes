@@ -1,4 +1,9 @@
 Logback is a replacement for its predecessor, Log4j and logback is one of the most widely used logging frameworks in the Java Community. 
+
+if u want to print all logs from a particular package use like below
+now all the logs from that pacakge will definitely print
+logging.level.org.apache.cxf=INFO
+
 https://www.baeldung.com/logback
 
 add these jars to pom.xml

@@ -1,0 +1,45 @@
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://controller.ampf.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="DoctorControllerService" targetNamespace="http://controller.ampf.com/">
+<wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://controller.ampf.com/" elementFormDefault="unqualified" targetNamespace="http://controller.ampf.com/" version="1.0">
+<xs:element name="getAllDoctorNames" type="tns:getAllDoctorNames"/>
+<xs:element name="getAllDoctorNamesResponse" type="tns:getAllDoctorNamesResponse"/>
+<xs:complexType name="getAllDoctorNames">
+<xs:sequence/>
+</xs:complexType>
+<xs:complexType name="getAllDoctorNamesResponse">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
+</wsdl:types>
+<wsdl:message name="getAllDoctorNamesResponse">
+<wsdl:part element="tns:getAllDoctorNamesResponse" name="parameters"> </wsdl:part>
+</wsdl:message>
+<wsdl:message name="getAllDoctorNames">
+<wsdl:part element="tns:getAllDoctorNames" name="parameters"> </wsdl:part>
+</wsdl:message>
+<wsdl:portType name="DoctorController">
+<wsdl:operation name="getAllDoctorNames">
+<wsdl:input message="tns:getAllDoctorNames" name="getAllDoctorNames"> </wsdl:input>
+<wsdl:output message="tns:getAllDoctorNamesResponse" name="getAllDoctorNamesResponse"> </wsdl:output>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="DoctorControllerServiceSoapBinding" type="tns:DoctorController">
+<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="getAllDoctorNames">
+<soap:operation soapAction="" style="document"/>
+<wsdl:input name="getAllDoctorNames">
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output name="getAllDoctorNamesResponse">
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="DoctorControllerService">
+<wsdl:port binding="tns:DoctorControllerServiceSoapBinding" name="DoctorControllerPort">
+<soap:address location="http://localhost:8080/doctors"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

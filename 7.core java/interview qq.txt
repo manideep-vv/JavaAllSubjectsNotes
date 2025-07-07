@@ -3,3 +3,11 @@ threading related
 1) if 100 threads but single processor ? - is there any use? can we create million threads?
 context switch means?
 cyclic barrier & semaphores
+2) ssl - what is SHA-256 secure hashing algorithm - assume we are sending the data- what is the proof that data is not tampered in between
+---> in this case we should send both original and hashed data, at the end we will hash the original data and we will compare with the received hashed data 
+if both hashes are same then it means - data is not tampered, 
+
+
+(deep analysis – middle men will also have the public key –he can decrypt the hash with public key and then he will get the decrypted hash and he already original data- now he saw the original data and hash
+But he cant tamper – bec assume he changed original data and with tampered data he generated hash but he cant sign bec he don’t have private key,
+That’s why we are signing , since the middle men will not have the private key he cant sign, since he cant sign he wont tamper the data at all , hence signing is important 
