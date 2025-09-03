@@ -1,3 +1,5 @@
+all http statuses from 200-399 are success statuses
+failure statuses are from 400-599
 
 to read full documentation of what is released in each version read this doc
 https://github.com/spring-projects/spring-boot/releases/tag/v3.3.5
@@ -12,7 +14,7 @@ https://docs.spring.io/spring-boot/appendix/application-properties/index.html
 
 
 
-"server.servlet.context-path=/abcd" to define Context path of the application 
+"server.servlet.context-path=/abcd" to define Context path of the application  (old is server.context-path)
 
 spring.jpa.show-sql=true
 

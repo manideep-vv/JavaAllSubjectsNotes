@@ -38,6 +38,35 @@ implementation 'ch.qos.logback:logback-core:1.2.11'
     <version>1.7.36</version>
 </dependency>
 
+how to keep info logs in seperate file and debug logs in seperate file and error logs in seperate file - we should use levelrangefilter
+---------
+
+ <RollingFile name="infoLog" fileName="${sys:APP_LOG_ROOT}/application-info.log"
+      filePattern="${sys:APP_LOG_ROOT}/application-info-%d{yyyy-MM-dd}-%i.log" >
+ 
+      <!-- Matches only INFO level -->
+      <LevelRangeFilter minLevel="INFO" maxLevel="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+ 
+      <PatternLayout pattern="${LOG_PATTERN}"/>
+      <Policies>
+        <SizeBasedTriggeringPolicy size="19500KB" />
+      </Policies>
+      <DefaultRolloverStrategy max="10"/>
+    </RollingFile>
+	
+	
+<RollingFile name="debugLog" fileName="${sys:APP_LOG_ROOT}/application-debug.log"
+      filePattern="${sys:APP_LOG_ROOT}/application-debug-%d{yyyy-MM-dd}-%i.log">
+ 
+      <!-- Matches only DEBUG level -->
+      <LevelRangeFilter minLevel="DEBUG" maxLevel="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
+ 
+      <PatternLayout pattern="${LOG_PATTERN}"/>
+      <Policies>
+        <SizeBasedTriggeringPolicy size="19500KB" />
+      </Policies>
+      <DefaultRolloverStrategy max="10"/>
+    </RollingFile>
 	
 	
 	

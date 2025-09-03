@@ -1,3 +1,5 @@
+open ai secret key 
+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
 
 my youtube channel name:- java the daily learner
 read later
@@ -83,72 +85,20 @@ daily 30 mins each book
 3) git,xml and json - read world java
 
 
-
-jun6
------
-5-530 medical bills cal
-530-6 calls
-6-630 ayurvea
-7-7 30
-meassle -rubell- varicella inj 
-tns factors tumor neckrising factors
+sept-3
+--------
 
 
-Yog basti for 8 days for 2 cycles with the interval of 15 days
-Kala basti –
-
-Chandraprabha vati
-
-
-
-jul-4
-------
-11- 1130 tcs
-1130- json
-
-
-
-
-
-
-
-
-
-
+1230-
 
 plans
---------
-1030- 1130 digital sign
-11-1230 tcs mandatory trainings
-12-1 lunch,office
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+3-5:30 gen ai
+530-615 work notes sync
+615- 645  sun,meditation
+645-715  core java
+715-8 dinner, news
+8-9 core java 
+9-945 cxf
 
 
 
@@ -159,141 +109,6 @@ plans
 
 
  
-work
------
-see aipac
-
-
-
-
-
-
-
-----
-plans -6
-1230-3 soap xml
-330-6 AWS
-6-7 break
-7-9 soap
-9-930 news
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-plans
-3-6 soap
-630-8 dmart,veg
-8-830 dinner
-830-9 study
-9-930 sunudalu
-
-
-
-
-
-
-
-
-
-
-
-
-
-pend
-see atta photo
-withdraw the money give to iron
-
-
-
-
-
-
-
-
-
-
-
-
-plans
----
-senaga, jeel,maamidi - while gng to ofc
-1015-12 aws
-12-1230 soap
-1230-130 news, lunch,ofc
-130-930 (7 work,1 travel) 
-
-
-sal-10
-2-july-2024- 2.58 -
-40 gms-
-till
-2-march-2027
-8075*32- 
-podupu- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-may-31
---------
-
-
-plans -4.5
-3-6 core java
-630-7 aws
-7-8 dinner, milk
-8-9 aws
-
-
-book medibuddy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-why wasted
----------
-always complete dinner in 30 mins -15,10,5
-
-
-
-
-
-
-
-
-
 
 1) make video on - what is a pod in n kubernetes, plastic,RO, dogs
 2) RO- - each has one diff advantage, LG- stainless steel, Kent- TDS controller- 6000 yearly off

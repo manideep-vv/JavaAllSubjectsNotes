@@ -1,8 +1,21 @@
 threading related
 -----------------
 1) if 100 threads but single processor ? - is there any use? can we create million threads?
-context switch means?
+context switch means? thread state, deadlock, live lock , atomic variable, semaphores, mutex, 
 cyclic barrier & semaphores
+thread life cycle
+wait() vs sleep() 
+solution for producer consumer sync-  produce 1 consume 2 , produce 2 consume 2
+sync block vs methods vs re entrant locks
+producer consuemr problem solution 
+volatile
+
+java 8 
+---------
+completable future
+
+java security
+---------
 2) ssl - what is SHA-256 secure hashing algorithm - assume we are sending the data- what is the proof that data is not tampered in between
 ---> in this case we should send both original and hashed data, at the end we will hash the original data and we will compare with the received hashed data 
 if both hashes are same then it means - data is not tampered, 

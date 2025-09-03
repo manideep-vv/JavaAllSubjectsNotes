@@ -98,6 +98,10 @@ general git repositories
 https://github.com/github4codedebugger?tab=repositories
 kafka ,async  projects
 
+owasp security related
+
+https://github.com/OWASP/CheatSheetSeries
+csrf poc https://github.com/righettod/poc-csrf/
 
 java8
 ============
