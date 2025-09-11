@@ -1,3 +1,7 @@
+# all books of packt publishers - it has code examples for java 8, spring, ....everything..
+https://github.com/PacktPublishing
+
+
 ############## official learning links #######################
 # most liked 
 https://spring.io/projects/spring-batch // it has all video links and books links

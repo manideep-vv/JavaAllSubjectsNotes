@@ -46,12 +46,47 @@ feb 8 - march 8th is the target @ daily 30 min syllabus - daily 2 hours
 AWS cloud practioner
 feb 8- march 8 - daily 30 mins syllabus - study for 2 hours
 
+daily target to finish 1h syllabus  + 1 hr practice
+
+better do all courses in spring 
+
+1) spring security by bharath tippireddy -current sep 8-sep 22 (12+ 2 days extra) - 6 hours - daily 30 min
+https://tcsglobal.udemy.com/course/spring-security-fundamentals/learn/lecture/18357660?learning_path_id=3756374#overview
 
 
-Distract yourself. When you are feeling overwhelmed by sexual urges, try to find a distraction. This could be anything from reading or watching TV to going for a walk or playing a sport.
-Exercise. Exercise is a great way to release pent-up energy and reduce stress, both of which can help to manage sexual feelings.
+2) oreilly java 8 - 7 hours - target daily 30 mins, from sep 10-sep24
+sept 10-1.5 hour done
+
+3) co pilot  - current 
+https://tcsglobal.udemy.com/course/mastering-github-copilot-for-java-spring-boot-developers/learn/?learning_path_id=3756374
+
+
+4) spring AI
+oreilly live events
+https://learning.oreilly.com/live-events/integrating-ai-in-java-projects/0642572001330/
+
+
+5) spring web flux and reactive programming 
+https://tcsglobal.udemy.com/course/spring-webflux/learn/lecture/44196972?learning_path_id=3756374#overview
+https://tcsglobal.udemy.com/course/spring-webflux/learn/?learning_path_id=3756374
+https://tcsglobal.udemy.com/course/reactive-programming-with-spring-framework-5/learn/?learning_path_id=3756374
+
+
+
+6) read this book which for java 8 , concurrency related 
+https://learning.oreilly.com/library/view/-/9780137574834/ch03.xhtml#:-:text=Each%20result%20is%20a,produces%20a%2048-digit%20integer.
+
+6.1) read head first java 3rd edition which covers 8-17
+
+7) spring data jpa by spr framework guru
+
+
+
+
+Distract yourself. When you are feeling overwhelmed by sx urges, try to find a distraction. This could be anything from reading or watching TV to going for a walk or playing a sport.
+Exercise. Exercise is a great way to release pent-up energy and reduce stress, both of which can help to manage  feelings.
 Practice relaxation techniques. Relaxation techniques such as deep breathing and meditation can help to calm your mind and body.
-Avoid1 triggers. If you can identify any triggers that are causing your sexual feelings, try to avoid them. This may mean avoiding certain places, people, or situations.
+Avoid1 triggers. If you can identify any triggers that are causing your  feelings, try to avoid them. This may mean avoiding certain places, people, or situations.
 
 
 
@@ -83,20 +118,14 @@ daily 30 mins each book
 3) git,xml and json - read world java
 
 
-sept-3
---------
 
 
-1230-
+sept -11
+------------
+10-1045 apache cxf
+11-
 
-plans
-3-5:30 gen ai
-530-615 work notes sync
-615- 645  sun,meditation
-645-715  core java
-715-8 dinner, news
-8-9 core java 
-9-945 cxf
+
 
 
 
