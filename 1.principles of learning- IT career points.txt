@@ -1,6 +1,7 @@
 WHAT
 WHY 
 HOw
+when to use this concept/code - while writing notes , in notes you have to write when we should use this concept
 5 whys principle - if u ask 5 whys for same question - u will get full knowledge
 
 once a risk is identified, you should have proper controls
