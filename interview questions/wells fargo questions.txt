@@ -1,0 +1,210 @@
+
+
+
+
+core java 
+-------------------------
+12. What is Exception handling?
+13. What is a Checked and unchecked exception?
+2. What is marker interface
+3. What is functional interface
+4. what is the use of Default method in java 8
+5.Do you know streams in java 8
+6.Scenario based write logic using java 8
+A. Payament object have payment type and account numbers, write the logic to filter list of account numbers based payment type as saving account.
+B. List of account numbers are present from 1 to 10, write the logic to remove 2 &3 from
+List and print the rest numbers.
+1. Which are the phases in Maven life cycle?
+2. What is Garbage Collection in Java? Types of Garbage Collectors in Java?
+3.Difference between JDK, JRE and JVM?
+4. Can java program run without JDK?
+5. What is the purpose of filter() method in streams? Syntax?
+6. Find the largest number in ArrayList using Java 8 features?
+7.Java 1.8 features?
+8. Executor Service in Java 8?
+15.Does java support multi inheritance
+16. Explain Multithreading in java
+17.Diff b/w sleep and wait methods
+18. What is Singleton pattern
+19. What is Sql injection
+22. What is method refrenceing in java 8
+23. most populat methods in functional interface
+26.Diff b/w string and string builder. whay strings are immutable
+27.Diff b/w hash map and hash table
+3. Difference between HashSet and HashMap?
+2. Explain about Generics and what is the use of Generics?
+4. Difference between Arraylist and Linkedlist?
+5. What design patterns have you worked on?
+6. Explain about Singleton and Factory design patterns?
+Explain about Generics and what is the use of Generics?
+3. Difference between HashSet and HashMap?
+4. Difference between Arraylist and Linkedlist?
+5. What design patterns have you worked on?
+6. Explain about Singleton and Factory design patterns?
+7. Can we have instance variables in Singleton class?
+29.Design patterns- facade patterns in java
+Scenario based question: we have student object list. It has stdid, name, age, standard data. Prepare a list that is having allereer
+than 12 and standard is 5th using javaß
+What is immutable in java
+Scenario based question: how to sort elven list in reverse order using tava 8 features
+collections in java
+facade patterns in java
+
+
+
+
+micro services 
+=================
+What are Micro services
+Diff between Monilithic and Micro services
+Advantages of Micro services
+Disadvantages of Micro services
+How to Debug Micro services
+How to check logs
+Micro services authentication
+How to test Micro services
+Micro services with JSON
+
+1. Explain the current and last project you worked on and technology stack.
+2. How do we design micro-service?
+3. What is Eureka ?
+4. How is load balancing done in micro-services?
+5. How do you monitor micro-services?
+6. How do you communicate between micro-services?
+7. How do you implement Asynchronous and Synchronous communication?
+8. How can we implement caching synchronously in Micro-services.
+9. What are the scenarios we can implement caching?
+10. What is blue and Green Deployment?
+11. How would you communicate between the stakeholders if there is change in your micro-services which indirectly affects other sers
+15. How to implement an api gateway on a cloud environment?
+16. How do you check logs in your current project for micro-service projects?
+17. did you work on latest UI technology?
+18. Any experience on Mongo DB?
+7.Do you know any cloud bases container
+8.PCF- what is restage and restart
+9.PCF- How do you push executble jar to pcf, tell me the command.
+10. What do you about api gateway, service registry.
+11.Difference between Restlemplate and Feign Client.
+12. How can you pass header info in feign client communication between two Microservices.
+24. how do Microservices interact with each other.
+17. In which cases we go for microservices over monolithic applications?
+18. How does load balancing work in microservices?
+19. Do you have any idea about Splunk?
+20. How to check logs in microservices and what tools you have used for the samne?
+21. How do we pass log trace id across the microservices?
+What 4. What the API gateway and how it will be implemented
+Do you know about mongo db.
+What is the fault tolerance mechanism and explain the scenario where you have applied in your project
+How you configure different micro services
+7. How your micro services communicate each other
+8. What is the difference between BestTemplate and FeignClient?
+9. How load balancing works
+10. How the circuit breaker pattern works in micro services and give me the scenario from your project
+11. How caching works and any idea about caching tools
+How you are communicating with different microservices.
+If one microservice is down and others are dependent on that, then how you will handle exception. Any mechanise implemented to дали неизвес
+Explain deployment cycle in project
+How you are doing deployment in all envs
+Regarding Cloud:
+How do we work on cloud with micro services
+cloud tools
+cloud corelation
+Authentication
+OAuth authentication
+Certificates and setup
+JWT authentication
+cloud setup
+Eureka server
+
+
+spring 
+--------------
+9. How many ways we can Spring boot projects?
+10. How we can configure embedded tomcat in Spring Boot?
+11. How to change the port number from 8080
+How to use Profiles in Spring Boot?
+13. How Spring batch works?
+14. What is Authentication and Authorization in REST API?
+20. Explain spring life cycle
+21.Diff b/w controller and annotation
+25. Uses of spring iog
+28. Types of injection
+12. How to implement Restful web services?
+13. What is the default scope of components in spring?
+14. Is it the best practice to use instance variables in spring component classes? difference between Hibernate and JPA?
+15. What is JPA and What is the 16. What is the difference between JDBC and Hibernate?
+12. What is the difference between @Inject and @Autowired annotations?
+13, What is dependency management in spring?
+14. improve performance in this case How you store data from a file which contains millions of records in spring boot and what is the best practice to
+15.What is the unit testing framework used in your project? 16. What are the best practices while writing Junit test cases?
+17. Have you involved in deployment process and how your project gets deployed?
+9. What is the advantage of using Spring.
+10. How you authenticate rest web services.
+11. If external system call fails then how can retry multiple times, tell them configuration.
+12. How to make secure configuration parameters like url instead of passing in yml Or properties file.
+
+
+
+30. Interfaces in hibernate
+31. Hibernate mapping
+32.Diff b/w session factory and session
+33.Implementation of Feign client
+
+Set 5(internal)
+Explain about your project and technologies?
+
+front end 
+-------
+8. Do you have any experience in Angular or React?
+9. How do asynchronous calls work in Angular?
+10. What is the use of css and bootstrap files?
+11. What is the difference between single page and normal applications?
+
+
+kafka
+---
+22. What is Kafka and what is the use of it?
+23. Which cloud you are using for deployment?
+24. What is the difference between SQL and No-SQL?
+18. Do you have any knowledge on Kafka?
+19. What is that equivalent you used in place of Kafka
+
+SET 6:
+
+
+
+20. Do you have any knowledge on Mongo DB7
+21. How authentication works in your project?
+
+misc 
+----
+Introduction on current project and what all technologies used in project
+Which version of java you are using in project.
+Have you manually deployed any of the services in pcf env
+Tell us all commends that you have idea in pcf and used
+How to check logs in pcf..
+What commend you are using to check logs in CLI
+Others:
+Other than this, questions based on our previous experiences and skills mentioned in resume.
+Questions on recent Log4j security issue and our involvement
+How we are involved in Agile model
+Requirement analysis in Agile model and waterfall model
+Sequence daigrams
+Interactions regarding sprint stories with business team and product owners, etc.
+offshore interactions, requirement gathering, scrum meetings etc
+14. Daily activities
+
+
+db 
+Questions about MongoDB, nosql DB
+Any knowledge on MongoDB
+1.Tell me about your self and technology experience.
+2. Do you know any Design pattern
+4.1 explained about single design pattern.
+5. How you will make thread safe singleton design pattern.
+6. Difference between Jpa and Hibernate.
+7.Difference between table and view.
+8. Database query based on data base experience.
+13. How you pass properties in prod env.
+
+

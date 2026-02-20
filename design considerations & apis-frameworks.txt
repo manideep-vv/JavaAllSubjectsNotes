@@ -53,5 +53,10 @@ api's
 to run anything in async use 
 1) java's completableFuture.runAsync(Runnable) or completableFuture.supplyAsync(Runnable)
 or u can submit that task to thread pool like ExecutorService.submit(Runnable)
+
+utilise all processors of ur cpu effectively	if there are any independent task run then using completable futures
+using 
+supplyAsync() and thenCombine() demo
+
 2) use spring's @Async on top of a method so that the method will be run async
 3) 

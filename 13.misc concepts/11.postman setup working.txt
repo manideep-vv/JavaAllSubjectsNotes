@@ -1,0 +1,6 @@
+while working with postman app
+1) postman can allows url with spaces, but in real time code wont allow url with spaces , 
+all spaces must be encoded with %20
+https://example.com/api/items?search=eq%20Dell%20Monitor
+
+

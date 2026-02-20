@@ -52,10 +52,12 @@ better do all courses in spring
 
 1) spring security by bharath tippireddy -current sep 8-sep 22 (12+ 2 days extra) - 6 hours - daily 30 min
 https://tcsglobal.udemy.com/course/spring-security-fundamentals/learn/lecture/18357660?learning_path_id=3756374#overview
-
+how to configure oauth 
 
 2) oreilly java 8 - 7 hours - target daily 30 mins, from sep 10-sep24
 sept 10-1.5 hour done
+
+2.1) complete java json jackson xml book
 
 3) co pilot  - current 
 https://tcsglobal.udemy.com/course/mastering-github-copilot-for-java-spring-boot-developers/learn/?learning_path_id=3756374
@@ -82,48 +84,101 @@ https://learning.oreilly.com/library/view/-/9780137574834/ch03.xhtml#:-:text=Eac
 
 
 
-
-Distract yourself. When you are feeling overwhelmed by sx urges, try to find a distraction. This could be anything from reading or watching TV to going for a walk or playing a sport.
-Exercise. Exercise is a great way to release pent-up energy and reduce stress, both of which can help to manage  feelings.
-Practice relaxation techniques. Relaxation techniques such as deep breathing and meditation can help to calm your mind and body.
-Avoid1 triggers. If you can identify any triggers that are causing your  feelings, try to avoid them. This may mean avoiding certain places, people, or situations.
-
-
-
-
-
-
-watch again
-https://www.youtube.com/watch?v=AHLkbqcVLvY
-only java8 main interview questions https://www.youtube.com/watch?v=PMhrMDHFFW4&t=54s 
-https://www.youtube.com/watch?v=PMhrMDHFFW4&list=PLyHJZXNdCXsfcMboYwGoL6wKAFPxljz5W
-revisit https://www.youtube.com/watch?v=Z3h6T8-iQxk
-https://www.youtube.com/watch?v=TV-xsNjbx_g
-https://www.youtube.com/watch?v=oeH_Zeg7N9o
-https://topmate.io/genzcareer/930954 
-
-java 8 
-https://learning.oreilly.com/videos/-/9780134427201/
-https://www.youtube.com/watch?v=VGVS_i-XvxY&list=PLyHJZXNdCXsfcMboYwGoL6wKAFPxljz5W&index=10 continue after 13
-https://www.youtube.com/watch?v=lN3Od1A9Hqc&list=PLx76DzrwX6H3OOALmMT-BxOQJ398HEN2b&index=1&ab_channel=TechMart
-
-	
 major focus items
 -------------
 SSL certs, aws, linux commands, read mastering java 11 book daily for 30 mins(i love these books), 
-read books- real world java book
+read books- real world java book, json bok
+integrate spring with open ai
+spring web flux
 
 daily 30 mins each book
 2) files - head 1st java, 3rd edition, 
 3) git,xml and json - read world java
 
+current priority list
+--------
+https://tcsglobal.udemy.com/course/parallel-and-asynchronous-programming-in-modern-java/learn/lecture/21016178?learning_path_id=7073640#overview by dilip
+
+
+how to connect a one laptop to two monitors | dual monitor setup without hdmi splitter  |dual monitor setup without hdmi extender | Triple monitor setup
+
+
+do bharath tippireddy course ai 
+
+limits
+kitchen help max-15 mins
+dish wash -15 mins
+soaking -mrng +even -30mins
+khashayams -30 mins
+
+
+salesforce learning summary
+---------------
+15-nov resumed from video 24
+16-nov - sec 11 -11AM
+
+10*2
+10,2500
+every year 1cr
+claim shield+ 11000
+
+ nav 143.80
+ 1417=40+1377
+ 203764=198012+5752
+
+
+12-feb
+------
+615-
+
+13-feb
+-----------
+2-245 lwc 53.5--
+245-345 real estate
+345-430 practice
+430-5 sollu 
+5-530 lwc  
+530-6 break
+6-630 lwc 
+7- 
+ 
+ 
+ 14-feb 
+ -------
+ 7-730
+ 730-830 calls 
+ 830-9 khashayam 
+ 930-
+ 
+ 
+20-feb 
+-------
+2-215 calls 
+215-3 interview
+ 215- 330 planning to read lwc 126
 
 
 
-sept -11
-------------
-10-1045 apache cxf
-11-
+
+not data sc,data analyst, data engineer
+daily aply companies to santu
+
+
+plans 
+-----
+12-1230 amazon order 
+1-130 read insurance docs
+
+
+
+ 
+atleast get 10k loss today - feb 1
+review niva bupa insurance docs
+ 
+
+
+
+
 
 
 
@@ -137,9 +192,47 @@ sept -11
 
  
 
-1) make video on - what is a pod in n kubernetes, plastic,RO, dogs
-2) RO- - each has one diff advantage, LG- stainless steel, Kent- TDS controller- 6000 yearly off
-3) Best epub reader -aquile
+
+
+pend codes-  read about comparable, equals
+pend - read insurance pdf
+
+
+medicines, srirangam,madhurai alternate train , santu naukari, blanket
+ 
+ 
+
+
+plans- strictly dont even touch mobile, only theatre movie-8
+-----
+dmart,
+1-2 dmart,veg, lunch
+   
+
+ 
+sunday plans
+-------------
+dmart, bathroom cleaning 
+ 
+
+issue with niva bupa
+non medical expenses
+sub limits
+BMT
+fine print
+https://www.nivabupa.com/travel-insurance-articles/travel-insurance-fine-print-and-claim-denials.html
+
+  
+
+
+
+plans
+1230-1 insurance
+
+
+ 
+ 
+2) RO- - each has one diff advantage, LG- stainless steel, Kent- TDS controller- 6000 yearly off3) Best epub reader -aquile
 4) best computer table in 
 5) plastic ban
 
@@ -163,9 +256,3 @@ solution:- plastic seperate can, degradable waste ki seperate can
 https://www.thenewsminute.com/tamil-nadu/hot-sambar-dustbin-bags-and-plastic-bucket-how-chennai-rail-vendor-packed-food-52197
 https://www.newindianexpress.com/cities/hyderabad/2012/Sep/06/hot-food-in-plastic-bags-can-cause-cancer-403342.html
 
- cancer, heart diseases and reproductive problems.
- 
- khadar vali 
- 
- 
-  bcb s
