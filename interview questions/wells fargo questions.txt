@@ -1,9 +1,12 @@
 
 
+1st ask sql
+------------
 
 
 core java 
 -------------------------
+7.Java 1.8 features? - sorting, searching ele in list , group by , count
 12. What is Exception handling?
 13. What is a Checked and unchecked exception?
 2. What is marker interface
@@ -20,7 +23,7 @@ List and print the rest numbers.
 4. Can java program run without JDK?
 5. What is the purpose of filter() method in streams? Syntax?
 6. Find the largest number in ArrayList using Java 8 features?
-7.Java 1.8 features?
+
 8. Executor Service in Java 8?
 15.Does java support multi inheritance
 16. Explain Multithreading in java

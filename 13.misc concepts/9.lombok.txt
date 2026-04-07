@@ -1,2 +1,151 @@
 for IDE to enable lombok
 maven -->compiler--> Enable annotation processing
+for java latest versions , u may need to add the maven compiler plugin 
+using those anno, lombok will generate the code at compile time (it will generate setters , getters.. all code at compile time )
+<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+Role of Maven Compiler Plugin
+
+Apache Maven Compiler Plugin is responsible for:
+
+Compiling your Java code
+Running annotation processors (like Lombok)
+
+annotations
+-----
+Basic ones
+@Getter → generates getters
+@Setter → generates setters
+@ToString → generates toString()
+@EqualsAndHashCode → generates equals() + hashCode()
+👉 Constructor related
+@NoArgsConstructor
+@AllArgsConstructor
+@RequiredArgsConstructor → for final fields
+🧩 2. Shortcut / Combo Annotations
+@Data → most commonly used
+
+3. Builder Pattern
+@Builder
+User user = User.builder()
+    .name("Mani")
+    .age(30)
+    .build();
+
+4. Immutability- this is the best alternative for java 17 record immutable classes- instead of writing a record class, just annotate with @value if u want an immutable class
+@Value → immutable class (like final class)
+@Value
+class User {
+    String name;
+    int age;
+}
+equivalent to - final class, no setters  ,u can populate data only using constructors 
+final class User {
+    private final String name;
+    private final int age;
+
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() { return name; }
+    public int getAge() { return age; }
+
+    // equals, hashCode, toString also generated
+}
+@Value is immutable version of @Data
+
+🔄 5. Field Defaults
+@FieldDefaults(level = AccessLevel.PRIVATE)
+🔁 6. Lazy / Cleanup
+@Cleanup → auto close resources
+@SneakyThrows → bypass checked exceptions (⚠️ risky)
+
+Logging Annotations (VERY IMPORTANT FOR INTERVIEWS)
+-----------------------------------------------------
+Lombok provides logging annotations so you don’t write this:
+private static final Logger log = LoggerFactory.getLogger(MyClass.class);
+🧾 1. @Slf4j (MOST USED) 🧾 2. @Log (Java Util Logging)
+----------------------------------------
+
+SLF4J (most preferred in real time )
+👉 What it does
+Automatically generates:
+private static final Logger log = LoggerFactory.getLogger(ClassName.class); 
+//means bec of this annotation only this single line will come automatically
+✅ Example
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+public class UserService {
+
+    public void process() {
+        log.info("Processing started");
+        log.warn("Something might be wrong");
+        log.error("Error occurred");
+    }
+}
+note- even though u add this @slf4j anno from lombok , u need to add slf4j jar and any implementation jars 
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+</dependency>
+implementation jars
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.4.14</version>
+</dependency>
+2. @Log (Java Util Logging) worst dont use because this is java's logging mechanism 
+------------------
+Uses:
+java.util.logging
+
+import lombok.extern.java.Log;
+
+@Log
+public class Test {
+    public void run() {
+        log.info("Hello");
+    }
+}
+
+👉 Generates:
+private static final Logger log = Logger.getLogger(ClassName.class.getName());
+
+⚔️ @Slf4j vs @Log (Important Difference)
+--------------------------
+Feature				@Slf4j			@Log
+Framework	        SLF4J			Java Util Logging
+Industry usage	    ✅ VERY HIGH	❌ Low
+Spring Boot support	✅ Native		❌ Not preferred
+Flexibility			High			Limited
+
+👉 Conclusion: Always prefer @Slf4j
+
+Common Mistakes (Interview Gold)
+----------------------------------------------
+❌ 1. Using System.out.println
+
+👉 Bad practice → use logging
+
+❌ 2. Using @Data everywhere
+
+👉 Causes performance issues (equals/hashCode)
+
+❌ 3. Logging sensitive data
+log.info("Password: {}", password); ❌
+❌ 4. Not using placeholders
+log.info("User " + name); ❌
+log.info("User {}", name); ✅

@@ -12,6 +12,12 @@ https://github.com/spring-projects/
 https://github.com/spring-guides
 
 
+trainer git hub links 
+---------------------------------
+spring - john trainer udemy	https://github.com/springframeworkguru/spring-7-rest-mvc refer this for learning junit testing and spr latest updatesall spring 
+
+
+
 
 To learn spring batch
 ==================================
