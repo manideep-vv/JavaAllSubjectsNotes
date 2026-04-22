@@ -1,0 +1,13 @@
+
+solution to any problem 
+1) ask 5 times why why why u will get root cause and u will solve 
+2) or ask all WH keywords- why, when , how 
+
+Issue in ampf 
+not thinking whats d risk 
+1) i downgraded jar without thinking whats will happen - just one support guy asked and then i immediately updated the version 
+if i would have downgraded that into prod ,not sure how many side effects would have come ? - 
+so summary before downgrading or upgrading atelast check in google what are the enhancements in newer version what have changed from lower to higher version 
+and whats impact on downgraded if u cant find atleast see the documentation 
+
+
