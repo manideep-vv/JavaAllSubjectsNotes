@@ -1,7 +1,12 @@
 
 solution to any problem 
+0) always do reasoning - what, why [question the stuff]
 1) ask 5 times why why why u will get root cause and u will solve 
 2) or ask all WH keywords- why, when , how 
+3) every time approach or handle the problem in diff ways and remember for 1 problem there will be diff solutions 
+
+
+
 
 Issue in ampf 
 not thinking whats d risk 

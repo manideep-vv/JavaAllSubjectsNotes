@@ -9,4 +9,4 @@ to generate getters setters - alt+Insert
 
 to format - ctrl+Alt+L
 
-
+to delete line Ctrl+Y

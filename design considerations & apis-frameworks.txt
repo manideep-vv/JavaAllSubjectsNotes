@@ -13,8 +13,34 @@ from producer side also cache the req, res - if same req comes, if u dont proces
 those can generate spec so that we can give that spec to other and they can see our api details - like uri, parameters, security for each method and return types... status and responses for each status
 7) always write code in such a way by excepcting null pointer scenarios and negative scenarios
 
+
+for heavy multi threading 
+------------------------------
+little use spring @Async
+
+akka, fibers (CE,ZIO), coroutines , 
+virtual threads 
+
+while consuming REST api 
+-------------------------
+use spring @Async , invoke IO calls in seperate thread, even for that also dont use OS/platform/ java7  thread , use virtual thread 
+when u use virtual threads during blocked IO or db calls, virtual thread will release underlying OS thread then OS threads will be utilised effectively by not waiting 
+
+
+use spring webflux instead of spring REST  when 
+---------------
+🚀 High concurrency with fewer resources
+•	Handles thousands of users with fewer threads 
+•	Better for systems like: 
+o	APIs with heavy traffic 
+o	Chat apps 
+o	streaming systems 
+if ur app is majorly calling DB/REST calls and if OS threads are waiting for response, in those cases use webflux
+
+
 frameworks
 ----------
+1) if u want a heavy concurrency platform like trading  then use java akka
 1) mapstruct jar is used to copy the data from one bean to other bean / 1 class to another class
 mapstruct is an annotation based obj mapper -
 2) xml sec - this jar is used to encrpyt the elements present in xml https://santuario.apache.org/secadv.html https://santuario.apache.org/javaindex.html
@@ -61,3 +87,9 @@ supplyAsync() and thenCombine() demo
 
 2) use spring's @Async on top of a method so that the method will be run async
 3) 
+
+tools for api performance testing
+-------------
+apache jmeter, apache benchmark 
+Gatling (Best for Developers / Code-based)
+k6 (Modern & Lightweight)
