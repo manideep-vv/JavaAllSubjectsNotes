@@ -218,59 +218,38 @@ bring aritakulu for seemantham
 
 
 
-3-may
+4-may
 -----
-130-215   react 10 
-240- react 11
-
-
-
-plan -7 hours 
------
-130-4 react 
-4-415 house clean 
-4-5 preg book 
-5-730 aws 
-730-8 dinner,news 
-8-10 akka 
-
-
-
+1145- hosp
 today walking 
 1145-1215
 
 
+5-may
+------------
+11-1130 calls 
+
+9-may 
+------
+tcs interviews
+
+10-may 
+-----------
+3-315 videos 
+315-4  aws 150 
+5-7 calls 
+7-745 aws 
+745-8 calls 
+
+
+This error message may be the result of a corrupt table in the current document.
+You can recover the contents of the document and the table by closing the document, and then reopening it by using the Open and Repair command in the Open dialog box. To find the Open and Repair command, click the File tab, click Open, click the down arrow next to the Open button, and then click Open and Repair. After the file is repaired, the corruption or incorrect formatting of all tables in the document should be corrected.
+If the document still has errors in a table after a repair, you may want to examine each table to see if any text is too long for any given cell or row, or if an incomplete table was created or imported into the document.
 
 
 
 
-plans
------------- 8.5
-mobile clean ,backup 
-8-830 submit murali resume
 
-
-2-may 
-----------------
-pay rent, pay milk man , all cc bills , vishal inners, mobile clean , vistarakulu
-
-130-2 news, lunch 
-2-245 walking 
-
-decide nlr sai  marriage gift - nameplate
- 
- 
-
-plans  
- while going office pickup gold chain , 
-
-nellore sai marriage gift
-
-
- 
-
- 
- 
 2) RO- - each has one diff advantage, LG- stainless steel, Kent- TDS controller- 6000 yearly off3) Best epub reader -aquile
 4) best computer table in 
 5) plastic ban
