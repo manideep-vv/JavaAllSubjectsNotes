@@ -1,4 +1,4 @@
-
+with these ai site u can build prokects in munutes -replit, emergent
 use unhook chrome exetnsion -- to hide recommendations,home page videos  in youtube 
 
 - all appress codes- https://github.com/Apress https://github.com/packtpublishing?
@@ -9,6 +9,8 @@ all books will be available at https://itbook.store/
 
 if u want some dummy data / Dummy rest api which will give both data + images
 https://fakestoreapi.com/products
+https://jsonplaceholder.typicode.com/users
+
 
 https://www.youtube.com/@javawave7003 for interview experiences
 

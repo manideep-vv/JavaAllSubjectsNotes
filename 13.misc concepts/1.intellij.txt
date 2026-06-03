@@ -10,3 +10,8 @@ to generate getters setters - alt+Insert
 to format - ctrl+Alt+L
 
 to delete line Ctrl+Y
+refactor- shift F6
+settings- Ctrl+Alt+S
+duplicate -- line Ctrl+D
+delete- Ctrl+Y
+

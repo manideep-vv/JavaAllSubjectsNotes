@@ -38,81 +38,20 @@ Learning speed- to complete 1 hours syllabus i need 3 hours to understand and do
 
 plans and statuses
 --==============================================REACT=====================================================================
-react -30hours syllabus can be completed in 40 days @ daily 45 minutes complete syllabus+ 5 days grace period
 29-dec ---> feb 15  (29 jan to feb 10 + 5days grace period) 
 stopped react on jan 31
+resumed again on 22 may 2026- already 5 hours over completed 15 videos -- 
+16th to 75 videos - 25 hours left -- 2 months just react alone -- means till  22 july  2026
 
---------------------------------------------hibernate------------------i love hibernate--------------------
-started udemy bharath tippireddy course on feb-8th- 13 hours -
-feb 8 - march 8th is the target @ daily 30 min syllabus - daily 2 hours
 
-------------------------------------------------------------AWS--------------------------------------------
-AWS cloud practioner
-feb 8- march 8 - daily 30 mins syllabus - study for 2 hours
-
-daily target to finish 1h syllabus  + 1 hr practice
-
-better do all courses in spring 
-
-1) spring security by bharath tippireddy -current sep 8-sep 22 (12+ 2 days extra) - 6 hours - daily 30 min
-https://tcsglobal.udemy.com/course/spring-security-fundamentals/learn/lecture/18357660?learning_path_id=3756374#overview
-how to configure oauth 
-
-2) oreilly java 8 - 7 hours - target daily 30 mins, from sep 10-sep24
-sept 10-1.5 hour done
-
-2.1) complete java json jackson xml book
+ 
 
 3) co pilot  - current 
 https://tcsglobal.udemy.com/course/mastering-github-copilot-for-java-spring-boot-developers/learn/?learning_path_id=3756374
 
-
-4) spring AI
-oreilly live events
-https://learning.oreilly.com/live-events/integrating-ai-in-java-projects/0642572001330/
-
-
-5) spring web flux and reactive programming 
-https://tcsglobal.udemy.com/course/spring-webflux/learn/lecture/44196972?learning_path_id=3756374#overview
-https://tcsglobal.udemy.com/course/spring-webflux/learn/?learning_path_id=3756374
-https://tcsglobal.udemy.com/course/reactive-programming-with-spring-framework-5/learn/?learning_path_id=3756374
-
-
-
-6) read this book which for java 8 , concurrency related 
-https://learning.oreilly.com/library/view/-/9780137574834/ch03.xhtml#:-:text=Each%20result%20is%20a,produces%20a%2048-digit%20integer.
-
-6.1) read head first java 3rd edition which covers 8-17
-
-7) spring data jpa by spr framework guru
-
-
-
-major focus items
--------------
-SSL certs, aws, linux commands, read mastering java 11 book daily for 30 mins(i love these books), 
-read books- real world java book, json bok
-integrate spring with open ai
-spring web flux
-
-daily 30 mins each book
-2) files - head 1st java, 3rd edition, 
-3) git,xml and json - read world java
-
-current priority list
---------
-https://tcsglobal.udemy.com/course/parallel-and-asynchronous-programming-in-modern-java/learn/lecture/21016178?learning_path_id=7073640#overview by dilip
-
-
-how to connect a one laptop to two monitors | dual monitor setup without hdmi splitter  |dual monitor setup without hdmi extender | Triple monitor setup
-
-
-
-
+ 
+ 
 target june - job switch 3 months march 17- june  17 
-syllabus 
-core java - latest java 17 features 
-
 https://www.youtube.com/watch?v=6DrYYLrzmvQ
 
  
@@ -185,7 +124,7 @@ used 2 hours of offc time
  
 
 
-25 
+25 -april 
 ----------
 1115-12 aws 4- from 15th minute
 1215
@@ -194,62 +133,72 @@ used 2 hours of offc time
 3-4 cleaning 
 5-6 shopping 
  
+ 28-april
+ --------
+ 9-1030 mangoes 
+ 1030-11 rent house 
+ 11-1130 pure time pass- 
+ 1130-12 kitchen work 
+ 12-130 financial
  
-bring aritakulu for seemantham
+ 
+1- june 
+-------
+1130-730 offc work 
+730-745 shopping 
 
-1-MAY
---------------
-630-645 shopping 
-645-730 book 
-8- 8330 book
-845-9 pure time pass 
-9-930 study 
+2-june 
+-------
+845-915 house clean 
+915-930 house shopping 
+930-945 internet
+945-1145 prac
+1145-1215 walking 
+1215-1245 video 
+12145- 1115  react 
+130-2 react 
+2-930 ofc work 
+950- 1010 react 
 
-2-may 
----------
-45 mis kitchen help 
-0.5 soda 
-9-3 hospital checkup 
-4-5 analysis medical 
-5-530 chair 
-530-6 medical analysis
-6-630 pure time waste 
-7-9 sreact 22- 23
-
-
-
-4-may
------
-1145- hosp
-today walking 
-1145-1215
-
-
-5-may
-------------
-11-1130 calls 
-
-9-may 
+3-june
 ------
-tcs interviews
-
-10-may 
------------
-3-315 videos 
-315-4  aws 150 
-5-7 calls 
-7-745 aws 
-745-8 calls 
+845-9 youtube 
+9-920 revision 
+920-940 friends help 
+940- 10 resume 
+10-
 
 
-This error message may be the result of a corrupt table in the current document.
-You can recover the contents of the document and the table by closing the document, and then reopening it by using the Open and Repair command in the Open dialog box. To find the Open and Repair command, click the File tab, click Open, click the down arrow next to the Open button, and then click Open and Repair. After the file is repaired, the corruption or incorrect formatting of all tables in the document should be corrected.
-If the document still has errors in a table after a repair, you may want to examine each table to see if any text is too long for any given cell or row, or if an incomplete table was created or imported into the document.
+
+plan 
 
 
 
 
 
+
+
+
+plan -strict schedule -10
+--------------------
+945-1 react 
+1030 10 mins walk
+1-2 news, lunch, dish wash 
+2-5 aws 
+5-6 ofc work 
+6-8 spring 
+8-10 react
+
+
+ 
+Luminous Zelio+ 1100 + Amaron 150Ah Battery
+ 
+ 
+ 
+
+
+
+ 
 2) RO- - each has one diff advantage, LG- stainless steel, Kent- TDS controller- 6000 yearly off3) Best epub reader -aquile
 4) best computer table in 
 5) plastic ban

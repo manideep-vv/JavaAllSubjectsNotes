@@ -1,4 +1,4 @@
-
+ask - sql, 
 
 1st ask sql
 ------------
@@ -11,7 +11,8 @@ core java
 13. What is a Checked and unchecked exception?
 2. What is marker interface
 3. What is functional interface
-4. what is the use of Default method in java 8
+
+java 8 - what is the use of Default method in java 8,Default functional interfaces in java8, localdatetimeAPI
 5.Do you know streams in java 8
 6.Scenario based write logic using java 8
 A. Payament object have payment type and account numbers, write the logic to filter list of account numbers based payment type as saving account.
@@ -23,6 +24,8 @@ List and print the rest numbers.
 4. Can java program run without JDK?
 5. What is the purpose of filter() method in streams? Syntax?
 6. Find the largest number in ArrayList using Java 8 features?
+Comparator comparable
+Hashmap internal working
 
 8. Executor Service in Java 8?
 15.Does java support multi inheritance
@@ -51,14 +54,22 @@ than 12 and standard is 5th using javaß
 What is immutable in java
 Scenario based question: how to sort elven list in reverse order using tava 8 features
 collections in java
-facade patterns in java
+singleton, facade,factory patterns in java,Saga design patterns choreography design pattern
 
+tough 
+Volatile vs atomicity
+regex
+
+programs 
+----------
+Sum all employees salarries using streams 
+Test mapToDouble() method double stream
 
 
 
 micro services 
 =================
-What are Micro services
+What are Micro services,Api gateway
 Diff between Monilithic and Micro services
 Advantages of Micro services
 Disadvantages of Micro services
@@ -70,7 +81,8 @@ Micro services with JSON
 
 1. Explain the current and last project you worked on and technology stack.
 2. How do we design micro-service?
-3. What is Eureka ?
+3. What is Eureka ?,Circuit breaker
+
 4. How is load balancing done in micro-services?
 5. How do you monitor micro-services?
 6. How do you communicate between micro-services?
@@ -119,9 +131,18 @@ JWT authentication
 cloud setup
 Eureka server
 
+spr boot 
+--------
+Stop the auto configuration 
+@ConfigurationProperties,@springBootApplication
 
 spring 
 --------------
+annotations - @conditional 
+annotations- @qualifier, vs @inject,What is application context(),
+@RequestBody,
+Abort the component scan 
+
 9. How many ways we can Spring boot projects?
 10. How we can configure embedded tomcat in Spring Boot?
 11. How to change the port number from 8080
@@ -145,8 +166,11 @@ How to use Profiles in Spring Boot?
 10. How you authenticate rest web services.
 11. If external system call fails then how can retry multiple times, tell them configuration.
 12. How to make secure configuration parameters like url instead of passing in yml Or properties file.
+Triggering in jobs in springboot by using enablescgeduling
+13.Stored proceduree
 
 
+Spring security,Jwt token authentication
 
 30. Interfaces in hibernate
 31. Hibernate mapping

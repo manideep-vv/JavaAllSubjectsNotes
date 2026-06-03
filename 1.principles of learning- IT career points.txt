@@ -1,8 +1,14 @@
+
+how to solve any problem 
+================================
 WHAT
 WHY 
 HOw
 when to use this concept/code - while writing notes , in notes you have to write when we should use this concept
-5 whys principle - if u ask 5 whys for same question - u will get full knowledge
+1) 5 whys principle - if u ask 5 whys for same question - u will get full knowledge
+2) note for 1 problem there can be many solutions
+3) always try approaching the problem in diff way , always dont try to solve the problem in same way , try in diff way 
+
 
 once a risk is identified, you should have proper controls
 ex:- i watch movies more, you should have controls like note down in excel file how many movies you watched in this month

@@ -1,0 +1,46 @@
+Topics longest substring without repeating characters
+First non repeating character in string using streams 
+Moving all 0s to the end of the array
+
+
+
+Indexing in dB
+
+
+
+Kafka
+
+
+Aop,jdbc, 
+Core java threads-
+@logexecutiontime
+Handling exceptions
+Resilience 4j  retry
+Mongo Appender.
+Spring with private constructor
+Pur vs post
+Light weight vs loosely coupled
+Auditing.
+Design patterns
+Spring jdbc
+Spring annotations 
+Rest annotations 
+Standards u will follow while dev app/rest appn.
+Misc
+=======
+Json converter
+
+Corejava
+=========
+Semaphores, countdown latch,threadlocal, reentrantlock, completableFutures, executorthreadpool, 
+Spring 
+=======
+Context Aware injection
+Aop
+Threadlocal 
+Cglib.
+Postcon, runner,,bean life cycle,
+All stereotype annotations, 
+
+
+ 
