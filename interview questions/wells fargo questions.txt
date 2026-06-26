@@ -235,3 +235,37 @@ Any knowledge on MongoDB
 13. How you pass properties in prod env.
 
 
+Spring Boot
+	1.	How does Spring Boot application start internally?
+	2.	What happens when spring-boot-starter-web is added?
+	3.	Difference between @Component, @Service, and @Repository?
+	4.	What is Dependency Injection?
+	5.	How does auto-configuration work?
+
+Microservices
+	1.	Why do we use Microservices instead of Monolith?
+	2.	What is API Gateway?
+	3.	What is Service Discovery?
+	4.	How do Microservices communicate?
+	5.	How do you handle distributed transactions?
+
+Kafka
+	1.	What is a Kafka Topic?
+	2.	Difference between Producer and Consumer?
+	3.	What is a Consumer Group?
+	4.	How do you handle message retries?
+	5.	How do you ensure message ordering?
+
+SQL
+	1.	Difference between INNER JOIN and LEFT JOIN?
+	2.	What is indexing?
+	3.	What is a composite index?
+	4.	How do you optimize a slow query?
+	5.	Difference between DELETE, TRUNCATE, and DROP?
+
+Production Support Scenario
+	1.	API response time increased from 200ms to 8 seconds. How will you troubleshoot?
+	2.	Traffic increased from 1,000 to 10,000 requests/minute. What will you do?
+	3.	Application is throwing OutOfMemoryError. How will you investigate?
+	4.	How will you handle a 500 Internal Server Error in production?
+	5.	How do you analyze logs during an incident?

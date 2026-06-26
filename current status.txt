@@ -12,13 +12,7 @@ https://www.youtube.com/watch?v=PGZeYTIGUTs&list=PLD9DLu3Uw5PQxBuApX8pshZ096eFQ4
 https://www.youtube.com/watch?v=SuguH8YBl5g&list=PLD9DLu3Uw5PQxBuApX8pshZ096eFQ4xGs&index=2
 https://learning.oreilly.com/course/java-performance-livelessons/9780133443561/
 
-
-Time pass- dances, preg books, D3 book, 
-
-Do cooking- borugu muddalu, kobbari muddalu
-
-
-
+ 
 always while learning anything- analyse- enduku, emiti, ela?
 
 current target -
@@ -44,15 +38,10 @@ resumed again on 22 may 2026- already 5 hours over completed 15 videos --
 16th to 75 videos - 25 hours left -- 2 months just react alone -- means till  22 july  2026
 
 
- 
-
-3) co pilot  - current 
-https://tcsglobal.udemy.com/course/mastering-github-copilot-for-java-spring-boot-developers/learn/?learning_path_id=3756374
 
  
  
 target june - job switch 3 months march 17- june  17 
-https://www.youtube.com/watch?v=6DrYYLrzmvQ
 
  
 pendi 
@@ -70,128 +59,135 @@ react 30 hours started on apr 5th- daily 30 mins sylllabus -
 target - 60 days - june 5th 
 read insurance docs daily 
 
-apr-3
-----
-1030-530 insurance plans 
-615-645 financial 
-730-830 house shopping 
-830-915 kitchen help 
-915-945 veg shopping 
+react 16 hours pending - from video 41-74
+daily 30 mins -32 days to complete, june 20-july 20 2026 target
 
-
-apr -6
-------------
-9-915 calls 
-915-930 shopping r3
-see why extra sal came 
-
-apr-7
------------
-630-730 extra sleep due to extraa water
-930-1230  charan help 
-1230-
-
-
-apr-15
----------
-930-12 ofc work 
-12-1220 videos
-1230-1 react 5
-1-115 calls 
-115-
-
-apr-16 
------------
-930-1015 solu calls 
-1015-11 calls 
-work 
-830-930 sailu sollu calls in home
-
-apr-17
-------------
-915-945 shopping 
-10-1030 ready 
-1030-1215 aws 128-132
-
-
-
-apr-20 
-----------
-used 2 hours of offc time 
-930-  react practice 
 
  
- 
+june -23
+--------
+1015-1030 calls 
+1030-11 pre 
+11-1115 calls 
+1115-1215 react 42 
+1215-115 helmet  
 
-
-25 -april 
-----------
-1115-12 aws 4- from 15th minute
-1215
-1215- 1245 bag stich 
-1245-3 read 
-3-4 cleaning 
-5-6 shopping 
- 
- 28-april
- --------
- 9-1030 mangoes 
- 1030-11 rent house 
- 11-1130 pure time pass- 
- 1130-12 kitchen work 
- 12-130 financial
- 
- 
-1- june 
--------
-1130-730 offc work 
-730-745 shopping 
-
-2-june 
--------
-845-915 house clean 
-915-930 house shopping 
-930-945 internet
-945-1145 prac
-1145-1215 walking 
-1215-1245 video 
-12145- 1115  react 
-130-2 react 
-2-930 ofc work 
-950- 1010 react 
-
-3-june
+june 26
 ------
-845-9 youtube 
-9-920 revision 
-920-940 friends help 
-940- 10 resume 
-10-
-
-
+930-10 read 
+10-1015 calls 
+1015-1215 prac 
+1215-1230 videos
+1230-1 prac  
 
 plan 
-
-
-
-
-
-
-
-
-plan -strict schedule -10
---------------------
-945-1 react 
-1030 10 mins walk
-1-2 news, lunch, dish wash 
-2-5 aws 
-5-6 ofc work 
-6-8 spring 
-8-10 react
+1015-1215 
+1215-115 news, preg book 
+1- 130 lunch 
+130-2 ofc travel 
 
 
  
-Luminous Zelio+ 1100 + Amaron 150Ah Battery
+ 
+ 
+ 
+
+apply to cibc 
+
+plans 
+daily clean mobile 15 mins 
+read preg book 30 mins
+see santu insurance
+book tirupti tickets 
+
+
+june-18
+-----------
+
+apply , santu accenture  vertex
+
+change notice period 
+resume headline only keywords
+
+add veracode, aws sec manager, 
+JIRA Servicenow Bash PythonIAMDastSastVeracodeAWS Secret ManagerVaultCyberarkElkGrafanaPrometheusFluxAnsibleAWS CloudformationTerraformGitlab CIGithub ActionsJenkinsDockerEksKubernetesGCPAzure DevOpsAWSSreDevsecopsDevOps
+
+
+tier 1, tier 2,3,4
+add projects definitely - what u did, what u used, what u achieved 
+
+ 
+
+Designed cloud-native architecture for 15+ applications across AWS, Azure, GCP with 99.9% uptime & HA/DR Built CI/CD pipelines (Jenkins, GitHub Actions, GitLab CI) enabling zero-downtime deployments Implemented Kubernetes (EKS) platform with Docker, Helm, RBAC, HPA Automated infrastructure using Terraform, CloudFormation, Ansible Integrated DevSecOps (SAST/DAST, Vault, CyberArk) improving security by 30% Built observability stack (Prometheus, Grafana, ELK) reducing MTTR by 25% Automated SSL lifecycle (AWS ACM + ServiceNow) reducing outages by 80% Resolved P1 incidents within less than 30 mins
+
+:
+top 5 skills DevOps,Site Reliability Engineering,Devsecops,AWS,GCP,Kubernetes,Docker,Terraform,Ansible
+
+add education , full time
+add IT skills 
+
+
+id automation AIM 
+
+all full time 
+add every thing in projects, skills used 
+add profile summary
+add linkedin url 
+
+career profile 
+------------------
+current ind- it services, consulting, 
+dept- engineering software & QA
+expected sal ==0 
+pref location - india 
+
+apply like freshness
+
+search with all applicable roles 
+
+linked in 
+------------
+1) posts tab 
+in linked in search with "" 
+"java developer" after searching click posts 
+filter with date posted last 24 hours
+
+goto posts search for 
+"hiring java developer"
+call directly phone num , gmail 
+
+
+people keywords 
+
+2) see people tab
+
+prepare your self introduction 
+
+daily activities 
+add promethus, grafana, cloud watch 
+
+ 
+ Java Developer with 4 years of hands-on experience in designing, developing, testing, and deploying enterprise-grade applications using Java, Spring Boot, and Microservices. 
+have experience in deploying apps into AWS, EKS
+ 
+ 
+ 
+ 
+  
+plans
+-------------
+do ultimatix course
+apply santu to wells fargo from abi, apply her to american airlines , explain kafka to her
+daily 15 mins clean mobile while walking 
+ 
+ 
+linked in hr connect
+
+Hi sandeep, I recently saw for the [Job Title] role (Ref: #[Job ID]) at [Company]. With my 9 years of experience in java, spring boot,
+ I would love to connect and briefly discuss how I can add value to your team. Best, [Your Name]
+
+Hi [HR Name], I’m highly interested in the Java Developer role at [Company]. Given my expertise in backend Java  , could you refer my profile to the hiring manager or share next steps for an interview? Thank you, Manideep 
+
  
  
  
@@ -274,3 +270,8 @@ very comfortable chair with natural spine aligment
 
 
 
+video on sperm 
+dont use pain killers while plannig for baby- issue is sperm should carry 23 ch, if u use this then sperm may carry abnormal no of chromosomes 
+regular sperm analysis cant count how many chromosomes inside sperm nucleus , 
+so solution is stay away from these medicines , if u used then postpone to plan after 90 days 
+i went to doctor also 
