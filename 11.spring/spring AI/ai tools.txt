@@ -1,0 +1,25 @@
+gamma, notebook llm, pomeri,comet, lovable, bolt new, 
+ai agents- claude co-work, zapier, pabbly
+google ai studio, stich
+https://airadar.freedomwithai.com/
+
+https://aistudio.google.com/apps
+
+https://aistudio.google.com/live?model=gemini-2.5-flash-native-audio-preview-12-2025
+
+https://stitch.withgoogle.com/
+
+Stitch AI is an AI-native design platform from Google Labs that allows you to transform rough concepts, sketches, or mood boards into functional UI prototypes through "Vibe Design." It uses an agentic workflow to handle layout adjustments and aesthetic changes in real-time via simple text or voice commands. For your agency, it serves as a high-speed bridge between a creative vision and production-ready code or Figma designs.
+
+notebook llm
+
+https://app.jobcopilot.com/ 
+this will automatically apply to jobs
+
+job hunt autopilot 
+
+replit
+
+https://notebooklm.google.com/notebook
+→ Notebook LM can generate podcast scripts by analyzing input topics or documents and creating conversational, structured content. It can also simulate dialogues or provide summaries, making podcast production faster and more streamlined.
+​NotebookLM is a free AI-powered research and note-taking tool developed by Google. For enhanced features and higher usage limits, NotebookLM Plus is available through the Google One AI Premium subscription, priced at $19.99 per month, which also includes 2TB of storage and access to advanced AI models.

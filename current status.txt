@@ -62,36 +62,163 @@ read insurance docs daily
 react 16 hours pending - from video 41-74
 daily 30 mins -32 days to complete, june 20-july 20 2026 target
 
+react as on july 22 , still 8 hours pending from video 57-75
+shame on u for 1 month completed only 8 hours instead of 16 hours
+
 
  
-june -23
+ 
+june-27
 --------
-1015-1030 calls 
-1030-11 pre 
-11-1115 calls 
-1115-1215 react 42 
-1215-115 helmet  
+1130-1145 sheet 
+1145-12 news
+12-145 aws 194-196
+145-
 
-june 26
-------
-930-10 read 
-10-1015 calls 
-1015-1215 prac 
-1215-1230 videos
-1230-1 prac  
 
-plan 
-1015-1215 
-1215-115 news, preg book 
-1- 130 lunch 
-130-2 ofc travel 
+
+
+ 
+
+9-july 
+-------
+1 calls 
+11-12 courses 
+0.25 calls 
+845-915 tcs exam 
+915-
+submit santu reports 
+
+
+
+
+
+14-july 
+---
+1:30PM  call owner 
+1230- 1 study 
+1-130 order 
+130 - study 
+230- tcs apply 
+
+ 
+25-july
+----------------
+730- r59
+
+
+
+26-july 
+---------
+ 
+ 
+4-5 shopping 
+5-6 bus 
+630-7 calls
+7-8 ofc work
 
 
  
  
  
+27-july 
+-------------
+1230-1245 sheet 
+115-145 naukari
+
+
+ 
+30-july
+--------------
+10-11 kit, house work 
+
+200
+
+31-july
+---------
+630-10 sleep
+12-1215 calls 
+1215-1 sql
+115-120 sql 12
+330-415 movie
+415- tax
+
+ 
  
 
+9-aug
+----------
+12-1215 sheet 
+1245-1 toys 
+7-730 news 
+
+
+11-aug plan 
+----------
+15 house work 
+930-1130 sai dressse
+1130-1230 sailu calls 
+
+
+12-=fever  
+
+13-aug
+-----------
+930-1 train book 
+1-145 sai parcel
+145-215 pure wate 
+245-3 calls 
+1-calls 
+
+lakdik,mgbs,miyapur, 
+kukatpally kphb-688 towards miyapur
+miyapur- 608
+lakdikapul- telephone
+
+733 111 8828
+99 48 33 0301 mehedipatnam bus num
+
+
+ 
+
+
+plans
+clean mobile, apply to jobs, call vanguard
+
+
+SEE THat iicici , nps
+https://nli.icici.bank.in/NewRetailWeb/loadGrievanceFormTwo.htm
+sai daughter gift
+https://www.goindigo.in/careers/hiringevents/airportoperationscustomerservicesevents.html
+
+
+
+
+how to get job 
+----------
+send resume to hr directly
+msg hiring managers on linkedin 
+msg managers of target comp
+
+
+do  nuvvula laddu
+
+
+ 
+ 
+  
+plan -  santu ITR download forms , 
+
+income from other sources 
+1885 interest all 3 banks 
+271,221 post offc kvp bonds mat 
+15,517 post office RD 
+271 dividend
+ 
+
+
+
+ 
 apply to cibc 
 
 plans 
@@ -101,10 +228,6 @@ see santu insurance
 book tirupti tickets 
 
 
-june-18
------------
-
-apply , santu accenture  vertex
 
 change notice period 
 resume headline only keywords
@@ -116,10 +239,7 @@ JIRA Servicenow Bash PythonIAMDastSastVeracodeAWS Secret ManagerVaultCyberarkElk
 tier 1, tier 2,3,4
 add projects definitely - what u did, what u used, what u achieved 
 
- 
-
-Designed cloud-native architecture for 15+ applications across AWS, Azure, GCP with 99.9% uptime & HA/DR Built CI/CD pipelines (Jenkins, GitHub Actions, GitLab CI) enabling zero-downtime deployments Implemented Kubernetes (EKS) platform with Docker, Helm, RBAC, HPA Automated infrastructure using Terraform, CloudFormation, Ansible Integrated DevSecOps (SAST/DAST, Vault, CyberArk) improving security by 30% Built observability stack (Prometheus, Grafana, ELK) reducing MTTR by 25% Automated SSL lifecycle (AWS ACM + ServiceNow) reducing outages by 80% Resolved P1 incidents within less than 30 mins
-
+  
 :
 top 5 skills DevOps,Site Reliability Engineering,Devsecops,AWS,GCP,Kubernetes,Docker,Terraform,Ansible
 

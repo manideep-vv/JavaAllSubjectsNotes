@@ -6,6 +6,12 @@ Do's and dont's with ur laptop
 ===================================
 1) Say NO to password sharing.  - if u share it means u are sharing ur accountability also- we should never violate company policies
 2) we should Never login in another machine with our credentials - Logging in and allowing someone else to use your session is as bad as sharing your password
+3) dont repair tcs laptop  on ur own 
+
+genai
+----------
+dont upload sensitive data to gen ai like data in excel sheet 
+use only approved gen ai tools
 
 Inside campus & ODC
 ===============================
@@ -25,7 +31,7 @@ penalty, anxiety weighs  more than weight of a laptop
 9) Dont connect ur laptop to public wi-fi
 10) lock ur laptop when u are going away from ur system,- unauthorised users can misuse ur workstation 
 11) we should not carry any personal pen drives into TCS machines, they will scan our entire bag, its a security violation to carry those pendrives 
-or any other TCS un approved devices
+or any other TCS un approved devices, and dont attach any personal devices like pendrives to tcs machines 
 Dont carry any personal or un authorised electronic devices inside tcs premises - if u bring u should declare it at entrance
 
 
@@ -34,14 +40,16 @@ usage of email and internet
 never send any business data to outside from tcs mail, avoid sending data from ur tcs mails, everything is tracked
 Information classification--> Always classify the mails with public/confidential/Restricted/Internal
 1) dont send any business data to ur personal email from ur tcs mail ids- else security incidents will be raised on us
-2) use internet and email for business purposes only
+2) use internet and email for business purposes only and use internet only for the purpose what they gave u , dont use internet for personal purposes or dont use for seing adult content /dont use for non- business activities
 3) dont access any non business websites- sites that are illegal, adult , violence ,rumours...
-4) never download copyrighted content
-5) Don’t click links provided in SPAM e-mail; it may download some malware on your system. 
+4)  while replying see the senders email id not just name, and must check if it is fraud or not
+5) Don’t click links provided in SPAM e-mail; it may download some malware on your system. see the email id of sender before clicking any mail from outside of org 
+if u suspect any fraudlent mail report phising 
 It may take you to fake sites(exactly like bank sites) where you may end up providing sensitive information like password, account details and so on.- 
 it may steal ur bank account details and take all the money
 it can corrupt ur system and causing mal function of ur system like ransomware virus
 5.1) always check senders email address, those guys could be spamming you
+5.2) dont download copyrighted content
 6) Never reply to SPAM e-mails.
 7) use internet only for official business purposes not for personal purposes - never open linked in, gmail, facebook, or booking movie tickets, downloading movies
 8) Dont upload tcs/customer java/any lang code/any customer info to public portal like stackoverflow, 
