@@ -29,23 +29,13 @@ long target- JS,Angular,react, cloud (AWS),hibernate HQL, gradle,SQL, prompt eng
 Learning speed- to complete 1 hours syllabus i need 3 hours to understand and document + 1hr to practice
 
 
-
-plans and statuses
---==============================================REACT=====================================================================
-29-dec ---> feb 15  (29 jan to feb 10 + 5days grace period) 
-stopped react on jan 31
-resumed again on 22 may 2026- already 5 hours over completed 15 videos -- 
-16th to 75 videos - 25 hours left -- 2 months just react alone -- means till  22 july  2026
-
-
-
- 
- 
 target june - job switch 3 months march 17- june  17 
 
  
 pendi 
 santu should take pic for cts
+
+
 
 
 commit sf projects, learn cursor claude IDE udemy video 
@@ -54,144 +44,67 @@ https://tcsglobal.udemy.com/course/anthropic-claude-code/
 
 see https://www.youtube.com/live/AWvoMzfcqkc
  
-
-react 30 hours started on apr 5th- daily 30 mins sylllabus - 
-target - 60 days - june 5th 
+ 
 read insurance docs daily 
 
-react 16 hours pending - from video 41-74
-daily 30 mins -32 days to complete, june 20-july 20 2026 target
-
-react as on july 22 , still 8 hours pending from video 57-75
-shame on u for 1 month completed only 8 hours instead of 16 hours
-
-
- 
- 
-june-27
---------
-1130-1145 sheet 
-1145-12 news
-12-145 aws 194-196
-145-
-
-
-
-
- 
-
-9-july 
--------
-1 calls 
-11-12 courses 
-0.25 calls 
-845-915 tcs exam 
-915-
-submit santu reports 
 
 
 
 
 
-14-july 
+sep-1
 ---
-1:30PM  call owner 
-1230- 1 study 
-1-130 order 
-130 - study 
-230- tcs apply 
+2-215 read
+3-345 read
 
- 
-25-july
-----------------
-730- r59
-
-
-
-26-july 
----------
- 
- 
-4-5 shopping 
-5-6 bus 
-630-7 calls
-7-8 ofc work
-
-
- 
- 
- 
-27-july 
--------------
-1230-1245 sheet 
-115-145 naukari
-
-
- 
-30-july
---------------
-10-11 kit, house work 
-
-200
-
-31-july
----------
-630-10 sleep
-12-1215 calls 
-1215-1 sql
-115-120 sql 12
-330-415 movie
-415- tax
-
- 
- 
-
-9-aug
-----------
-12-1215 sheet 
-1245-1 toys 
-7-730 news 
-
-
-11-aug plan 
-----------
-15 house work 
-930-1130 sai dressse
-1130-1230 sailu calls 
-
-
-12-=fever  
-
-13-aug
+2-sept
 -----------
-930-1 train book 
-1-145 sai parcel
-145-215 pure wate 
-245-3 calls 
-1-calls 
+920-930 train tick book
+930-945 financial 
+945-
 
-lakdik,mgbs,miyapur, 
-kukatpally kphb-688 towards miyapur
-miyapur- 608
-lakdikapul- telephone
 
-733 111 8828
-99 48 33 0301 mehedipatnam bus num
 
+plan 
+micro services book, hibernate code decode videos, jwt token,bulk ahead pattern
+
+
+lazy loading, eager loading, fetch type , learn build ai agents 
+ 
+hib remaining interview videos 
+
+send 1000 to santu nps
+in hib read join,Expression
+read for question- what are the major issues u faced in hib 
+book santu train ticket 
+ 
+ 
+  
+
+read saga , decorator pattern
+
+react , loki, sql , ai 
+
+start learning  JMX
+https://www.youtube.com/watch?v=aKGYa6Y9r60&t=96s
+
+
+  
+
+
+today see abanti mail, clean photos
+
+clean reum,take kafka qns from chatgpt
+store all kafka qns 
+read 2 days news
 
  
 
+store the msgs 
 
-plans
-clean mobile, apply to jobs, call vanguard
-
-
-SEE THat iicici , nps
-https://nli.icici.bank.in/NewRetailWeb/loadGrievanceFormTwo.htm
-sai daughter gift
-https://www.goindigo.in/careers/hiringevents/airportoperationscustomerservicesevents.html
-
-
+issues we faced- writing logic in java is waste better write that logic in db  , 
+ec2 is not receiving traffic, aws access keys
+ 
 
 
 how to get job 
@@ -201,35 +114,16 @@ msg hiring managers on linkedin
 msg managers of target comp
 
 
-do  nuvvula laddu
-
-
- 
- 
-  
-plan -  santu ITR download forms , 
-
-income from other sources 
-1885 interest all 3 banks 
-271,221 post offc kvp bonds mat 
-15,517 post office RD 
-271 dividend
  
 
-
-
  
-apply to cibc 
-
 plans 
 daily clean mobile 15 mins 
 read preg book 30 mins
-see santu insurance
-book tirupti tickets 
 
 
 
-change notice period 
+
 resume headline only keywords
 
 add veracode, aws sec manager, 
@@ -318,7 +212,7 @@ Hi [HR Name], I’m highly interested in the Java Developer role at [Company]. G
 2) RO- - each has one diff advantage, LG- stainless steel, Kent- TDS controller- 6000 yearly off3) Best epub reader -aquile
 4) best computer table in 
 5) plastic ban
-
+6) make video on https://www.msn.com/en-in/food-and-drink/healthy-cooking-and-eating/6-types-of-food-you-should-not-store-in-plastic-containers-food-authority-s-strict-guidelines-on-plastic-materials-safe-for-food-products/ss-AA21ky0D?ocid=winp1taskbar&cvid=ed35e9c5734042b9ad0c16c9a851ad16&ei=12#image=8 
 
 video on plastic - take bharateeyudu moive snipping
 we can do rockets - cant we ban plastic

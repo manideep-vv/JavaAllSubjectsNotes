@@ -18,3 +18,45 @@ https://www.linkedin.com/learning/ethics-in-the-age-of-generative-ai?u=2154233
 Being Responsible with Generative AI.
 
 https://www.linkedin.com/learning/ai-show-being-responsible-with-generative-ai/responsible-ai-framework?u=2154233
+
+
+1: The AI Toolkit & Developer Setup
+Map of AI tools: LLMs, code assistants, AI search, agents
+Tool categories: chat models, IDE copilots, CLI agents
+Evaluation framework: accuracy, context window, cost, latency
+When AI helps vs. when it hurts: real limitations
+Setting up an AI-powered dev environment in 30 minutes
+Live experiment: solving the same problem with multiple tools
+2: Prompt Engineering & Vibe Coding
+Vibe coding: natural language to code (fast prototyping)
+Anatomy of a developer prompt: role, context, task, constraints
+Zero-shot to few-shot escalation strategy
+Chain-of-thought prompting for better reasoning
+Iterative prompting and fixing hallucinations
+3: Spec-Driven Development with AI
+Transition from prompts to structured specifications
+Writing clear technical specs before code generation
+Few-shot prompting with real codebase patterns
+Generating reliable code aligned with requirements
+Reducing ambiguity and improving determinism
+4: RAG Systems & Context-Aware AI
+Retrieval-Augmented Generation (RAG) fundamentals
+Embeddings, vector databases, semantic search
+Connecting AI to codebases, docs, and internal data
+Building developer assistants using RAG
+Limitations and failure modes of RAG systems
+5: AI Agents, MCPs & Skills
+Tool-using agents: APIs, databases, CLIs
+Introduction to MCPs (Model Context Protocols): standardizing how AI accesses tools and context
+Designing skills for agents: reusable capabilities (e.g., code analysis, API calling, DB querying)
+Agent workflows: planner, executor, reviewer patterns
+Multi-agent systems: task decomposition and collaboration
+Frameworks like CrewAI and similar ecosystems
+Guardrails: controlling agent behavior, permissions, and failures
+6: Build & Learn: Project - Text to SQL
+Problem Understanding: Review FRD & PRD, refine requirements, and design solution flow using Mermaid MCP
+Synthetic Data Generation: Generate realistic datasets using Mockaroo + AI prompts (CSV & JSON formats)
+Prompt Engineering: Build and optimize Text-to-SQL prompts using PromptLayer
+Database Setup: Deploy PostgreSQL via Docker and connect using MCP for natural language queries
+MERN Stack Development: Generate full-stack app using MongoDB, Express.js, React, Node.js with Bolt.new or v0.dev
+CI/CD Deployment: Automate deployment using GitHub Actions with Vercel or Railway, and manage logs & environment variables

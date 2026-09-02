@@ -1,0 +1,22 @@
+
+Amgen 
+https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/Fullstack-Developer_R-246940
+Experience with big data technologies (e.g., Spark, Databricks, Kafka)
+   * Experience with event-based architecture and serverless AWS services such as EventBridge, SQS, Lambda or ECS.read ecs vs eks
+   * Experience with Benchling
+   * Hands-on experience with Full Stack software development
+   * Strong understanding of software development methodologies, mainly Agile and Scrum
+   * Working experience with DevOps practices and CI/CD pipelines
+   * Experience of infrastructure as code (IaC) tools (Terraform, CloudFormation)
+   * Experience with monitoring and logging tools (e.g., Prometheus, Grafana, Splunk)
+   * Experience with leveraging the use of AI-assistants (e.g. GitHub Copilot) to accelerate software development and improve code quality
+
+
+https://careers.amgen.com/en/job/hyderabad/specialist-software-engineer-full-stack/87/98803778208
+• Distributed and enterprise integration: Experience with Kafka or equivalent event platforms, durable workflows, outbox or saga patterns, stream processing, service mesh, API  gateways  and large-scale integration architecture. 
+• Advanced AI and automation engineering: Experience with vector or graph databases, graph or multimodal retrieval, model and agent gateways, MCP-style tool integration, durable agents, agent evaluation, process mining, UiPath or n8n. 
+• Cloud,  platform  and developer experience: Experience with AWS, Bedrock or SageMaker, Databricks, Spark, Kubernetes, serverless services, infrastructure as code,  OpenTelemetry, policy as code or internal developer platforms.  
+• Regulated systems and technical breadth: Experience delivering  GxP-relevant,  validated, pharmaceutical,  healthcare  or other high-impact systems and evaluating emerging technologies pragmatically.  
+
+AI-enabled applications and automation: Integration of predictive models, LLMs, embeddings, vector or hybrid search, RAG, structured output, tool-using agents, BI and deterministic workflows with human control.
+Security, Responsible AI and GxP: OAuth/OIDC, role-based access, least privilege, secrets, OWASP, privacy, threat awareness, prompt-injection safeguards, auditability, accessibility, validation and quality evidence.

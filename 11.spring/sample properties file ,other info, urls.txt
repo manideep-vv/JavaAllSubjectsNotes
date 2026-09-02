@@ -28,7 +28,9 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 spring.h2.console.enabled=true
 
 # to include all the actuator endpoints 
-management.endpoints.web.exposure.include= health,mappings,autoconfig,env
+management.endpoints.web.exposure.include=* //this is to see all actuator endpoints
+management.endpoints.web.exposure.include= health,mappings,autoconfig,env // to configure only a few 
+management.endpoints.web.exposure.exclude=beans // to exclude some properties 
 /actuator/env - to see all the properties which we gave use   - this will show each property key value pair and it will show from which file it got
  picked
  
