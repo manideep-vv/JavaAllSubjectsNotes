@@ -1,0 +1,15 @@
+28. What is the difference between Kafka topics and partitions? 
+29. How do StatefulSets in Kubernetes differ from Deployments? 
+30. Write a SQL query to get the 2nd highest salary in a department. 
+31. What are readiness probes in Kubernetes, and how do they differ from liveness probes? 
+32. How do you implement request tracing across multiple microservices? 
+33. What is the difference between Docker volumes and bind mounts? 
+34. How do you implement rolling updates in Kubernetes?
+
+22) How would you design a scalable, robust, and highly available Java system?
+• 23) A production API suddenly becomes slow. How would you isolate the root cause?
+• 24) How would you design a system that remains stable during traffic spikes?
+• 25) How would you handle a critical production incident while coordinating with stakeholders?
+
+system design 
+when to choose async vs REST communication 

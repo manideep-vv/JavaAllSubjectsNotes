@@ -20,3 +20,54 @@ https://careers.amgen.com/en/job/hyderabad/specialist-software-engineer-full-sta
 
 AI-enabled applications and automation: Integration of predictive models, LLMs, embeddings, vector or hybrid search, RAG, structured output, tool-using agents, BI and deterministic workflows with human control.
 Security, Responsible AI and GxP: OAuth/OIDC, role-based access, least privilege, secrets, OWASP, privacy, threat awareness, prompt-injection safeguards, auditability, accessibility, validation and quality evidence.
+
+
+
+
+The role is responsible for designing, developing, and maintaining software solutions for Research scientists. Additionally, it involves automating operations, monitoring system health, and responding to incidents to minimize downtime. You will join a multi-functional team of scientists and software professionals that enables technology and data capabilities to evaluate drug candidates and assess their abilities to affect the biology of drug targets. This team implements scientific software platforms that enable the capture, analysis, storage, and reporting for our Large Molecule Discovery Research team (Design, Make, Test and Analyze processes). The team also interfaces heavily with teams supporting our in vitro assay management systems and our compound inventory platforms. The ideal candidate possesses experience in the pharmaceutical or biotech industry, strong technical skills, and full stack software engineering experience (spanning SQL, back-end, front-end web technologies, automated testing).
+Roles & Responsibilities:
+  * Work closely with product team, business team including scientists, and other stakeholders
+  * Analyze and understand the functional and technical requirements of applications, solutions and systems and translate them into software architecture and design specifications 
+  * Design, develop, and implement applications and modules, including custom reports, interfaces, and enhancements 
+  * Develop and execute unit tests, integration tests, and other testing strategies to ensure the quality of the software 
+  * Conduct code reviews to ensure code quality and adherence to best practices
+  * Create and maintain documentation on software architecture, design, deployment, disaster recovery, and operations 
+  * Provide ongoing support and maintenance for applications, ensuring that they operate smoothly and efficiently 
+  * Stay updated with the latest technology and security trends and advancements
+
+Basic Qualifications and Experience:
+  * Master's or Bachelor’s degree with 5 - 8 years of experience in Computer Science, IT, Computational Chemistry, Computational Biology/Bioinformatics or related field OR
+
+Preferred Qualifications and Experience:
+  * 1+ years of experience in implementing and supporting biopharma scientific software platforms
+
+Functional Skills:
+Must-Have Skills:
+  * Proficient in Python programming language or
+java full stack programming language
+  * Proficient in at least one JavaScript UI Framework (e.g. ExtJS, React, or Angular)
+  * Proficient in SQL (e.g. Oracle, PostgreSQL, Databricks)
+
+Good-to-Have Skills:
+  * Experience with big data technologies (e.g., Spark, Databricks, Kafka)
+  * Experience with event-based architecture and serverless AWS services such as EventBridge, SQS, Lambda or ECS.
+  * Experience with Benchling
+  * Hands-on experience with Full Stack software development
+  * Strong understanding of software development methodologies, mainly Agile and Scrum
+  * Working experience with DevOps practices and CI/CD pipelines
+  * Experience of infrastructure as code (IaC) tools (Terraform, CloudFormation)
+  * Experience with monitoring and logging tools (e.g., Prometheus, Grafana, Splunk)
+  * Experience with leveraging the use of AI-assistants (e.g. GitHub Copilot) to accelerate software development and improve code quality
+
+Professional Certifications (preferred):
+  * AWS Certified Cloud Practitioner
+
+Soft Skills:
+  * Excellent problem solving, analytical, and troubleshooting skills
+  * Strong communication and interpersonal skills
+  * Ability to work effectively with global, virtual teams
+  * High degree of initiative and self-motivation
+  * Ability to learn quickly & work independently
+  * Team-oriented, with a focus on achieving team goals
+  * Ability to manage multiple priorities successfully
+  * Strong presentation and public speaking skills

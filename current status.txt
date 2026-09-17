@@ -29,9 +29,6 @@ long target- JS,Angular,react, cloud (AWS),hibernate HQL, gradle,SQL, prompt eng
 Learning speed- to complete 1 hours syllabus i need 3 hours to understand and document + 1hr to practice
 
 
-target june - job switch 3 months march 17- june  17 
-
- 
 pendi 
 santu should take pic for cts
 
@@ -47,21 +44,85 @@ see https://www.youtube.com/live/AWvoMzfcqkc
  
 read insurance docs daily 
 
+ 
+14-sept
+--------------
+
+4-430 read 
+330-730 temple 
+730-815 wasted 
+845-930 kitchen work 
+930-945 yutube 
+
+
+ 
+17-sept 
+----------
+1030-1045 sheet 
+
+ 
+ 
+
+
+
+ 
+write dairy abot vera tcs swtich
+ 
+
+ 
 
 
 
 
+sai gift toys to baby
+left of from chat gpt
+done chat names- sql groupby vs partition by , professional self introduction
 
-sep-1
----
-2-215 read
-3-345 read
+take all payslips   
 
-2-sept
------------
-920-930 train tick book
-930-945 financial 
-945-
+What is a CTE? 
+
+ What is a recursive CTE? 
+
+ Difference between CTE and temporary table? 
+
+ When would you use EXISTS instead of IN?
+ read spr transactions 
+ 
+payslips 
+
+download all form 16, payslips for all 4 years aust
+
+tag tcs leaders to give monitors 
+read ecs vs ec2
+
+write lekkalu in paper
+
+ 
+
+
+take notes from chatgpt - reg oracle db,  java script , kafka, react questions 
+read txns, solid principle 
+note down reg ec2 vs eks
+learn reg creating ai agents - see oreilly videos
+https://learning.oreilly.com/live-events/-/0642572206963/0642572350932/
+
+
+
+
+ Transactions & Propagation,JWT authentication
+ read react interview questions
+ js interview coding q, 
+ learn our react project in ampf
+ 
+ 
+ 
+ 
+ 
+
+explain me about custom hooks , es6 features, 
+trycatch in react, react interview qq, custom hooks 
+
 
 
 

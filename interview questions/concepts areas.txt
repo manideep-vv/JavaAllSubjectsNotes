@@ -34,6 +34,8 @@ SPring JDBC- JDBCTemplate
 spring boot- auto config,boot specific annotations,
 spring mvc
 Spring OAuth
+read all design patterns 
+
 
 
 

@@ -1,3 +1,108 @@
 ask about JWT, encoding vs encrypting (symmetric vs asymmetric encrypting), hashing, oauth flow
 what is a principle, what is JWT, what is JWT claim, how to apply method level security
 how to connect to database
+
+
+what are transactions in spring 
+1. Your API suddenly becomes 5× slower. How do you debug it?
+
+2. CPU usage is normal, but response time is high. What could be the reason?
+
+3. Database connection pool is exhausted. What would you check first?
+
+4. Two users update the same record at the same time. How do you handle it?
+
+5. The same payment request arrives twice. How do you prevent duplicate payments?
+
+6. A downstream service takes 10 seconds to respond. What would you do?
+
+7. Retries are creating a traffic spike. How would you prevent a retry storm?
+
+8. Kafka consumer lag keeps increasing. How would you investigate?
+
+9. A Kafka message fails after consumption. How do you handle it?
+
+10. Your application suddenly throws OutOfMemoryError. What would you check?
+
+11. The database query is fast, but the API is still slow. Where would you look?
+
+12. One microservice goes down during a critical transaction. What should happen?
+
+13. A scheduled job executes twice. How would you make it safe?
+
+14. You need to change an API without breaking existing clients. How?
+
+15. Traffic suddenly increases by 10×. How would you prepare the system?
+
+1. Thread Pools vs Virtual Threads
+ - Default thread pool blocks under load. Virtual Threads don't.
+ - Java 21. Millions of threads. JVM manages them. Not OS.
+ - Most developers still don't know this exists.
+
+2. CompletableFuture vs Reactive Streams
+ - CompletableFuture simple async. Good for most cases.
+ - WebFlux backpressure + streaming. Good for high volume.
+ - Pick based on problem. Not hype.
+
+3. Connection Pooling (HikariCP)
+ - Default pool size 10. Almost always wrong.
+ - Formula: CPU cores x 2 + disk spindles = your baseline.
+ - Too many → DB dies. Too few → threads wait at 3am.
+
+4. @ Transactional Pitfalls
+ - Self-invocation → proxy bypassed → transaction never starts. No error.
+ - REQUIRES_NEW vs REQUIRED. Not interchangeable. Most think they are.
+ - Lazy loading in closed session → LazyInitializationException. Silent. Always.
+
+5. Caching Strategy (Redis)
+ - Cache-aside. Write-through. Write-behind. Three strategies. Three failure modes.
+ - Wrong eviction policy → stale data under load.
+ - LRU is not always right.
+
+6. Event-Driven Design with Kafka
+ - Topics are not queues. This distinction matters.
+ - Partition key design determines your throughput ceiling.
+ - No idempotent consumers → duplicate processing → duplicate charges.
+
+7. Database Indexing Mistakes
+ - Too many indexes → writes slow down.
+ - Composite index column order matters.
+ - No EXPLAIN ANALYZE before deployment → production incident waiting to happen.
+
+8. Circuit Breaker (Resilience4J)
+ - Service B slows → Service A waits → everything dies.
+ - Circuit Breaker fails fast. Recovers gracefully.
+ - CLOSED → OPEN → HALF-OPEN.
+Most teams add this after the incident. Not before.
+
+ Transactions & Propagation
+
+• Hibernate & JPA Internals
+
+• Lazy vs Eager Loading
+
+• N+1 Query Problem
+
+• Caching & Performance
+
+• Spring Security
+
+• JWT Authentication
+
+Spring + Spring Boot 
+11. How does dependency injection work in Spring Framework? 
+12. What is the role of @Configuration and @Bean annotations? 
+13. How do you configure application properties for multiple environments in Spring Boot? 
+14. How do you secure Spring Boot REST APIs with JWT authentication? 
+15. Explain how Spring Boot manages embedded servers like Tomcat/Jetty. 
+16. How does Spring Boot Actuator help with monitoring and metrics? 
+17. How do you manage transaction propagation in Spring? 
+18. What is the difference between @ControllerAdvice and @ExceptionHandler? 
+19. How do you enable asynchronous method execution in Spring Boot? 
+20. How does Spring Boot integrate with cloud services (e.g., AWS S3, RDS)? 
+
+Microservices 
+21. How do you implement inter-service communication in microservices? 
+22. What is the difference between API Gateway and Service Mesh? 
+23. How do you handle eventual consistency in distributed systems? 
+24. How do you implement rate limiting in a microservices ecosystem? 

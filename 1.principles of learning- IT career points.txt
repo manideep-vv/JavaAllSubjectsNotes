@@ -25,6 +25,7 @@ what u are going to learn tomm - plan it
   - nobody knows when onsite comes, if onsite requires front end , by that time u should be ready - so learn java and relateed tech fully
 
 5) while learning read  the documentation of a class
+6) don just learn 'what is this' know 'where and when it should be used'
 
 
 caution

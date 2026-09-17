@@ -82,3 +82,34 @@ in every branch if i want 1st ranker
 
 
 
+ SQL Indexing
+
+• Query Optimization
+
+• Transactions
+
+• Isolation Levels
+
+• Hibernate Performance Tuning
+
+• Redis
+
+• Cache-Aside Pattern
+
+• Cache Invalidation
+
+• Flyway
+
+• Liquibase
+
+• Elasticsearch
+
+Plus practical database & caching scenarios.
+
+12) How would you optimize a complex SQL query causing latency?
+• 13) How do indexes affect query performance, and when can they hurt?
+• 14) How would you investigate database bottlenecks in production?
+• 15) When would you choose NoSQL over SQL for a microservice?
+self joins 
+second highest sal in each department - using window functions 
+select * from (select ename,sal,deptno,dense_rank() over (partition by deptno order by sal desc) rank from emp e) where rank=2

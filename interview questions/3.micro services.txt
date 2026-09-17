@@ -1,0 +1,69 @@
+1. Your API suddenly takes 5 seconds instead of 200ms. How would you find the bottleneck?
+
+2. Your DB connection pool is exhausted. What would you check first?
+
+3. Two users update the same record at the same time. How do you handle it?
+
+4. A payment request reaches your API twice. How do you prevent duplicate payments?
+
+5. A downstream service takes 10 seconds to respond. What would you do?
+
+6. Your retry mechanism starts increasing traffic instead of reducing failures. Why?
+
+7. Kafka consumer lag keeps increasing. How would you troubleshoot it?
+
+8. Your application throws OutOfMemoryError only in production. What would you investigate?
+
+9. The DB query takes 50ms, but the API takes 3 seconds. Where could the remaining time go?
+
+10. One microservice goes down during an order transaction. How should your system behave?
+
+11. A scheduled job executes twice after deployment. How would you prevent duplicate execution?
+
+12. You need to introduce a new field in an API without breaking existing clients. How?
+
+13. Your application handles 1,000 requests/sec today. Tomorrow it needs to handle 10,000. What changes would you consider?
+
+14. Your logs don't let you trace a request across multiple microservices. How would you improve this?
+
+15. Your service is receiving duplicate requests during a network timeout. How would you make the operation safe?
+
+05) How would you design resilient communication between microservices?
+• 06) How do you handle service failure, retries, and timeouts?
+• 07) How would you troubleshoot intermittent failures across microservices?
+• 08) How would you make a microservice scalable and reliable?
+
+
+1. Your Spring Boot API suddenly becomes slow. How would you find the bottleneck?
+
+2. 5,000 requests hit your API simultaneously. What could become the bottleneck?
+
+3. Your database connection pool is exhausted. What would you check first?
+
+4. A downstream service takes 10 seconds to respond. How would you protect your API?
+
+5. The same request reaches your API twice. How would you make it idempotent?
+
+6. Two users update the same record simultaneously. How would you handle it?
+
+7. Your API works locally but fails in production. What would you investigate?
+
+8. A "@Transactional" operation partially fails. Why might the rollback not happen as expected?
+
+9. Your Java application suddenly consumes too much memory. How would you debug it?
+
+10. A Microservice goes down while other services are healthy. How should your system handle it?
+
+11. Kafka consumer lag keeps increasing. What would you investigate?
+
+12. Your API becomes slow only during peak traffic. Which metrics would you check?
+
+13. A retry mechanism is making a downstream outage worse. Why?
+
+14. A scheduled job runs twice after scaling your application. How would you prevent it?
+
+15. One request passes through multiple Microservices. How would you trace it end-to-end?
+
+After 5 interviews, he stopped memorizing definitions.
+
+From <https://www.linkedin.com/feed/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7496045862175956992&highlightedUpdateType=NETWORK_CONVERSATIONS&origin=EMAIL> 

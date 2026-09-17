@@ -1,0 +1,123 @@
+Java program that finds the element with the lowest salary in a list using streams without sorting - using reduce
+    or get max value without sorting
+	
+	public static void maxEleWithReduce() {
+        Stream<Employee> emps = StreamsPrac.getEmpAsStream();
+        System.out.println("max value is "+emps.mapToInt(e->e.getSalary()));
+
+    }
+	// assume we have 10k employees in list
+	java8 collectors program - top salary in males and top sal in female..- use collectors.grouping(function,collector)
+	
+	Top gpa in each grade{
+	2=Optional[Student{name='Jenny', gradeLevel=2, gpa=3.8, }], 
+	3=Optional[Student{name='Emily', gradeLevel=3, gpa=4.0],
+	4=Optional[Student{name='James', gradeLevel=4, gpa=3.9]}
+
+https://topmate.io/adnan_khan58/2256765
+
+why abstract classes allows constructor???
+
+1. Initializing Abstract Class Fields
+If an abstract class defines non-static fields (member variables), those fields need to be initialized when an object is created. The constructor centralizes this initialization logic so child classes don't have to duplicate it.
+
+Basic Java Programs
+
+• Number Problems
+
+• Pattern Programs
+
+• String Problems
+
+• Array Problems
+
+• Collections Coding
+
+• HashMap & HashSet
+
+• Recursion
+
+• Searching & Sorting
+
+• Two Pointer
+
+• Sliding Window
+
+• Time & Space Complexity
+
+• Multithreading Problems
+
+• Advanced Java Coding
+
+Lambda Expressions
+
+• Functional Interfaces
+
+• Method References
+
+• Optional
+
+• Stream API
+
+• map()
+
+• filter()
+
+• flatMap()
+
+• reduce()
+
+• collect()
+
+• groupingBy()
+
+• partitioningBy()
+
+• Sorting with Streams
+
+• Parallel Streams
+
+🔥 Practice interview problems such as:
+
+• Find duplicate elements
+
+• Find first non-repeated character
+
+• Find second-highest salary
+
+• Group employees by department
+
+• Find frequency of elements
+
+• Convert List to Map
+
+• Sort objects using Streams
+
+• Find common elements
+
+• Flatten nested collections
+
+
+solid principles 
+1. What are the benefits of sealed classes introduced in Java 17? 
+2. How do virtual threads in Java 21 improve request handling in high-load systems? 
+3. What is the difference between Optional.map() and Optional.flatMap()? 
+4. How does garbage collection differ in Serial, Parallel, and G1 collectors? 
+5. How does var help with type inference in Java? 
+6. Explain the difference between CopyOnWriteArrayList and ArrayList. 
+7. What is the purpose of CompletableFuture in asynchronous programming? 
+8. How does pattern matching for switch improve readability in Java 17+? 
+9. What are text blocks, and how do they simplify working with JSON/XML? 
+10. Explain immutability and how to enforce it in Java. 
+
+
+
+
+25. Write a program to check if a number is a palindrome without converting it to a string. 
+26. Implement a function to sort a stack using another stack. 
+27. Write a program to find the maximum sum subarray (Kadane’s algorithm). 
+
+1) How would you optimize a slow Java service under production load?
+• 02) How do you handle exception management in Spring Boot?
+• 03) How would you diagnose high CPU or memory usage in a Java application?
+• 04) How would you design a maintainable Spring Boot application?
